@@ -1,0 +1,21 @@
+{
+  "name": "experiments-archiver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/05962f6137eacd9dbbc589d97c8ece3f.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/05962f6137eacd9dbbc589d97c8ece3f"
+  },
+  "homepage": "https://gist.github.com/05962f6137eacd9dbbc589d97c8ece3f",
+  "description": ""
+}
