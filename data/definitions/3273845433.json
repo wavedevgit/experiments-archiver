@@ -4,15 +4,23 @@
     "label": "Emoji Studio",
     "defaultConfig": {
         "enabled": false,
-        "isTester": false
+        "showExpressionPickerButton": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled - Treatment 1",
+            "label": "Enabled - New Modal",
             "config": {
                 "enabled": true,
-                "isTester": false
+                "showExpressionPickerButton": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled - New Modal with Expression Picker Button",
+            "config": {
+                "enabled": true,
+                "showExpressionPickerButton": true
             }
         }
     ]

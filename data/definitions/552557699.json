@@ -9,7 +9,7 @@
     "treatments": [
         {
             "id": 1,
-            "label": "control group - no search experience",
+            "label": "control group - IGNORE THIS DO NOT USE",
             "config": {
                 "searchEnabled": false,
                 "renameEnabled": false

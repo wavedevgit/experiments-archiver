@@ -10,7 +10,7 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Golive Simulcast",
+            "label": "Golive Simulcast without prober 720p@500k",
             "config": {
                 "enabled": true,
                 "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/",
@@ -19,7 +19,7 @@
         },
         {
             "id": 2,
-            "label": "Golive Simulcast with pacing and probing",
+            "label": "Golive Simulcast 720p@500k",
             "config": {
                 "enabled": true,
                 "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer,worker-pacer-probe",
@@ -42,6 +42,24 @@
                 "enabled": true,
                 "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer,worker-pacer-probe",
                 "simulcastEnabled": false
+            }
+        },
+        {
+            "id": 5,
+            "label": "Golive Simulcast 720p@750k",
+            "config": {
+                "enabled": true,
+                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer-probe,worker-lq-floor-750k",
+                "simulcastEnabled": true
+            }
+        },
+        {
+            "id": 6,
+            "label": "Golive Simulcast 720p@1000k",
+            "config": {
+                "enabled": true,
+                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer-probe,worker-lq-floor-1000k",
+                "simulcastEnabled": true
             }
         }
     ]

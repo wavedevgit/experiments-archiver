@@ -4,7 +4,8 @@
     "label": "Desktop Refresh Fast Follows",
     "defaultConfig": {
         "largerGuildIcons": false,
-        "darkerGuildListBackground": false
+        "darkerGuildListBackground": false,
+        "distinctBorders": false
     },
     "treatments": [
         {
@@ -12,7 +13,8 @@
             "label": "Larger Guild Icons",
             "config": {
                 "largerGuildIcons": true,
-                "darkerGuildListBackground": false
+                "darkerGuildListBackground": false,
+                "distinctBorders": false
             }
         },
         {
@@ -20,7 +22,8 @@
             "label": "Darker Guild List Background",
             "config": {
                 "largerGuildIcons": false,
-                "darkerGuildListBackground": true
+                "darkerGuildListBackground": true,
+                "distinctBorders": false
             }
         },
         {
@@ -28,7 +31,26 @@
             "label": "Larger Guild Icons and Darker Guild List Background",
             "config": {
                 "largerGuildIcons": true,
-                "darkerGuildListBackground": true
+                "darkerGuildListBackground": true,
+                "distinctBorders": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "More Distinct Chassis Borders",
+            "config": {
+                "largerGuildIcons": false,
+                "darkerGuildListBackground": false,
+                "distinctBorders": true
+            }
+        },
+        {
+            "id": 5,
+            "label": "Larger Guild Icons and More Distinct Chassis Borders",
+            "config": {
+                "largerGuildIcons": true,
+                "darkerGuildListBackground": false,
+                "distinctBorders": true
             }
         }
     ]

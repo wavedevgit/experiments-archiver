@@ -2,15 +2,52 @@
     "kind": "user",
     "id": "2024-10_overlay_v3",
     "label": "Overlay V3 Shared Context OOP",
+    "commonTriggerPoint": null,
     "defaultConfig": {
-        "useOverlayV3": false
+        "overlayV3tech": false,
+        "overlayV3UI": false,
+        "allowActivityWidget": false,
+        "allowNowPlaying": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Use Overlay V3",
+            "label": "Use Overlay V3, All features included.",
             "config": {
-                "useOverlayV3": true
+                "overlayV3tech": true,
+                "overlayV3UI": true,
+                "allowActivityWidget": true,
+                "allowNowPlaying": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Use Overlay V3, Minus \"Now Playing\" Notif.",
+            "config": {
+                "overlayV3tech": true,
+                "overlayV3UI": true,
+                "allowActivityWidget": true,
+                "allowNowPlaying": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Use Overlay V3 minus any activity",
+            "config": {
+                "overlayV3tech": true,
+                "overlayV3UI": true,
+                "allowActivityWidget": false,
+                "allowNowPlaying": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Use Overlay V3 tech with Overlay 2 UI",
+            "config": {
+                "overlayV3tech": true,
+                "overlayV3UI": false,
+                "allowActivityWidget": false,
+                "allowNowPlaying": false
             }
         }
     ]

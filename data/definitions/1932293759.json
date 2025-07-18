@@ -7,14 +7,14 @@
     },
     "treatments": [
         {
-            "id": 1,
+            "id": 0,
             "label": "Control",
             "config": {
                 "enableResumableUploads": false
             }
         },
         {
-            "id": 2,
+            "id": 1,
             "label": "Resumable Uploads Enabled",
             "config": {
                 "enableResumableUploads": true

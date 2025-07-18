@@ -5,6 +5,7 @@
     "defaultConfig": {
         "enabled": false
     },
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,

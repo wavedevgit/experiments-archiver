@@ -3,21 +3,22 @@
     "id": "2024-03_content_inventory_memberlist_and_ranker",
     "label": "Enables the memberlist content feed",
     "defaultConfig": {
-        "enabled": false
+        "enabled": true,
+        "impressionCappingEnabled": true
     },
     "treatments": [
         {
-            "id": 1,
-            "label": "Recency",
+            "id": -1,
+            "label": "Not in experiment",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         },
         {
-            "id": 2,
-            "label": "Heuristic",
+            "id": 0,
+            "label": "Holdout",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         }
     ]

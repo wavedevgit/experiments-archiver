@@ -22,6 +22,14 @@
                 "enableInAppNotifications": true,
                 "enableNotificationsForAllReactions": true
             }
+        },
+        {
+            "id": 3,
+            "label": "Enable In App Notifications for Reactions (All Reactions)",
+            "config": {
+                "enableInAppNotifications": true,
+                "enableNotificationsForAllReactions": true
+            }
         }
     ]
 }

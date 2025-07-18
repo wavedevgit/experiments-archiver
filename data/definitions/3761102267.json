@@ -18,7 +18,7 @@
             "id": 1,
             "label": "Enable Settings search in Quick Switcher",
             "config": {
-                "enabled": false
+                "enabled": true
             }
         }
     ]

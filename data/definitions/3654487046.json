@@ -3,14 +3,14 @@
     "id": "2024-08_dismissible_pip",
     "label": "Dismissible Desktop PiP",
     "defaultConfig": {
-        "enabled": true
+        "enabled": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enable \"close\" button on PiP window",
             "config": {
-                "enabled": false
+                "enabled": true
             }
         }
     ]

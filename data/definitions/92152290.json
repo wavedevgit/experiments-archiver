@@ -3,35 +3,40 @@
     "id": "2024-08_reaction_frecency_algorithms",
     "label": "Reaction Frecency Algorithms",
     "defaultConfig": {
-        "frecencyAlgorithm": "original"
+        "frecencyAlgorithm": "original",
+        "canShowReactionsOnMessageHover": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Change frecency algorithm",
+            "label": "Stable algorithm with no hover bar",
             "config": {
-                "frecencyAlgorithm": "safe"
+                "frecencyAlgorithm": "safe",
+                "canShowReactionsOnMessageHover": false
             }
         },
         {
             "id": 2,
-            "label": "Change frecency algorithm and day weights",
+            "label": "Volatile algorithm with no hover bar",
             "config": {
-                "frecencyAlgorithm": "recency_max"
+                "frecencyAlgorithm": "day_recency",
+                "canShowReactionsOnMessageHover": false
             }
         },
         {
             "id": 3,
-            "label": "Change frecency algorithm to be faster and day weights",
+            "label": "Stable algorithm with hover bar",
             "config": {
-                "frecencyAlgorithm": "fast_turnover"
+                "frecencyAlgorithm": "safe",
+                "canShowReactionsOnMessageHover": true
             }
         },
         {
             "id": 4,
-            "label": "Change frecency algorithm to be faster and day weights faster",
+            "label": "Volatile algorithm with hover bar",
             "config": {
-                "frecencyAlgorithm": "day_recency"
+                "frecencyAlgorithm": "day_recency",
+                "canShowReactionsOnMessageHover": true
             }
         }
     ]

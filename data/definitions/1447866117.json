@@ -3,7 +3,8 @@
     "kind": "user",
     "label": "Soundboard Default Reordering",
     "defaultConfig": {
-        "enabled": false
+        "moveDefaultToBottom": false,
+        "alwaysStickyUpsell": false
     },
     "commonTriggerPoint": null,
     "treatments": [
@@ -11,7 +12,16 @@
             "id": 1,
             "label": "Re-orders the default soundboard sounds to the bottom for non-Nitro users.",
             "config": {
-                "enabled": true
+                "moveDefaultToBottom": true,
+                "alwaysStickyUpsell": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Test the performance of an upsell that is always sticky, even when the locked section is not in view.",
+            "config": {
+                "moveDefaultToBottom": true,
+                "alwaysStickyUpsell": true
             }
         }
     ]

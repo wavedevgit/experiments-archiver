@@ -3,7 +3,7 @@
     "id": "2024-06_content_entry_embed",
     "label": "Content Inventory Embed",
     "defaultConfig": {
-        "enabled": false
+        "enabled": true
     },
     "treatments": [
         {

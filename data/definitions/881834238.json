@@ -5,64 +5,42 @@
     "defaultConfig": {
         "isEnabled": false,
         "showActivitySharingIndicatorWhenSharing": false,
-        "autoOpenPopout": false,
-        "settingsPageEnabled": false,
-        "perServerControlsEnabled": false
+        "showUpdatedSettingsPage": false,
+        "showLinkToSettings": false,
+        "variantName": "control"
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Manually opened RTC popout only when not sharing",
+            "label": "Popout not available when already sharing",
             "config": {
                 "isEnabled": true,
                 "showActivitySharingIndicatorWhenSharing": false,
-                "autoOpenPopout": false,
-                "settingsPageEnabled": false,
-                "perServerControlsEnabled": false
+                "showUpdatedSettingsPage": true,
+                "showLinkToSettings": true,
+                "variantName": "treatment_1"
             }
         },
         {
             "id": 2,
-            "label": "Manually opened RTC popout only when not sharing with settings page",
+            "label": "Popout always available",
             "config": {
                 "isEnabled": true,
-                "showActivitySharingIndicatorWhenSharing": false,
-                "autoOpenPopout": false,
-                "settingsPageEnabled": true,
-                "perServerControlsEnabled": false
+                "showActivitySharingIndicatorWhenSharing": true,
+                "showUpdatedSettingsPage": true,
+                "showLinkToSettings": true,
+                "variantName": "treatment_2"
             }
         },
         {
             "id": 3,
-            "label": "Manually opened RTC popout with settings page",
-            "config": {
-                "isEnabled": true,
-                "showActivitySharingIndicatorWhenSharing": true,
-                "autoOpenPopout": false,
-                "settingsPageEnabled": true,
-                "perServerControlsEnabled": false
-            }
-        },
-        {
-            "id": 4,
-            "label": "Auto-open RTC popout when not sharing with settings page",
+            "label": "Updated popout only",
             "config": {
                 "isEnabled": true,
                 "showActivitySharingIndicatorWhenSharing": false,
-                "autoOpenPopout": true,
-                "settingsPageEnabled": true,
-                "perServerControlsEnabled": false
-            }
-        },
-        {
-            "id": 5,
-            "label": "Auto-open RTC popout when not sharing with settings page and per server controls",
-            "config": {
-                "isEnabled": true,
-                "showActivitySharingIndicatorWhenSharing": false,
-                "autoOpenPopout": true,
-                "settingsPageEnabled": true,
-                "perServerControlsEnabled": true
+                "showUpdatedSettingsPage": false,
+                "showLinkToSettings": false,
+                "variantName": "treatment_3"
             }
         }
     ]

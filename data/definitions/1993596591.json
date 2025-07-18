@@ -3,22 +3,46 @@
     "id": "2025-04_desktop_notification_center",
     "label": "New Notification Center (Desktop)",
     "defaultConfig": {
-        "notificationCenterVariant": null
+        "notificationCenterVariant": null,
+        "entrypoint": null,
+        "filterStyle": null
     },
     "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Show notification center in popout",
+            "label": "Server Rail Entrypoint + Legacy Inbox",
             "config": {
-                "notificationCenterVariant": "popout"
+                "notificationCenterVariant": "legacy",
+                "entrypoint": "server-rail-top",
+                "filterStyle": null
             }
         },
         {
             "id": 2,
-            "label": "Show notification center in sidebar",
+            "label": "Title Bar Entrypoint + Popout",
             "config": {
-                "notificationCenterVariant": "sidebar"
+                "notificationCenterVariant": "popout",
+                "entrypoint": "title-bar-left",
+                "filterStyle": "dropdown"
+            }
+        },
+        {
+            "id": 3,
+            "label": "Server Rail Entrypoint + Sidebar",
+            "config": {
+                "notificationCenterVariant": "sidebar",
+                "entrypoint": "server-rail-top",
+                "filterStyle": "dropdown"
+            }
+        },
+        {
+            "id": 4,
+            "label": "Server Rail Entrypoint + Popout",
+            "config": {
+                "notificationCenterVariant": "popout",
+                "entrypoint": "server-rail-top",
+                "filterStyle": "dropdown"
             }
         }
     ]

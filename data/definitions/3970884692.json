@@ -3,14 +3,15 @@
     "id": "2024-07_ctp_payment_flow_started_filters_",
     "label": "CTP payment flow started - A/A test - Filters",
     "defaultConfig": {
-        "doSomething": true
+        "doSomething": false
     },
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
             "label": "Treatment",
             "config": {
-                "doSomething": false
+                "doSomething": true
             }
         }
     ]

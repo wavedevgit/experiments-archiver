@@ -3,9 +3,7 @@
     "id": "2022-02_multi_month_plans",
     "label": "Multi Month Plans",
     "defaultConfig": {
-        "newPlans": [
-            "Unknown"
-        ]
+        "newPlans": []
     },
     "treatments": [
         {
@@ -13,8 +11,8 @@
             "label": "3 and 6 Month Plans",
             "config": {
                 "newPlans": [
-                    "Unknown",
-                    "Unknown"
+                    null,
+                    null
                 ]
             }
         },
@@ -23,7 +21,7 @@
             "label": "3 Month Plan Only",
             "config": {
                 "newPlans": [
-                    "Unknown"
+                    null
                 ]
             }
         }

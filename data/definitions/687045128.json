@@ -3,14 +3,24 @@
     "id": "2024-08_private_channel_hiding",
     "label": "Private Channel Hiding",
     "defaultConfig": {
-        "enableObfuscation": true
+        "enableObfuscation": false,
+        "enableIntegrityCheck": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Obfuscation Enable",
+            "label": "Obfuscation Enabled",
             "config": {
-                "enableObfuscation": false
+                "enableObfuscation": true,
+                "enableIntegrityCheck": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Obfuscation + Integrity Check Enabled",
+            "config": {
+                "enableObfuscation": true,
+                "enableIntegrityCheck": true
             }
         }
     ]

@@ -4,24 +4,45 @@
     "label": "Gift Collectibles in DM",
     "defaultConfig": {
         "enabled": false,
-        "showBothNitroSkusInCategorySelect": false
+        "showBothNitroSkusInCategorySelect": false,
+        "giftRecommendationAlgorithm": 0
     },
     "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Gift Collectibles in DM, with existing Nitro flow",
+            "label": "Gift Collectibles in DM, with existing Nitro flow, showing popular items",
             "config": {
                 "enabled": true,
-                "showBothNitroSkusInCategorySelect": false
+                "showBothNitroSkusInCategorySelect": false,
+                "giftRecommendationAlgorithm": 1
             }
         },
         {
             "id": 2,
-            "label": "Gift Collectibles in DM, select Nitro SKU from category",
+            "label": "Gift Collectibles in DM, with existing Nitro flow, showing recent items",
             "config": {
                 "enabled": true,
-                "showBothNitroSkusInCategorySelect": true
+                "showBothNitroSkusInCategorySelect": false,
+                "giftRecommendationAlgorithm": 2
+            }
+        },
+        {
+            "id": 3,
+            "label": "Gift Collectibles in DM, select Nitro SKU from category, showing popular items",
+            "config": {
+                "enabled": true,
+                "showBothNitroSkusInCategorySelect": true,
+                "giftRecommendationAlgorithm": 1
+            }
+        },
+        {
+            "id": 4,
+            "label": "Gift Collectibles in DM, select Nitro SKU from category, showing recent items",
+            "config": {
+                "enabled": true,
+                "showBothNitroSkusInCategorySelect": true,
+                "giftRecommendationAlgorithm": 2
             }
         }
     ]

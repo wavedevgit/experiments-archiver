@@ -5,7 +5,7 @@
     "defaultConfig": {
         "doSomething": false
     },
-    "commonTriggerPoint": "r.CommonTriggerPoints.POST_CONNECTION_OPEN",
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,

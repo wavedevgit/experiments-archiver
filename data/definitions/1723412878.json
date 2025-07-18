@@ -1,16 +1,26 @@
 {
     "kind": "user",
     "id": "2025-05_flamingo_prefetch",
-    "label": "Flamingo Prefetch",
+    "label": "Flamingo Prefetch (Download Experiments)",
     "defaultConfig": {
-        "enabled": false
+        "isPrefetchEnabled": false,
+        "isDownloadIconEnabled": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled - Prefetch (Download on Popout)",
+            "label": "Prefetch (Download on Popout)",
             "config": {
-                "enabled": true
+                "isPrefetchEnabled": true,
+                "isDownloadIconEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Download Icon",
+            "config": {
+                "isPrefetchEnabled": false,
+                "isDownloadIconEnabled": true
             }
         }
     ]

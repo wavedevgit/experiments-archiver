@@ -2,15 +2,26 @@
     "kind": "user",
     "id": "2024-08_friend_anniversaries",
     "label": "Friend Anniversaries",
+    "commonTriggerPoint": null,
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "enableEmojiCTA": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Friend anniversaries enabled",
+            "label": "Friend anniversaries enabled with text CTA",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "enableEmojiCTA": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Friend anniversaries enabled with emoji CTA",
+            "config": {
+                "enabled": true,
+                "enableEmojiCTA": true
             }
         }
     ]

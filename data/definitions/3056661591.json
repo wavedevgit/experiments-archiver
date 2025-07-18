@@ -5,7 +5,7 @@
     "defaultConfig": {
         "doSomething": false
     },
-    "commonTriggerPoint": "r.$P.VOICE_CALL",
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,

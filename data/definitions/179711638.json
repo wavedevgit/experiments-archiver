@@ -4,32 +4,7 @@
     "label": "Guild Role Subscription Max Tiers",
     "defaultConfig": {
         "enabled": false,
-        "maxTiers": "s.MAX_SUBSCRIPTION_TIERS"
+        "maxTiers": null
     },
-    "treatments": [
-        {
-            "id": 4,
-            "label": "Enables {n} maximum published tiers",
-            "config": {
-                "enabled": true,
-                "maxTiers": 4
-            }
-        },
-        {
-            "id": 5,
-            "label": "Enables {n} maximum published tiers",
-            "config": {
-                "enabled": true,
-                "maxTiers": 5
-            }
-        },
-        {
-            "id": 6,
-            "label": "Enables {n} maximum published tiers",
-            "config": {
-                "enabled": true,
-                "maxTiers": 6
-            }
-        }
-    ]
+    "treatments": []
 }

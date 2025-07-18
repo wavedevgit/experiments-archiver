@@ -3,14 +3,24 @@
     "id": "2025-04_ignore_user_feedback",
     "label": "Ignore User Feedback Experiment",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "shouldGetShorterIgnoreDuration": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enable Block User Feedback Survey",
+            "label": "Enable Ignore User Feedback Survey",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "shouldGetShorterIgnoreDuration": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Ignore User Feedback Survey w/ shorter duration for testing",
+            "config": {
+                "enabled": true,
+                "shouldGetShorterIgnoreDuration": true
             }
         }
     ]

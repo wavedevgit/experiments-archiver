@@ -3,28 +3,40 @@
     "id": "2024-10_flamingo",
     "label": "Flamingo",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "isTester": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enabled - Treatment 1",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "isTester": false
             }
         },
         {
             "id": 2,
             "label": "Enabled - Treatment 2",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "isTester": false
             }
         },
         {
             "id": 3,
             "label": "Enabled - Treatment 3",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "isTester": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Enabled - Tester",
+            "config": {
+                "enabled": true,
+                "isTester": true
             }
         }
     ]

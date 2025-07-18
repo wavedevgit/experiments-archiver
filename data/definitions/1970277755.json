@@ -2,6 +2,7 @@
     "kind": "user",
     "id": "2025-04_culture_creation_holdout",
     "label": "Culture Creation Holdout",
+    "commonTriggerPoint": null,
     "defaultConfig": {
         "inHoldout": false
     },

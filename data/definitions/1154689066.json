@@ -5,7 +5,7 @@
     "defaultConfig": {
         "doSomething": false
     },
-    "commonTriggerPoint": "i.$P.OPEN_USER_SETTINGS",
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,

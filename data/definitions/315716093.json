@@ -2,16 +2,22 @@
     "kind": "user",
     "id": "2025-02_call_survey_refresh_web",
     "label": "Call Survey Refresh (Web)",
-    "defaultConfig": {
-        "showRefreshedSurvey": false
-    },
+    "defaultConfig": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Show refreshed survey",
-            "config": {
-                "showRefreshedSurvey": true
-            }
+            "label": "Show form-style survey without neutral",
+            "config": null
+        },
+        {
+            "id": 2,
+            "label": "Show survey without neutral",
+            "config": null
+        },
+        {
+            "id": 3,
+            "label": "Show survey without neutral, and with vibes honeypot",
+            "config": null
         }
     ]
 }

@@ -2,15 +2,26 @@
     "kind": "user",
     "id": "2025-03_friends_popout",
     "label": "Friends Popout",
+    "commonTriggerPoint": null,
     "defaultConfig": {
-        "enabled": false
+        "enableTopNavButton": false,
+        "enableOverlayWidget": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled",
+            "label": "All Enabled",
             "config": {
-                "enabled": true
+                "enableTopNavButton": true,
+                "enableOverlayWidget": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Top Nav Only",
+            "config": {
+                "enableTopNavButton": true,
+                "enableOverlayWidget": false
             }
         }
     ]

@@ -13,6 +13,14 @@
             "config": {
                 "enabled": true
             }
+        },
+        {
+            "id": 2,
+            "label": "For testing: bypasses the one week time limit for showing the level up animation.",
+            "config": {
+                "enabled": true,
+                "bypassTimeLimit": true
+            }
         }
     ]
 }

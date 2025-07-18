@@ -3,21 +3,21 @@
     "kind": "user",
     "label": "Quest interactable expired crendentials errors",
     "defaultConfig": {
-        "enabled": true
+        "enabled": false
     },
     "treatments": [
         {
             "id": 0,
             "label": "not interactable",
             "config": {
-                "enabled": true
+                "enabled": false
             }
         },
         {
             "id": 1,
             "label": "interactable",
             "config": {
-                "enabled": false
+                "enabled": true
             }
         }
     ]

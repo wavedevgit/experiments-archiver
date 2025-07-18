@@ -4,14 +4,24 @@
     "label": "Collectibles Browse Experiment",
     "commonTriggerPoint": null,
     "defaultConfig": {
-        "collectiblesBrowseEnabled": false
+        "filterEnabled": false,
+        "searchEnabled": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enable collectibles browse",
             "config": {
-                "collectiblesBrowseEnabled": true
+                "filterEnabled": true,
+                "searchEnabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable collectibles browse with only filter",
+            "config": {
+                "filterEnabled": true,
+                "searchEnabled": false
             }
         }
     ]

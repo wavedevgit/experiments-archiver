@@ -10,7 +10,7 @@
             "id": 1,
             "label": "Prevent perk access for users with reverse trials",
             "config": {
-                "enabled": false
+                "enabled": true
             }
         }
     ]

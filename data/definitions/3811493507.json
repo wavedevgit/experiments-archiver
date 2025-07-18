@@ -2,6 +2,7 @@
     "kind": "user",
     "id": "2025-04_hotwheels_holdout_the_sequel",
     "label": "Tracking a holdout hashed to member list experiment for data readouts",
+    "commonTriggerPoint": null,
     "defaultConfig": {},
     "treatments": [
         {

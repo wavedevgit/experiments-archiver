@@ -1,7 +1,7 @@
 {
     "kind": "user",
     "id": "2025-01_audio_nack",
-    "label": "Audio NACK ",
+    "label": "Audio NACK",
     "defaultConfig": {
         "enabled": false
     },
