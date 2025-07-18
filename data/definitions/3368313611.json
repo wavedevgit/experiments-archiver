@@ -1,17 +1,7 @@
 {
-    "id": "2024-04_quest_preview_tool",
     "kind": "user",
+    "id": "2024-04_quest_preview_tool",
     "label": "Quest Preview Tool",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Preview tool enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2024-03_content_inventory_memberlist_and_ranker",
     "label": "Enables the memberlist content feed",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Recency",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Heuristic",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

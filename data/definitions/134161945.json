@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2023-09_mobile_redesign_override_toggles_t2",
     "label": "Tabs V2 - redesign opt-out for T2",
-    "defaultConfig": {
-        "hide": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "show",
-            "config": {
-                "hide": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "hide",
-            "config": {
-                "hide": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

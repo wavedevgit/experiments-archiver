@@ -1,27 +1,7 @@
 {
-    "id": "2025-03_dm_chat_wallpapers_setter",
     "kind": "user",
+    "id": "2025-03_dm_chat_wallpapers_setter",
     "label": "DM Chat Wallpapers",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables setting dm chat wallpapers in the context menu",
-            "config": {
-                "enabled": true,
-                "entryPoint": "context_menu"
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enables setting dm chat wallpapers in the toolbar",
-            "config": {
-                "enabled": true,
-                "entryPoint": "toolbar"
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

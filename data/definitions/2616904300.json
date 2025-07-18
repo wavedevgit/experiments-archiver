@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2023-04_birthday_activities_putt_party_tile",
     "label": "Birthday Activities Whats New Putt Party Tile",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Putt Party tile",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

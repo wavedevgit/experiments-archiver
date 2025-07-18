@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-12_premium_wow_moment_fetch_analytics",
     "label": "Premium Wow Moment Fetch Analytics",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable the analytics",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

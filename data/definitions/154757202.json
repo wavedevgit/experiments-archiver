@@ -2,27 +2,6 @@
     "kind": "user",
     "id": "2024-08_open_platform_app_launcher_holdout",
     "label": "Open Platform App Launcher Holdout",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false,
-        "clickOnHomeActivityOpensAppDetail": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "clicking activity in voice app launcher -> performs activity action",
-            "config": {
-                "enabled": true,
-                "clickOnHomeActivityOpensAppDetail": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "clicking activity in voice app launcher -> opens activity detail page",
-            "config": {
-                "enabled": true,
-                "clickOnHomeActivityOpensAppDetail": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

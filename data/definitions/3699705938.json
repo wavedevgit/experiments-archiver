@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-07_libdiscore_guildstore_v2",
+    "label": "libdiscore KVStore[GuildStore] Migration",
+    "defaultConfig": {},
+    "treatments": []
+}

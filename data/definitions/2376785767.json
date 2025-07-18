@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-05_mobile_shop_gifting",
     "label": "Mobile Shop Gifting",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Turn on Mobile Shop Gifting",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,18 +1,7 @@
 {
-    "id": "2025-05_client_theme_color_picker",
     "kind": "user",
+    "id": "2025-05_client_theme_color_picker",
     "label": "Client Theme Color Picker",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables setting client theme color picker",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-06_jump_to_voice_settings",
     "label": "Jump to Voice Settings",
-    "defaultConfig": {
-        "jumpToVoice": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Jump to voice settings while in call",
-            "config": {
-                "jumpToVoice": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

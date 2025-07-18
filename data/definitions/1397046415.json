@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2024-05_clans_valorant_prepilot",
     "label": "Clans Valorant Prepilot",
-    "defaultConfig": {
-        "enableClanCreation": false,
-        "defaultGameId": null
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable creation of clan guilds - Valorant",
-            "config": {
-                "enableClanCreation": true,
-                "defaultGameId": "r.VALORANT_ID"
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

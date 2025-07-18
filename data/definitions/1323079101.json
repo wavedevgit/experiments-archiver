@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2022-11_desktop_notification_center",
     "label": "Desktop notification center",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Notification center desktop enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,26 +2,6 @@
     "kind": "user",
     "id": "2023-04_broadcasting",
     "label": "Go Live Broadcasting",
-    "defaultConfig": {
-        "canBroadcast": false,
-        "canViewBroadcasts": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Allow user to Broadcast to friends & guilds",
-            "config": {
-                "canBroadcast": true,
-                "canViewBroadcasts": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Cannot broadcast, cannot view broadcasts",
-            "config": {
-                "canBroadcast": false,
-                "canViewBroadcasts": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

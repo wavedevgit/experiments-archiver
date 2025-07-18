@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-06_mobile_shop_settings_entry_point",
     "label": "Mobile Shop Settings Entry Point",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "showMobileShopSettingsEntryPoint": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show Mobile Shop Settings Entry Point",
-            "config": {
-                "showMobileShopSettingsEntryPoint": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

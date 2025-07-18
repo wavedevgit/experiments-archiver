@@ -2,26 +2,6 @@
     "kind": "user",
     "id": "2024-03_profile_mutuals",
     "label": "Profile Mutuals",
-    "defaultConfig": {
-        "enabled": false,
-        "compact": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show Profile Mutuals (Friends/Guilds) - Compact",
-            "config": {
-                "enabled": true,
-                "compact": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Show Profile Mutuals (Friends/Guilds) - Full Lines",
-            "config": {
-                "enabled": true,
-                "compact": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

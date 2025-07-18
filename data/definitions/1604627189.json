@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-01_otp_skus",
     "label": "OTP SKUs",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable OTP SKUs",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

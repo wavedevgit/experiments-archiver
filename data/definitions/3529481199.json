@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-03_nsfw_gate_guild_experiment",
+    "label": "block users from joining nsfw servers",
+    "defaultConfig": {},
+    "treatments": []
+}

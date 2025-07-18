@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-10_october_holiday",
     "label": "October Holiday",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

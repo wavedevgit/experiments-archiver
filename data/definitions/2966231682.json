@@ -1,18 +1,7 @@
 {
-    "id": "2025-07_apex_aa_validation__clientside__paymentflowstarted_userlocale",
     "kind": "user",
+    "id": "2025-07_apex_aa_validation__clientside__paymentflowstarted_userlocale",
     "label": "Apex AA Validation Payment Flow Started User Locale",
-    "defaultConfig": {
-        "isEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "AA test enabled. Noop on UI effect.",
-            "config": {
-                "isEnabled": true
-            }
-        }
-    ],
-    "commonTriggerPoint": null
+    "defaultConfig": {},
+    "treatments": []
 }

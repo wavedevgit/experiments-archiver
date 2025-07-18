@@ -1,24 +1,7 @@
 {
-    "id": "2024-03_user_recent_games",
     "kind": "user",
+    "id": "2024-03_user_recent_games",
     "label": "Recent Games",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2024-06_mobile_video_player_async_buffer_queueing",
+    "label": "Mobile video attachment player async buffer queueing experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2020-09_juiced_age_gate",
+    "label": "Show new age gate for unclaimed invited users",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-04_mobile_shop_pdp_design_refresh",
     "label": "a scalable PDP for variants and new products in mobile shop",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Turn on Mobile Shop PDP design refresh",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

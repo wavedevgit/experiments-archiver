@@ -1,17 +1,7 @@
 {
     "kind": "user",
     "id": "2025-01_audio_nack",
-    "label": "Audio NACK ",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable NACK for audio",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "label": "Audio NACK",
+    "defaultConfig": {},
+    "treatments": []
 }

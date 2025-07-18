@@ -1,17 +1,7 @@
 {
+    "kind": "user",
     "id": "2025-07_order_dual_write_experiment",
     "label": "Order dual write experiment",
-    "kind": "user",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

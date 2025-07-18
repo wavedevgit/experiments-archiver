@@ -1,24 +1,7 @@
 {
+    "kind": "user",
     "id": "2025-03_desktop_refresh_compact_mode",
     "label": "Desktop Refresh Compact Mode",
-    "kind": "user",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

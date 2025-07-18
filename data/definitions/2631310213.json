@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2024-05_discount_model_data_collection",
     "label": "Discount Model Data Collection",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

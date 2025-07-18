@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-06_collectibles_browse",
     "label": "Collectibles Browse Experiment",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "collectiblesBrowseEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable collectibles browse",
-            "config": {
-                "collectiblesBrowseEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

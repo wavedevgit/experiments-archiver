@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_pride_month_perks_experiment",
     "label": "Pride Month Perks Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables new nitro perks related to Pride month",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

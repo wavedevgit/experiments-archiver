@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-05_opensl_default_enable_android",
+    "label": "AudioManager V2 and OpenSL ES",
+    "defaultConfig": {},
+    "treatments": []
+}

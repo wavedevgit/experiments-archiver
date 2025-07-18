@@ -1,17 +1,7 @@
 {
     "kind": "user",
     "id": "2024-08_blocking_voice_states",
-    "label": "Blocking Voice States",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "label": "Blocking Voice States (Blocker)",
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-07_churn_survey",
+    "label": "Churn Survey",
+    "defaultConfig": {},
+    "treatments": []
+}

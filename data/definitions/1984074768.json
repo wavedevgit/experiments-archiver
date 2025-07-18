@@ -1,18 +1,7 @@
 {
-    "kind": "guild",
+    "kind": "user",
     "id": "2025-02_skill_trees",
     "label": "Skill Trees",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

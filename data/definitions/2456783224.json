@@ -2,34 +2,6 @@
     "kind": "user",
     "id": "2024-07_global_discovery",
     "label": "Global Discovery",
-    "defaultConfig": {
-        "mobileTabEnabled": false,
-        "discoverButtonTakeoverEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable mobile tab",
-            "config": {
-                "mobileTabEnabled": true,
-                "discoverButtonTakeoverEnabled": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable discover button takeover",
-            "config": {
-                "mobileTabEnabled": false,
-                "discoverButtonTakeoverEnabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "Enable mobile tab and discover button takeover",
-            "config": {
-                "mobileTabEnabled": true,
-                "discoverButtonTakeoverEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

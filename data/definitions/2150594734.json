@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-01_allow_previewing_app_collections",
+    "label": "Allow seeing only app collections that have the \"preview\" active state wherever they appear",
+    "defaultConfig": {},
+    "treatments": []
+}

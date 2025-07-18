@@ -2,52 +2,6 @@
     "kind": "user",
     "id": "2024-01_mobile_shop",
     "label": "Mobile Shop Experiment",
-    "defaultConfig": {
-        "mobileShopEnabled": false,
-        "showPaymentSuccessViewInsteadOfPDP": false,
-        "shouldAnimateAvatarDecorationsInIndexPages": false,
-        "shouldFakePurchaseSuccessFlowLocally": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables mobile shop",
-            "config": {
-                "mobileShopEnabled": true,
-                "showPaymentSuccessViewInsteadOfPDP": false,
-                "shouldAnimateAvatarDecorationsInIndexPages": false,
-                "shouldFakePurchaseSuccessFlowLocally": false
-            }
-        },
-        {
-            "id": 601,
-            "label": "Show payment success view instead of PDP",
-            "config": {
-                "mobileShopEnabled": true,
-                "showPaymentSuccessViewInsteadOfPDP": true,
-                "shouldAnimateAvatarDecorationsInIndexPages": false,
-                "shouldFakePurchaseSuccessFlowLocally": false
-            }
-        },
-        {
-            "id": 602,
-            "label": "Animate decorations in home/index page",
-            "config": {
-                "mobileShopEnabled": true,
-                "showPaymentSuccessViewInsteadOfPDP": false,
-                "shouldAnimateAvatarDecorationsInIndexPages": true,
-                "shouldFakePurchaseSuccessFlowLocally": false
-            }
-        },
-        {
-            "id": 603,
-            "label": "Simulate Success Flow Locally",
-            "config": {
-                "mobileShopEnabled": true,
-                "showPaymentSuccessViewInsteadOfPDP": true,
-                "shouldAnimateAvatarDecorationsInIndexPages": false,
-                "shouldFakePurchaseSuccessFlowLocally": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

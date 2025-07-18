@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2025-03_afk_timeout_default_experiment",
     "label": "Afk timeout defaults",
-    "defaultConfig": {
-        "enabled": false,
-        "defaultTimeout": 600
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable new defaults",
-            "config": {
-                "enabled": true,
-                "defaultTimeout": 120
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

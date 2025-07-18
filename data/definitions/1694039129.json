@@ -2,44 +2,6 @@
     "kind": "user",
     "id": "2023-08_dcf_ml_model",
     "label": "DCF ML Perks Relevance Model",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "threshold 0",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 1,
-            "label": "threshold 1",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "threshold 2",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "threshold 3",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 4,
-            "label": "threshold 4",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

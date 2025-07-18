@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-06_overlay_raf_manager",
     "label": "Overlay RAF Manager",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable RAF Manager",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

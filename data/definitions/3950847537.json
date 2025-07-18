@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2023-10_premium_tier_2_trial_offer_expiring_notice",
     "label": "Premium Tier 2 Trial Offer Expiring Notice",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

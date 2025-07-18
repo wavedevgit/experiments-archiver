@@ -2,27 +2,6 @@
     "kind": "user",
     "id": "2025-05_hide_rtc_buttons_experiment",
     "label": "RTC Buttons Negative Test",
-    "defaultConfig": {
-        "isActivityButtonHidden": false,
-        "isSoundboardButtonHidden": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Hide activity button",
-            "config": {
-                "isActivityButtonHidden": true,
-                "isSoundboardButtonHidden": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Hide soundboard button",
-            "config": {
-                "isActivityButtonHidden": false,
-                "isSoundboardButtonHidden": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

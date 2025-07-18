@@ -1,17 +1,7 @@
 {
     "kind": "user",
     "id": "2024-09_feedbackskipbutton",
-    "label": "Add a skip button to the feedback modal",
-    "defaultConfig": {
-        "renderSkipButton": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show skip button",
-            "config": {
-                "renderSkipButton": true
-            }
-        }
-    ]
+    "label": "",
+    "defaultConfig": {},
+    "treatments": []
 }

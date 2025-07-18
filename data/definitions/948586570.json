@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-04_dm_settings_upsell",
     "label": "DM Settings Upsell",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable DM Settings Upsell",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-01_shop_lunar_new_year_drop_upsell",
     "label": "Shop Lunar New Year In App Marketing Experiment",
-    "defaultConfig": {
-        "newBadgeEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables New Badge",
-            "config": {
-                "newBadgeEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

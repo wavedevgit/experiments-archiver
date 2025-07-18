@@ -1,24 +1,7 @@
 {
-    "id": "2024-10_quests_video_dismissal_survey",
     "kind": "user",
+    "id": "2024-10_quests_video_dismissal_survey",
     "label": "Video Quests Dismissal Survey",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

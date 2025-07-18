@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-10_thumbhash_messages",
+    "label": "Display thumbhash placeholders when loading message images",
+    "defaultConfig": {},
+    "treatments": []
+}

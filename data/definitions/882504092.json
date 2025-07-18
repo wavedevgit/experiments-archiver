@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-08_tiered_tenure_badges",
     "label": "Tiered Tenure Badging",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Tiered Tenure Badges",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

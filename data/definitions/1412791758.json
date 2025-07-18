@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_marketing_page_hero_header_v2",
     "label": "Marketing page hero header v2",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Variant 1",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2024-08_hd_streaming_viewer",
     "label": "HD Streaming Viewer Upsell",
-    "defaultConfig": {
-        "enabled": false,
-        "sendNitroMessage": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true,
-                "sendNitroMessage": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

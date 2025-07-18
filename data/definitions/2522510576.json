@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-08_safety_settings_update",
     "label": "Safety Settings Update",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Safety Settings Update",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

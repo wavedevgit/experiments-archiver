@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-06_remote-auth-login-delay",
+    "label": "Remote Auth Login Delay",
+    "defaultConfig": {},
+    "treatments": []
+}

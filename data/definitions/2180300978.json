@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2024-09_best_of_nitro_v2_experiment",
     "label": "Best of Nitro bento boxes",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Users see current best of nitro section",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "users see best of nitro bento boxes ",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,24 +1,7 @@
 {
-    "id": "2024-04_quests_logging",
     "kind": "user",
+    "id": "2024-04_quests_logging",
     "label": "Quests Logging",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Quest logging enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

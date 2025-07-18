@@ -2,47 +2,6 @@
     "kind": "user",
     "id": "2024-06_rtc_pacer__simulcast",
     "label": "RTC Pacer & Golive Simulcast",
-    "defaultConfig": {
-        "enabled": true,
-        "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/",
-        "simulcastEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Golive Simulcast",
-            "config": {
-                "enabled": true,
-                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/",
-                "simulcastEnabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Golive Simulcast with pacing and probing",
-            "config": {
-                "enabled": true,
-                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer,worker-pacer-probe",
-                "simulcastEnabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "Golive with pacing",
-            "config": {
-                "enabled": true,
-                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer",
-                "simulcastEnabled": false
-            }
-        },
-        {
-            "id": 4,
-            "label": "Golive with pacing and probing",
-            "config": {
-                "enabled": true,
-                "fullname": "bandwidth_estimation/trendline-window-duration-3750,robust-estimator/worker-pacer,worker-pacer-probe",
-                "simulcastEnabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

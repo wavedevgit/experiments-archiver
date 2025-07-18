@@ -1,38 +1,7 @@
 {
-    "id": "2024-04_concurrent_quests",
     "kind": "user",
+    "id": "2024-04_concurrent_quests",
     "label": "Concurrent Quests",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Concurrent Quests Enabled",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 99,
-            "label": "Concurrent Quests Enabled",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 100,
-            "label": "Concurrent Quests Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

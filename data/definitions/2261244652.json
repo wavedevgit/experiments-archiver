@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-01_per_guild_pfx",
     "label": "Per-guild Profile Effects / Avatar Decoration Experiment",
-    "defaultConfig": {
-        "isEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "isEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

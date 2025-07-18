@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2024-09_browse_channel_visible",
     "label": "Don't show guild Browse Channels when all channels are already visible",
-    "defaultConfig": {
-        "alwaysShowDirectory": true
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Hide Browse Channels when all channels are visible",
-            "config": {
-                "alwaysShowDirectory": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

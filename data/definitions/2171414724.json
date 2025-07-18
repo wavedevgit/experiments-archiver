@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-02_reaction_reply",
     "label": "Reaction Reply Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable reaction reply",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

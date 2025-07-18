@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-12_icymi_status_with_media",
     "label": "Shows media with custom status in ICYMI",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables showing media with custom status in ICYMI",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

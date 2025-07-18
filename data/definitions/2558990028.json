@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_throughline_care",
     "label": "Throughline Care Experiment",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable throughline care links",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

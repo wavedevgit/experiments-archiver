@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2024-10_golive_simulcast",
     "label": "GoLive Simulcast",
-    "defaultConfig": {
-        "simulcastEnabled": false,
-        "lqStreamBitrate": 0
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Simulcast @ 1.5Mbps",
-            "config": {
-                "simulcastEnabled": true,
-                "lqStreamBitrate": 1500000
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

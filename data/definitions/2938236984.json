@@ -1,18 +1,7 @@
 {
     "kind": "user",
     "id": "2025-07_nitro_tab_title_sub",
-    "commonTriggerPoint": null,
     "label": "Nitro Tab Title (sub)",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Nitro Home",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

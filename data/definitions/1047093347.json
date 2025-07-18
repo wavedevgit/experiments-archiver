@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-04_electron_video",
+    "label": "Controls use of the electron-based hardware video decoder",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-05_libdiscore_notestore_v2",
+    "label": "libdiscore KVStore[NoteStore] Migration",
+    "defaultConfig": {},
+    "treatments": []
+}

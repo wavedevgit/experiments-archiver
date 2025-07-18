@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-08_reducing_constant_max_messages_per_channel",
+    "label": "Adjust MAX_MESSAGES_PER_CHANNEL on subsequent launch",
+    "defaultConfig": {},
+    "treatments": []
+}

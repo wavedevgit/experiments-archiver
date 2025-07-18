@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-03_scroll_refactor_experiment",
+    "label": "Use refactored scroll APIs",
+    "defaultConfig": {},
+    "treatments": []
+}

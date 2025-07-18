@@ -2,38 +2,6 @@
     "kind": "user",
     "id": "2024-04_app_launcher_recommendation",
     "label": "App Recommendations in App Launcher",
-    "defaultConfig": {
-        "enabled": false,
-        "recentsDropdownEnabled": false,
-        "hideActivities": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable the app recommendations in the App Launcher",
-            "config": {
-                "enabled": true,
-                "recentsDropdownEnabled": false,
-                "hideActivities": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable the app recommendations in the App Launcher, with Recents dropdown",
-            "config": {
-                "enabled": true,
-                "recentsDropdownEnabled": true,
-                "hideActivities": false
-            }
-        },
-        {
-            "id": 3,
-            "label": "No app recommendations in the App Launcher and hide activities.",
-            "config": {
-                "enabled": false,
-                "recentsDropdownEnabled": false,
-                "hideActivities": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

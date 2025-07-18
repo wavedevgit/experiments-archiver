@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_email_change_reasoning_buttons",
     "label": "Email Change Reasoning Buttons",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Add additional friction to the email change flow by asking users why they are changing their email",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

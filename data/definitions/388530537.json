@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-04_shop_home_sorting",
     "label": "Shop Home Sorting",
-    "defaultConfig": {
-        "showShopHomeSorting": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Use shop home sorting",
-            "config": {
-                "showShopHomeSorting": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

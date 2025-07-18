@@ -2,24 +2,6 @@
     "kind": "user",
     "id": "2025-04_libdiscore_critical_flow",
     "label": "Require libdiscore to use the app",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Require libdiscore to use the app",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

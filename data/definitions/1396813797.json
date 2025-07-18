@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_activity_roll20_mini_shelf_banner",
     "label": "Activity Roll20 Mini-Shelf Banner",
-    "defaultConfig": {
-        "enableRoll20MiniShelfBanner": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable mini-shelf banner",
-            "config": {
-                "enableRoll20MiniShelfBanner": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

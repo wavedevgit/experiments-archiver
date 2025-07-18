@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-02_mobile_video_force_mov_transcode",
+    "label": "Use transcoded video for MOV sources on iOS mobile uploads",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-05_fullyemojiautocomplete",
+    "label": "Only show emoji in autocomplete",
+    "defaultConfig": {},
+    "treatments": []
+}

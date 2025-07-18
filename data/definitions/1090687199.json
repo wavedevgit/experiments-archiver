@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-02_nitro_emoji_autocomplete_upsell",
     "label": "Emoji Autocomplete Upsells",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show upsells in Emoji Autocomplete",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

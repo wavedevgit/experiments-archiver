@@ -2,47 +2,6 @@
     "kind": "user",
     "id": "2024-06_hd_streaming_viewer",
     "label": "HD Streaming Viewer Upsell",
-    "defaultConfig": {
-        "enabled": false,
-        "sendNitroMessage": false,
-        "persistentQualityIndicator": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Send Nitro message, styled/persistent indicator",
-            "config": {
-                "enabled": true,
-                "sendNitroMessage": true,
-                "persistentQualityIndicator": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Send Nitro message, styled indicator",
-            "config": {
-                "enabled": true,
-                "sendNitroMessage": true,
-                "persistentQualityIndicator": false
-            }
-        },
-        {
-            "id": 3,
-            "label": "Styled/persistent indicator",
-            "config": {
-                "enabled": true,
-                "sendNitroMessage": false,
-                "persistentQualityIndicator": true
-            }
-        },
-        {
-            "id": 4,
-            "label": "Styled indicator",
-            "config": {
-                "enabled": true,
-                "sendNitroMessage": false,
-                "persistentQualityIndicator": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

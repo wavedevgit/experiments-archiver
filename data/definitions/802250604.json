@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-04_notify_on_close",
+    "label": "Display a desktop notification on app close",
+    "defaultConfig": {},
+    "treatments": []
+}

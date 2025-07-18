@@ -1,24 +1,7 @@
 {
-    "id": "2025-04_fetch_quests_on_postconnectionopen",
     "kind": "user",
+    "id": "2025-04_fetch_quests_on_postconnectionopen",
     "label": "Fetch Quests ON_POST_CONNECTION_OPEN",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Fetch quests during ON_POST_CONNECTION_OPEN",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-08_popular_slash_command_experiment",
+    "label": "Show popular slash commands on bot profiles",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-09_shop_browse_backend",
     "label": "Collectibles Shop Home Backend",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "use backend data",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

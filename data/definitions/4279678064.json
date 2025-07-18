@@ -2,30 +2,6 @@
     "kind": "user",
     "id": "2024-01_reactivation_user_discount_offer_experiment",
     "label": "Reactivation User Discount Offer",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "users receive reactivation trial offers",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 1,
-            "label": "users receive neither reactivation trial offers nor reactivation discount offers",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "users receive reactivation discount offers",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

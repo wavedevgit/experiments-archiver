@@ -1,17 +1,7 @@
 {
-    "id": "2025-06_apex_client_aa_rollout",
     "kind": "user",
+    "id": "2025-06_apex_client_aa_rollout",
     "label": "Apex Client SDK AA Test Rollout",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

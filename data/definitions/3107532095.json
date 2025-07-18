@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-04_console_lan_detection",
+    "label": "Game Console LAN Detection Experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

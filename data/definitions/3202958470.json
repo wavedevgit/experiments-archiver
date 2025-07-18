@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2023-11_friend_finder_sync",
     "label": "Friend Finder Sync",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Friend Finder Sync",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

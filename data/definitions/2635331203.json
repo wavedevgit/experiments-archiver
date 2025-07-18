@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_collectibles_shop_bundle",
     "label": "Collectibles Shop Bundle",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Shop with bundle",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

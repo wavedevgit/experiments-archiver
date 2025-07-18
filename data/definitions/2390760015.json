@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-08_emoji_picker_limit_emojis_experiment",
     "label": "Desktop: Show three rows of emojis per server, with the option to expand",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show limited emojis experiment",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

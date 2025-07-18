@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-06_message_forward_breadcrumb",
     "label": "Message forward breadcrumb",
-    "defaultConfig": {
-        "showForwardBreadcrumb": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "No breadcrumb",
-            "config": {
-                "showForwardBreadcrumb": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

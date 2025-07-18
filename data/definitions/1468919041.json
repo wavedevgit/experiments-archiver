@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2023-08_guild_usage_survey",
     "label": "Guild Usage Survey",
-    "defaultConfig": {
-        "showSurvey": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "show survey nag bar",
-            "config": {
-                "showSurvey": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2022-09_free_file_upload_limit",
     "label": "Free File Upload Limit Increase",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-07_mobile_shop_featured_page",
     "label": "Mobile Shop Featured Page",
-    "defaultConfig": {
-        "showMobileShopFeaturedPage": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Use mobile shop featured page",
-            "config": {
-                "showMobileShopFeaturedPage": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

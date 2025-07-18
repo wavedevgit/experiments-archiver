@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-04_rich_presence_activity_invite_redesign",
     "label": "Rich Presence Activity Invite Redesign Experiment",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Rich Presence Activity Invite Redesign",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

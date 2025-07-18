@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-06_search_improvements_holdout",
     "label": "Search Improvements Holdout",
-    "defaultConfig": {
-        "isInHoldout": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables holdout group",
-            "config": {
-                "isInHoldout": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

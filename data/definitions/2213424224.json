@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-08_user_profile_blocker_skeleton",
     "label": "User Profile Blocker Skeleton",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable User Profile Blocker Skeleton",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-02_collectibles_anime_v2_marketing",
     "label": "Anime V2 marketing Experiment",
-    "defaultConfig": {
-        "coachtipEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables coachtip",
-            "config": {
-                "coachtipEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

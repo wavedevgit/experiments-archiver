@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-09_amd_relaxed_rate_control",
+    "label": "Alternative rate control proposal for AMD encoder",
+    "defaultConfig": {},
+    "treatments": []
+}

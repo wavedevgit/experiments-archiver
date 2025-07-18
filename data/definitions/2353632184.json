@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2022-01_server_recommendations_rollout",
     "label": "Rollout experiment for server recommendations.",
-    "defaultConfig": {
-        "showRecs": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show server recommendations",
-            "config": {
-                "showRecs": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

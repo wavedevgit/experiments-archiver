@@ -1,24 +1,7 @@
 {
-    "id": "2024-06_quest_inline_console_connection",
     "kind": "user",
+    "id": "2024-06_quest_inline_console_connection",
     "label": "Quest Inline Console Connection Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Simplified console connection flow",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Inline console connection flow",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

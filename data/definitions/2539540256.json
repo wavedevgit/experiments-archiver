@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2022-09_creator_monetization_raven_users",
     "label": "Creator Monetization Onboarding v2 Users",
-    "defaultConfig": {
-        "enableFastMonetizationOnboardingForUser": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables users to create Guild Role Subscriptions quickly",
-            "config": {
-                "enableFastMonetizationOnboardingForUser": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

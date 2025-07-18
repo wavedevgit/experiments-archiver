@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-01_remove_emoji_effects",
     "label": "Remove emoji effects",
-    "defaultConfig": {
-        "removeEmojiEffects": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Remove emoji effects",
-            "config": {
-                "removeEmojiEffects": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

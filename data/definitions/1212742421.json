@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2024-11_activities_contextless",
     "label": "Contextless Activities Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable contextless activities",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-05_mention_badge_on_dm",
     "label": "Mention badge on DM",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

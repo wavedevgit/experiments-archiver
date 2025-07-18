@@ -1,17 +1,7 @@
 {
-    "id": "2025-02_quest_bar_reward_available_exclamation_mark",
     "kind": "user",
+    "id": "2025-02_quest_bar_reward_available_exclamation_mark",
     "label": "Quest Bar Reward Available Exclamation Mark",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Reward Available Exclamation Mark",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

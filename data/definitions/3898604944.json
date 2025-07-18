@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-02_invited_unclaimed_age_gate",
+    "label": "Show new age gate for unclaimed invited users",
+    "defaultConfig": {},
+    "treatments": []
+}

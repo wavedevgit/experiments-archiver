@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-02-mfa_remove_phone",
+    "label": "Safety Experience MFA Remove Phone",
+    "defaultConfig": {},
+    "treatments": []
+}

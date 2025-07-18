@@ -2,24 +2,6 @@
     "kind": "user",
     "id": "2024-07_ctp_open_user_settings_multiple_buckets",
     "label": "CTP open user settings - A/A test - Multiple buckets",
-    "defaultConfig": {
-        "doSomething": false
-    },
-    "commonTriggerPoint": "i.$P.OPEN_USER_SETTINGS",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Treatment 1",
-            "config": {
-                "doSomething": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Treatment 2",
-            "config": {
-                "doSomething": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

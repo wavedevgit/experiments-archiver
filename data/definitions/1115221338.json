@@ -2,38 +2,6 @@
     "kind": "user",
     "id": "2022-04_registration_copy_updates",
     "label": "Registration Copy Updates",
-    "defaultConfig": {
-        "enableNewCopy": false,
-        "hasCopyAboveButton": false,
-        "hasProminentCopy": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Continue / Copy Above Button / High Prominence Copy",
-            "config": {
-                "enableNewCopy": true,
-                "hasCopyAboveButton": true,
-                "hasProminentCopy": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Continue / Copy Below Button / High Prominence Copy",
-            "config": {
-                "enableNewCopy": true,
-                "hasCopyAboveButton": false,
-                "hasProminentCopy": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "Continue / Copy Above Button / Normal Prominence Copy",
-            "config": {
-                "enableNewCopy": true,
-                "hasCopyAboveButton": true,
-                "hasProminentCopy": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

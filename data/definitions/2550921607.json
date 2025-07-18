@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-07_application_command_frecency",
+    "label": "Application Command Frecency Experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

@@ -2,33 +2,6 @@
     "kind": "user",
     "id": "2024-11_hotwheels_activity_feed_ml_model",
     "label": "Hotwheels Activity Feed ML Model",
-    "commonTriggerPoint": null,
     "defaultConfig": {},
-    "treatments": [
-        {
-            "id": 3,
-            "label": "Control (Noteworthy)",
-            "config": {}
-        },
-        {
-            "id": 5,
-            "label": "ML model (lowest threshold, most % positives)",
-            "config": {}
-        },
-        {
-            "id": 6,
-            "label": "ML model (medium threshold, match % positives to heuristic)",
-            "config": {}
-        },
-        {
-            "id": 7,
-            "label": "ML model (highest threshold, highest f1 score but fewer positives)",
-            "config": {}
-        },
-        {
-            "id": 8,
-            "label": "Randomized",
-            "config": {}
-        }
-    ]
+    "treatments": []
 }

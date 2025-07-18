@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-08_premium_winbacks_holdout_experiment",
+    "label": "Nitro Winbacks Holdout",
+    "defaultConfig": {},
+    "treatments": []
+}

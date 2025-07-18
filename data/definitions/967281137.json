@@ -2,24 +2,6 @@
     "kind": "user",
     "id": "2024-06_ctp_voice_call_multiple_buckets",
     "label": "CTP voice call - A/A test - Multiple buckets",
-    "defaultConfig": {
-        "doSomething": false
-    },
-    "commonTriggerPoint": "r.$P.VOICE_CALL",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Treatment 1",
-            "config": {
-                "doSomething": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Treatment 2",
-            "config": {
-                "doSomething": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

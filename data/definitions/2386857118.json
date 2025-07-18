@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-03_access_af",
     "label": "q:thinking:",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": ":thinkingharder:",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

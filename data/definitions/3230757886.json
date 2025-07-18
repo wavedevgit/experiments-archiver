@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2024-07_shop_server_marketing",
     "label": "Shop Server Marketing Experiment",
-    "defaultConfig": {
-        "serverMarketingEnabled": true
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control (client side marketing)",
-            "config": {
-                "serverMarketingEnabled": true
-            }
-        },
-        {
-            "id": 1,
-            "label": "Server side marketing",
-            "config": {
-                "serverMarketingEnabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

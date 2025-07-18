@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-06_outbound_promotions_feature_gate",
+    "label": "Outbound promotions feature gate",
+    "defaultConfig": {},
+    "treatments": []
+}

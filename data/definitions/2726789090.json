@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_clans_general",
     "label": "Clans General",
-    "defaultConfig": {
-        "clanTagsVisible": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show clan tags",
-            "config": {
-                "clanTagsVisible": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

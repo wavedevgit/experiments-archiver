@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-02_reverse_trial_load_test",
     "label": "Reverse Trials",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Users receives reverse trial + 1 week follow-up offer",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

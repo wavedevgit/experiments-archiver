@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2024-05_clans_genshin_pilot",
     "label": "Clans Genshin Pilot",
-    "defaultConfig": {
-        "clanDiscoveryEnabled": false,
-        "defaultGameId": null
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show clan discovery (Genshin Impact)",
-            "config": {
-                "clanDiscoveryEnabled": true,
-                "defaultGameId": "r.GENSHIN_ID"
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

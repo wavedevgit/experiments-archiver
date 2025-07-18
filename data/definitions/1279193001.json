@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-09_tiered_tenure_badging_whats_new",
     "label": "Tiered Tenure Badging (What's New)",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Tiered Tenure Badging on What's New",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

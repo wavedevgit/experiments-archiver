@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_app_launcher_global_search",
     "label": "App Launcher Global Search",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable the app launcher global search feature",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

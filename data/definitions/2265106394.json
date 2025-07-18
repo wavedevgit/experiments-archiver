@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2024-12_mobile_video_hevc",
+    "label": "HEVC video encoding on mobile uploads",
+    "defaultConfig": {},
+    "treatments": []
+}

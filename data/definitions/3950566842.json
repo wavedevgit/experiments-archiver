@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2024-06_ctp_app_open_everyone",
     "label": "CTP app open - A/A test - Everyone",
-    "defaultConfig": {
-        "doSomething": false
-    },
-    "commonTriggerPoint": "r.CommonTriggerPoints.POST_CONNECTION_OPEN",
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Treatment",
-            "config": {
-                "doSomething": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

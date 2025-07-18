@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-12_dcf_dismissal_no_op",
     "label": "DCF Dismissal No Op",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Dismissing an already dismissed DC will have no effect",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

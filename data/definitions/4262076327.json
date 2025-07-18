@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-06_nameplate_mobile_purchasing",
     "label": "Nameplates Mobile Purchasing",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "canPurchaseNameplates": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Mobile Purchasing",
-            "config": {
-                "canPurchaseNameplates": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

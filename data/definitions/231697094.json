@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2024-04_content_inventory_voice_enrichments",
     "label": "Experimental enrichments",
-    "defaultConfig": {
-        "showBadge": false,
-        "showJoinButton": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Treament",
-            "config": {
-                "showBadge": true,
-                "showJoinButton": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

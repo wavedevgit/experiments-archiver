@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-06_desktop_app_launcher_in_activities_shelf",
     "label": "Desktop App Launcher In Activities Shelf",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable the desktop app launcher in activities shelf",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

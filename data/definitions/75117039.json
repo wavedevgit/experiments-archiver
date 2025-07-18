@@ -2,56 +2,6 @@
     "kind": "user",
     "id": "2022-08_home_drawer_autoclose",
     "label": "Auto close home drawer",
-    "defaultConfig": {
-        "autoCloseDrawer": false,
-        "animation": false,
-        "delay": null
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "normal animation",
-            "config": {
-                "autoCloseDrawer": true,
-                "animation": true,
-                "delay": null
-            }
-        },
-        {
-            "id": 2,
-            "label": "no animate",
-            "config": {
-                "autoCloseDrawer": true,
-                "animation": false,
-                "delay": null
-            }
-        },
-        {
-            "id": 3,
-            "label": "150 delayed animation",
-            "config": {
-                "autoCloseDrawer": true,
-                "animation": true,
-                "delay": 150
-            }
-        },
-        {
-            "id": 4,
-            "label": "250 delayed animation",
-            "config": {
-                "autoCloseDrawer": true,
-                "animation": true,
-                "delay": 250
-            }
-        },
-        {
-            "id": 5,
-            "label": "500 delayed animation",
-            "config": {
-                "autoCloseDrawer": true,
-                "animation": true,
-                "delay": 500
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-05_secure_frames_ui_rollout",
     "label": "Secure Frames Rollout",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled.",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

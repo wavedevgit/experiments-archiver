@@ -1,17 +1,7 @@
 {
-    "id": "2024-11_disable_quest_decision_fallback",
     "kind": "user",
+    "id": "2024-11_disable_quest_decision_fallback",
     "label": "Disable Quest Decision Fallback",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Decision fallback disabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-09_imbalanced_enrollment_experiment",
+    "label": "No-op experiment for testing logged-out experiment enrollment",
+    "defaultConfig": {},
+    "treatments": []
+}

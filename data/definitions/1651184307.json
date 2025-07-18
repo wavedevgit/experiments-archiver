@@ -2,38 +2,6 @@
     "kind": "user",
     "id": "2022-11_clips_experiment",
     "label": "Clips Experiment",
-    "defaultConfig": {
-        "enableClips": false,
-        "ignorePlatformRestriction": false,
-        "showClipsHeaderEntrypoint": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Clips without upsells",
-            "config": {
-                "enableClips": true,
-                "ignorePlatformRestriction": false,
-                "showClipsHeaderEntrypoint": true
-            }
-        },
-        {
-            "id": 2,
-            "label": "Clips with upsells",
-            "config": {
-                "enableClips": true,
-                "ignorePlatformRestriction": false,
-                "showClipsHeaderEntrypoint": true
-            }
-        },
-        {
-            "id": 99,
-            "label": "Clips 4 da Developerz",
-            "config": {
-                "enableClips": true,
-                "ignorePlatformRestriction": true,
-                "showClipsHeaderEntrypoint": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

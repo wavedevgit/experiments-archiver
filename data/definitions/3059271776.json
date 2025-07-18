@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-04_lightning_checkout",
     "label": "Lightning Checkout Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Lightning Checkout Flow",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

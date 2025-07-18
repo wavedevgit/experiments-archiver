@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-01_new_user_no_dismissible_content",
+    "label": "Disable dismissible content for new users",
+    "defaultConfig": {},
+    "treatments": []
+}

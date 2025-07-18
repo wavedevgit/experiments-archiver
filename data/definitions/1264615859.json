@@ -2,31 +2,6 @@
     "kind": "user",
     "id": "2024-02_navi_bar",
     "label": "Mobile Redesign - Nav Experiment: You Bar",
-    "defaultConfig": "Unknown",
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "showYouBar": false,
-                "showMessagesButton": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "You Bar (2c)",
-            "config": {
-                "showYouBar": true,
-                "showMessagesButton": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "You Bar (2c) with messages button",
-            "config": {
-                "showYouBar": true,
-                "showMessagesButton": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

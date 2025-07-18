@@ -2,6 +2,6 @@
     "kind": "user",
     "id": "2024-10_retrigger_reaction_frecency_algorithms",
     "label": "(Retrigger) Reaction Frecency Algorithms",
-    "defaultConfig": null,
+    "defaultConfig": {},
     "treatments": []
 }

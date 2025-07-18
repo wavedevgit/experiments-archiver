@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2025-06_mobile_video_live_photos_transmux",
+    "label": "Use transmux for Live Photos videos with frame cropping metadata on iOS",
+    "defaultConfig": {},
+    "treatments": []
+}

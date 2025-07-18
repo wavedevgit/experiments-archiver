@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-12_global_discovery_apps_logged_out",
     "label": "Global Discovery Apps - Logged Out",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

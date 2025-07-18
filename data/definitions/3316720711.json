@@ -2,26 +2,6 @@
     "kind": "user",
     "id": "2021-02_quartz_video_source",
     "label": "Quartz Video Source",
-    "defaultConfig": {
-        "useQuartzCapturer": false,
-        "allowScreenCaptureKit": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "gotta go fast",
-            "config": {
-                "useQuartzCapturer": true,
-                "allowScreenCaptureKit": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "2fast 2furious",
-            "config": {
-                "useQuartzCapturer": true,
-                "allowScreenCaptureKit": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-01_quick_launcher_mobile",
     "label": "Quick Launcher - Mobile",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

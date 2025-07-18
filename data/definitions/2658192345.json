@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-01_go_live_modal_refresh",
     "label": "Go Live Modal Refresh",
-    "defaultConfig": {
-        "showRefreshedGoLiveModal": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show refreshed go live modal",
-            "config": {
-                "showRefreshedGoLiveModal": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-04_ignore_user_feedback",
     "label": "Ignore User Feedback Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Block User Feedback Survey",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

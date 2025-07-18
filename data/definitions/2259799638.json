@@ -2,24 +2,6 @@
     "kind": "user",
     "id": "2025-03_blocked_domains_libdiscore",
     "label": "Use Blocked Domains from Libdiscore",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enable libdiscore blocked domains",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

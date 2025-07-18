@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-09_command_multi_channel_cache",
+    "label": "Multi-channel cache for command discovery",
+    "defaultConfig": {},
+    "treatments": []
+}

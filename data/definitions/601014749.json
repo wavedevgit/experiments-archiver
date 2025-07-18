@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_activity_launch_via_primary_app_command_in_voice",
     "label": "Activities - Launch via Primary App Command in Voice",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable launching activities via primary app command in guild voice.",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2023-10_username_lookup_killswitch",
     "label": "Friend Finder Username Lookup Killswitch",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable the Username Lookup",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

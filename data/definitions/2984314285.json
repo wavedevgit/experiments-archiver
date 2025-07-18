@@ -2,23 +2,6 @@
     "kind": "user",
     "id": "2024-06_checkout_recovery_nagbar_test",
     "label": "Testing",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Users will not see the nagbar",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Users will see the nagbar",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

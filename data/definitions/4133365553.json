@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-04_reduce_upsell_fatigue_experiment_v2",
+    "label": "Experiment to reduce upsell fatigue using dismissible content",
+    "defaultConfig": {},
+    "treatments": []
+}

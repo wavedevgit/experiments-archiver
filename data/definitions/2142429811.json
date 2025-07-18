@@ -1,27 +1,7 @@
 {
+    "kind": "user",
     "id": "2024-05_file_upload_desktop_upsell",
     "label": "File Upload Desktop Upsell",
-    "kind": "user",
-    "defaultConfig": {
-        "enabled": false,
-        "addSocialProof": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable new roadblock modal",
-            "config": {
-                "enabled": true,
-                "addSocialProof": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable new roadblock modal with social proof",
-            "config": {
-                "enabled": true,
-                "addSocialProof": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

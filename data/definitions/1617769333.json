@@ -2,34 +2,6 @@
     "kind": "user",
     "id": "2023-11_nitro_affinities",
     "label": "Nitro Affinities",
-    "defaultConfig": {
-        "marketingEnabled": false,
-        "planSelectionEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Nitro Affinities for Marketing Page",
-            "config": {
-                "marketingEnabled": true,
-                "planSelectionEnabled": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable Nitro Affinities for Plan Selection Page",
-            "config": {
-                "marketingEnabled": false,
-                "planSelectionEnabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "Enable Nitro Affinities for Both Marketing Page and Plan Selection Page",
-            "config": {
-                "marketingEnabled": true,
-                "planSelectionEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

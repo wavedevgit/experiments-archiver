@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2025-05_nameplate_mobile_editing",
     "label": "Nameplates Mobile Profile Editing",
-    "commonTriggerPoint": null,
-    "defaultConfig": {
-        "enableMobileProfileEditing": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Edit",
-            "config": {
-                "enableMobileProfileEditing": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

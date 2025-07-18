@@ -1,18 +1,7 @@
 {
+    "kind": "user",
     "id": "2025-05_summer_2025_gifting",
     "label": "Summer 2025 Gifting",
-    "kind": "user",
-    "defaultConfig": {
-        "enableGiftingFlow": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show Summer 2025 Gifting Flow",
-            "config": {
-                "enableGiftingFlow": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

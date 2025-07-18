@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-11_leave_server_feedback_survey",
+    "label": "renders feedback survey when user leaves a server",
+    "defaultConfig": {},
+    "treatments": []
+}

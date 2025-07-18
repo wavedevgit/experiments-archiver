@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2018-03_friend-invite-guild-create",
+    "label": "Show Friend Invite Modal on GUILD_CREATE",
+    "defaultConfig": {},
+    "treatments": []
+}

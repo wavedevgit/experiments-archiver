@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_ctp_open_nitro_filters",
     "label": "CTP open nitro - A/A test - Filters",
-    "defaultConfig": {
-        "doSomething": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Treatment",
-            "config": {
-                "doSomething": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

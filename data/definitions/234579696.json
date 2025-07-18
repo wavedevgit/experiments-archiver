@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-02_clearer_notes_label",
     "label": "Clearer Notes Label Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable clearer notes label",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

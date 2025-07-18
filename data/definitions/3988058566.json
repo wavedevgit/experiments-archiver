@@ -2,47 +2,6 @@
     "kind": "user",
     "id": "2024-04_video_decoder_reset_fallback",
     "label": "Video decoder reset/fallback on errors",
-    "defaultConfig": {
-        "resetOnErrors": false,
-        "fallbackOnErrors": false,
-        "fallbackOnConsecutiveErrors": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Reset only",
-            "config": {
-                "resetOnErrors": true,
-                "fallbackOnErrors": false,
-                "fallbackOnConsecutiveErrors": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Fallback only",
-            "config": {
-                "resetOnErrors": false,
-                "fallbackOnErrors": true,
-                "fallbackOnConsecutiveErrors": false
-            }
-        },
-        {
-            "id": 3,
-            "label": "Reset and fallback",
-            "config": {
-                "resetOnErrors": true,
-                "fallbackOnErrors": true,
-                "fallbackOnConsecutiveErrors": false
-            }
-        },
-        {
-            "id": 4,
-            "label": "Reset and fallback, consecutive",
-            "config": {
-                "resetOnErrors": true,
-                "fallbackOnErrors": false,
-                "fallbackOnConsecutiveErrors": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

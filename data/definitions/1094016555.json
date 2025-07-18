@@ -2,26 +2,6 @@
     "kind": "user",
     "id": "2024-05_simplified_profile_friending",
     "label": "Simplified Profile Friending Experiment",
-    "defaultConfig": {
-        "originalFriendingEnabled": false,
-        "improvedFriendingEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Original friending",
-            "config": {
-                "originalFriendingEnabled": true,
-                "improvedFriendingEnabled": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Improved friending",
-            "config": {
-                "originalFriendingEnabled": false,
-                "improvedFriendingEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

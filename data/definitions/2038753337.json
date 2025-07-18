@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-11_user_profile_recent_activity",
     "label": "User Profile Recent Activity",
-    "defaultConfig": {
-        "recentActivityEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "User Profile Recent Activity Enabled",
-            "config": {
-                "recentActivityEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

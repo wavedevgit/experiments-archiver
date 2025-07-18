@@ -1,24 +1,7 @@
 {
-    "id": "2024-04_memberlist_share_to_channel",
     "kind": "user",
+    "id": "2024-04_memberlist_share_to_channel",
     "label": "Memberlist Share To Channel",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Share to Channel enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

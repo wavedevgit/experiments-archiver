@@ -1,24 +1,7 @@
 {
+    "kind": "user",
     "id": "2023-08_checkout_v2_parent",
     "label": "Checkout V2 Parent",
-    "kind": "user",
-    "defaultConfig": {
-        "experiment": 0
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Browser Autofill",
-            "config": {
-                "experiment": 1
-            }
-        },
-        {
-            "id": 2,
-            "label": "Merge Plan Select to Review",
-            "config": {
-                "experiment": 2
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

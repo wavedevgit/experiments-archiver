@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-07_dm_call_bitrate",
+    "label": "DM/GDM Call Bitrate Experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

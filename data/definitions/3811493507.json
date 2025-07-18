@@ -3,16 +3,5 @@
     "id": "2025-04_hotwheels_holdout_the_sequel",
     "label": "Tracking a holdout hashed to member list experiment for data readouts",
     "defaultConfig": {},
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Holdout",
-            "config": {}
-        },
-        {
-            "id": 1,
-            "label": "Shadow Treatment",
-            "config": {}
-        }
-    ]
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2021-04_android_sms_auto_capture",
+    "label": "Phone Reg: SMS Retriever for SMS auto-capture",
+    "defaultConfig": {},
+    "treatments": []
+}

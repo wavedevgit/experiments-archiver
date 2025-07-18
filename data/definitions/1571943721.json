@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2024-11_mobile_friend_request_move",
+    "label": "Moves friend requests from notification center to messages",
+    "defaultConfig": {},
+    "treatments": []
+}

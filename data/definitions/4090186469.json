@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2024-11_activity_popout_window",
     "label": "Activity Popout Window Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable activity popout window",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

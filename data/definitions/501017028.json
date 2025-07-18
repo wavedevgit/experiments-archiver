@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_icymi_negative_items",
     "label": "icymi negative content (debugging only)",
-    "defaultConfig": {
-        "enabled": true
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "allow negative items only",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2019-08_premium_upgrade_verbose_modal",
+    "label": "Premium Upgrade Confirm Experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

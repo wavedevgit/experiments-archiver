@@ -1,24 +1,7 @@
 {
-    "id": "2025-04_native_markdown",
     "kind": "user",
+    "id": "2025-04_native_markdown",
     "label": "Native Markdown",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Disabled",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

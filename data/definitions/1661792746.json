@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2023-09_contact_sync_recurring_prompt",
+    "label": "Show contact sync prompt every X days",
+    "defaultConfig": {},
+    "treatments": []
+}

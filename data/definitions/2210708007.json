@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-04_iar_message_dislike",
     "label": "IAR Message Dislike",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

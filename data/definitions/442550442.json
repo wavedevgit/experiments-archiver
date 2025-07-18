@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2025-02_tigger_pawtect",
     "label": "Tigger pawtect",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Tigger pawtect",
-            "config": {
-                "enabled": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

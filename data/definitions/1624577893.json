@@ -2,17 +2,6 @@
     "kind": "user",
     "id": "2024-10_shop_browse_spookynight_switch",
     "label": "Collectibles Shop SpookyNight Switch",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable spooky night switch for shop",
-            "config": {
-                "enabled": true
-            }
-        }
-    ],
-    "commonTriggerPoint": null
+    "defaultConfig": {},
+    "treatments": []
 }

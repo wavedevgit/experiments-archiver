@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2019-08_go_live_ios_spectator",
+    "label": "iOS Spectator Experiment",
+    "defaultConfig": {},
+    "treatments": []
+}

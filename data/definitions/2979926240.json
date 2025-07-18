@@ -1,24 +1,7 @@
 {
-    "id": "2024-04_memberlist_one_click_reply",
     "kind": "user",
+    "id": "2024-04_memberlist_one_click_reply",
     "label": "Memberlist One Click Reply",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 0,
-            "label": "Control",
-            "config": {
-                "enabled": false
-            }
-        },
-        {
-            "id": 1,
-            "label": "One click reply enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

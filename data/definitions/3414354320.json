@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-06_android_shopp",
     "label": "Android Shop Experiment",
-    "defaultConfig": {
-        "androidShopEnabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables mobile shop on Android",
-            "config": {
-                "androidShopEnabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

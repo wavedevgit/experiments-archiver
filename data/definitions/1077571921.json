@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-08_rtc_minimum_jitter_buffer_level",
+    "label": "Minimum Jitter Buffer Level",
+    "defaultConfig": {},
+    "treatments": []
+}

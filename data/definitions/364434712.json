@@ -2,34 +2,6 @@
     "kind": "user",
     "id": "2024-06_friends_with_nitro_on_profile_side_panel_experiment",
     "label": "Friends with Nitro on Profile Side Panel",
-    "defaultConfig": {
-        "enabled": false,
-        "variant": 0
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Dismissible, 2 CTAs",
-            "config": {
-                "enabled": true,
-                "variant": 1
-            }
-        },
-        {
-            "id": 2,
-            "label": "Dismissible, text link",
-            "config": {
-                "enabled": true,
-                "variant": 2
-            }
-        },
-        {
-            "id": 3,
-            "label": "Non-dismissible, text link",
-            "config": {
-                "enabled": true,
-                "variant": 3
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-07_rapidash_m3_admins_browse",
     "label": "Rapidash M3 Admins Browse",
-    "defaultConfig": {
-        "canAdminsBrowse": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Admins can browse",
-            "config": {
-                "canAdminsBrowse": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

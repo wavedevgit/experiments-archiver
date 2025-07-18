@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-10_icymi_random",
     "label": "random sort on ICYMI",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "randomly sorts icymi content",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

@@ -2,18 +2,6 @@
     "kind": "user",
     "id": "2025-04_emoji_studio",
     "label": "Emoji Studio",
-    "defaultConfig": {
-        "enabled": false,
-        "isTester": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enabled - Treatment 1",
-            "config": {
-                "enabled": true,
-                "isTester": false
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

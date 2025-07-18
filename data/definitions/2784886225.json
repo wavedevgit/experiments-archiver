@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-06_clans_mobile_tags",
     "label": "Clans - Mobile",
-    "defaultConfig": {
-        "clanTagsVisible": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Show tags on mobile",
-            "config": {
-                "clanTagsVisible": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }

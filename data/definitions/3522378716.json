@@ -1,17 +1,7 @@
 {
     "kind": "user",
-    "label": "Pomelo Attempt",
     "id": "2023-04_pomelo_attempt",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "enabled",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "label": "Pomelo Attempt",
+    "defaultConfig": {},
+    "treatments": []
 }

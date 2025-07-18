@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2022-06_new_admin_ui_aa",
+    "label": "AA test for the new experiment config UI",
+    "defaultConfig": {},
+    "treatments": []
+}

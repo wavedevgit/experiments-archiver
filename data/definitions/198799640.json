@@ -1,0 +1,7 @@
+{
+    "kind": "user",
+    "id": "2024-02_emoji_picker_upload_mobile",
+    "label": "Mobile: Show the Emoji Picker Upload button at the start of emoji lists",
+    "defaultConfig": {},
+    "treatments": []
+}

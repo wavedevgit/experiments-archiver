@@ -2,16 +2,6 @@
     "kind": "user",
     "id": "2024-02_nitro_custom_emoji_perk_roadblock",
     "label": "Nitro Custom Emoji Perk Roadblock",
-    "defaultConfig": {
-        "enabled": false
-    },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Nitro custom emoji perk roadblock",
-            "config": {
-                "enabled": true
-            }
-        }
-    ]
+    "defaultConfig": {},
+    "treatments": []
 }
