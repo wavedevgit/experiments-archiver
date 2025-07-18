@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import { exec } from "child_process";
 import { promisify } from "util";
+import zlib from "zlib";
 
 const execAsync = promisify(exec);
 let n = (e) => new TextEncoder().encode(e);
@@ -70,7 +71,14 @@ function v3(e, t) {
     (a ^= a >>> 16) >>> 0
   );
 }
+function compressZlib(obj) {
+  const json = JSON.stringify(obj);
+  return zlib.deflateSync(Buffer.from(json));
+}
 
+function deCompressZlib(zlibBinary) {
+  return zlib.inflateSync(zlibBinary);
+}
 
 async function main() {
   const gistUrl =
@@ -16366,10 +16374,11 @@ async function main() {
 
   for (let [hash, definition] of Object.entries(bultIn)) {
     bultIn[hash] = definition.id;
-    await fs.writeFile(
-      `./data/definitions/${hash}.json`,
-      JSON.stringify(definition, null, 4)
-    );
+    if (!(await fs.readdir("./data/defintions")).includes(`${hash}.json`))
+      await fs.writeFile(
+        `./data/definitions/${hash}.json`,
+        JSON.stringify(definition, null, 4)
+      );
   }
 
   const cloneCmd = `git clone ${gistUrl} gist`;
