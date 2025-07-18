@@ -1,0 +1,24 @@
+{
+    "id": "2025-05_external_dialog_quests",
+    "kind": "user",
+    "label": "Quests External Dialog",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

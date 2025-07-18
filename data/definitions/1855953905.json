@@ -1,0 +1,35 @@
+{
+    "kind": "user",
+    "id": "2023-09_mobile_redesign_override_toggles",
+    "label": "Tabs V2 - redesign opt-out/in for all",
+    "defaultConfig": {
+        "hide": false,
+        "ignore": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "control",
+            "config": {
+                "hide": false,
+                "ignore": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "hide toggles",
+            "config": {
+                "hide": true,
+                "ignore": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "hide & ignore toggles",
+            "config": {
+                "hide": true,
+                "ignore": true
+            }
+        }
+    ]
+}

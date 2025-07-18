@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-01_message_request_new_location",
+    "label": "Moves message requests ingress point closer to Friends",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the new location",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

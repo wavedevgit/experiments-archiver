@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2025-01_tiered_tenure_badges_mobile",
+    "label": "Tiered Tenure Badging Mobile Experience",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 2,
+            "label": "Enable Tiered Tenure Badges v2 on mobile",
+            "config": {
+                "enabled": true,
+                "version": 2
+            }
+        }
+    ]
+}

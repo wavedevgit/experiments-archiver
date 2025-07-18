@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2023-03_home_deprecation",
+    "label": "Home Deprecation",
+    "defaultConfig": {
+        "showDeprecationNotice": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show notice",
+            "config": {
+                "showDeprecationNotice": true
+            }
+        }
+    ]
+}

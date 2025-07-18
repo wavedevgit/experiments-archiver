@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-06_shop_popular_picks",
+    "label": "Shop Popular Picks Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables popular picks row in shop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

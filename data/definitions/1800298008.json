@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-05_desktop_user_settings_search",
+    "label": "Desktop User Settings Search",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable User Settings Search on Desktop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

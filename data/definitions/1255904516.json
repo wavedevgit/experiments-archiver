@@ -1,0 +1,18 @@
+{
+    "id": "2025-05_tenure_ambient_badges",
+    "kind": "user",
+    "label": "Tenure Ambient Badges",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables new ambient badges for the Nitro tenure badge tooltips.",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

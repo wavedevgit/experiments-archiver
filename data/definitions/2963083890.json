@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-07_ctp_payment_flow_started_filters",
+    "label": "CTP payment flow started - A/A test - Filters",
+    "defaultConfig": {
+        "doSomething": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": false
+            }
+        }
+    ]
+}

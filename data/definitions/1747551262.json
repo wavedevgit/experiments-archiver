@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-02_v1_content_inventory_feed",
+    "label": "V1 Feed of the content inventory",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show feed",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

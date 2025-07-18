@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-02_collectibles_shop_elements_marketing",
+    "label": "Collectibles Shop Marketing Experiment - Elements",
+    "defaultConfig": {
+        "marketingEnabled": false,
+        "variant": "Unknown"
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables the plain variant of Elements marketing toolip",
+            "config": {
+                "marketingEnabled": true,
+                "variant": "Unknown"
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enables the coachtip variant of Elements marketing toolip",
+            "config": {
+                "marketingEnabled": true,
+                "variant": "Unknown"
+            }
+        }
+    ]
+}

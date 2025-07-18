@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-02_emoji_suggestions",
+    "label": "Emoji Suggestions Experiment",
+    "defaultConfig": {
+        "isEmojiSuggestionsEnabled": false,
+        "isEmojiCaptionsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables Emoji Suggestions without Captions",
+            "config": {
+                "isEmojiSuggestionsEnabled": true,
+                "isEmojiCaptionsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enables Emoji Suggestions with Captions",
+            "config": {
+                "isEmojiSuggestionsEnabled": true,
+                "isEmojiCaptionsEnabled": true
+            }
+        }
+    ]
+}

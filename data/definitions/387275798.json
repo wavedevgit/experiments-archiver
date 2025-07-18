@@ -1,0 +1,35 @@
+{
+    "id": "2024-04_memberlist_hover_interactions",
+    "kind": "user",
+    "label": "Memberlist Hover Interactions",
+    "defaultConfig": {
+        "showReplyIcon": false,
+        "openOnHover": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "showReplyIcon": false,
+                "openOnHover": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Show Reply Icon",
+            "config": {
+                "showReplyIcon": true,
+                "openOnHover": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Open on Hover",
+            "config": {
+                "showReplyIcon": false,
+                "openOnHover": true
+            }
+        }
+    ]
+}

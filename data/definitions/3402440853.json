@@ -1,0 +1,35 @@
+{
+    "kind": "guild",
+    "id": "2024-04_clan_guilds",
+    "label": "Clans guild experiment",
+    "defaultConfig": {
+        "enableClanCreation": false,
+        "defaultGameId": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show Guild Creation entrypoint - Generic",
+            "config": {
+                "enableClanCreation": true,
+                "defaultGameId": null
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show Guild Creation entrypoint - Valorant",
+            "config": {
+                "enableClanCreation": true,
+                "defaultGameId": "s.VALORANT_ID"
+            }
+        },
+        {
+            "id": 3,
+            "label": "Show Guild Creation entrypoint - Genshin Impact",
+            "config": {
+                "enableClanCreation": true,
+                "defaultGameId": "s.GENSHIN_ID"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-04_hd_streaming_parent",
+    "label": "HD Streaming Parent",
+    "defaultConfig": {
+        "inPerksDemosExperiment": false,
+        "inCallExperienceExperiment": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "In Experiment 1",
+            "config": {
+                "inPerksDemosExperiment": true,
+                "inCallExperienceExperiment": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "In Experiment 2",
+            "config": {
+                "inPerksDemosExperiment": false,
+                "inCallExperienceExperiment": true
+            }
+        }
+    ]
+}

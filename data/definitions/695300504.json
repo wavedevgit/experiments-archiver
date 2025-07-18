@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2023-05_optional_onboarding_home_admin",
+    "label": "[ADMIN] Make server guide optional",
+    "defaultConfig": {
+        "serverGuideOptional": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Optional",
+            "config": {
+                "serverGuideOptional": true
+            }
+        }
+    ]
+}

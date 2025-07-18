@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-09_welcome_header",
+    "label": "Show welcome header for home",
+    "defaultConfig": {
+        "showWelcomeHeader": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "show welcome header",
+            "config": {
+                "showWelcomeHeader": true
+            }
+        }
+    ]
+}

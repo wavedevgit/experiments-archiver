@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-01_guild_gaming_voice_activity",
+    "label": "Guild Gaming Voice Activity",
+    "defaultConfig": {
+        "shouldSubscribeToGuildMemberUpdates": false,
+        "showGamingVoiceActivity": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "shouldSubscribeToGuildMemberUpdates": true,
+                "showGamingVoiceActivity": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Badge the server icon & show gamers in the tooltip if gamers are in VC",
+            "config": {
+                "shouldSubscribeToGuildMemberUpdates": true,
+                "showGamingVoiceActivity": true
+            }
+        }
+    ]
+}

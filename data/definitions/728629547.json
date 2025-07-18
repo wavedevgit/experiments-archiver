@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2024-05_whats_new_cards_v2_experiment",
+    "label": "Whats new bento boxes",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users see current whats new cards",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "users see bento box whats new design ",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

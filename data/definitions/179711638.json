@@ -1,0 +1,35 @@
+{
+    "kind": "guild",
+    "id": "2022-07_guild_role_subscriptions_variable_max_tiers",
+    "label": "Guild Role Subscription Max Tiers",
+    "defaultConfig": {
+        "enabled": false,
+        "maxTiers": "s.MAX_SUBSCRIPTION_TIERS"
+    },
+    "treatments": [
+        {
+            "id": 4,
+            "label": "Enables {n} maximum published tiers",
+            "config": {
+                "enabled": true,
+                "maxTiers": 4
+            }
+        },
+        {
+            "id": 5,
+            "label": "Enables {n} maximum published tiers",
+            "config": {
+                "enabled": true,
+                "maxTiers": 5
+            }
+        },
+        {
+            "id": 6,
+            "label": "Enables {n} maximum published tiers",
+            "config": {
+                "enabled": true,
+                "maxTiers": 6
+            }
+        }
+    ]
+}

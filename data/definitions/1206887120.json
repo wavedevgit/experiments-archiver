@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2024-09_open_platform_link_sharing_mobile",
+    "label": "Open Platform Link Sharing Mobile",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable app link sharing and install flow improvements on mobile",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

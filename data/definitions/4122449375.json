@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2024-07_contextual_image_recs",
+    "label": "Contextual Image Recommendations",
+    "defaultConfig": {
+        "imageRecsEnabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the Contextual Image Recommendations",
+            "config": {
+                "imageRecsEnabled": false
+            }
+        }
+    ]
+}

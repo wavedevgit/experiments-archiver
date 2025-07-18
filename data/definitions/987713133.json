@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-01_guild_onboarding_includes_rules",
+    "label": "Guild Onboarding includes rules experience",
+    "defaultConfig": {
+        "includeRules": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Last page of onboarding is rules",
+            "config": {
+                "includeRules": true
+            }
+        }
+    ]
+}

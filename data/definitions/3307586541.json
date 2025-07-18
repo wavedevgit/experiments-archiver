@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "Unknown",
+    "label": "Trigger Debugging User AA Experiment",
+    "defaultConfig": {
+        "inUse": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "inUse": true
+            }
+        }
+    ]
+}

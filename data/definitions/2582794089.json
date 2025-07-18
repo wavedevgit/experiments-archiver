@@ -1,0 +1,24 @@
+{
+    "id": "2023-12_quests",
+    "kind": "user",
+    "label": "Quests",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Quests enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

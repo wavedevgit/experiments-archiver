@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-01_advanced_server_join",
+    "label": "Advanced Server Join Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Advanced Server Join",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

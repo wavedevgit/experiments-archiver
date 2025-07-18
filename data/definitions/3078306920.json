@@ -1,0 +1,31 @@
+{
+    "kind": "user",
+    "id": "2024-04_marketing_page_non_sub_perk_tile_order",
+    "label": "Changes the order of the non-subscriber perk tiles",
+    "defaultConfig": {
+        "tileOrderVariant": 0
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Default",
+            "config": {
+                "tileOrderVariant": 0
+            }
+        },
+        {
+            "id": 1,
+            "label": "Variant 1",
+            "config": {
+                "tileOrderVariant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Variant 2",
+            "config": {
+                "tileOrderVariant": 2
+            }
+        }
+    ]
+}

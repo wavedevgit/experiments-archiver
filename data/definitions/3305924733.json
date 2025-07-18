@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-08_captcha_serve_volume_distribution_metric",
+    "label": "Captcha serve volume distribution metric",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables sending captcha serve volume distribution metric",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

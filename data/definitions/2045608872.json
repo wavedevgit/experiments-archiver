@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-07_friend_request_spam_inbox",
+    "label": "Friend request spam inbox",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Separate spam friend requests into separate inbox and suppress notifications",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "kind": "user",
+    "id": "2024-05_brand_refresh_desktop_may_24",
+    "label": "Brand Refresh Desktop Experiment May 2024",
+    "defaultConfig": {
+        "isWelcomeRefreshEnabled": false,
+        "isInviteRefreshEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Welcome + Accept Invite Refresh",
+            "config": {
+                "isWelcomeRefreshEnabled": true,
+                "isInviteRefreshEnabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Accept Invite Refresh Only",
+            "config": {
+                "isWelcomeRefreshEnabled": false,
+                "isInviteRefreshEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Welcome Refresh Only",
+            "config": {
+                "isWelcomeRefreshEnabled": true,
+                "isInviteRefreshEnabled": false
+            }
+        }
+    ]
+}

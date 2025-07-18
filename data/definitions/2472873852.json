@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-07_sky_load",
+    "label": "Sky Load",
+    "defaultConfig": {
+        "enabled": false,
+        "variant2": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Variant 1",
+            "config": {
+                "enabled": true,
+                "variant2": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Variant 2",
+            "config": {
+                "enabled": true,
+                "variant2": true
+            }
+        }
+    ]
+}

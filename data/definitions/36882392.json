@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2023-11_safety_hub_inapp_appeal_ingestion",
+    "label": "Safety Hub In App Appeals Ingestion",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow users to interact with the new In-App appeals ingestion flow",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "DSA Testser",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

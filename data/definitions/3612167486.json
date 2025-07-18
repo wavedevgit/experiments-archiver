@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-07_cloud_play_cta",
+    "commonTriggerPoint": null,
+    "label": "Cloud Play CTA Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Cloud Play CTA",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

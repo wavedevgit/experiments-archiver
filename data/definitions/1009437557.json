@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2024-07_cash_app_pay_awareness_campaign",
+    "label": "cash_app_pay_awareness",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users will not see the nagbar",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Users will see the nagbar",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

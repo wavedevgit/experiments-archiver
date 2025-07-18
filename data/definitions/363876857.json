@@ -1,0 +1,44 @@
+{
+    "kind": "user",
+    "id": "2025-03_user_trial_offer_ttl",
+    "commonTriggerPoint": null,
+    "label": "User Trial Offer TTL Change",
+    "defaultConfig": {
+        "enabled": false,
+        "ttl": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Reduced trial offer cache TTL (1 day)",
+            "config": {
+                "enabled": true,
+                "ttl": null
+            }
+        },
+        {
+            "id": 2,
+            "label": "Reduced trial offer cache TTL (12 hours)",
+            "config": {
+                "enabled": true,
+                "ttl": null
+            }
+        },
+        {
+            "id": 3,
+            "label": "Reduced trial offer cache TTL (1 hour)",
+            "config": {
+                "enabled": true,
+                "ttl": null
+            }
+        },
+        {
+            "id": 4,
+            "label": "No trial offer cache TTL",
+            "config": {
+                "enabled": true,
+                "ttl": null
+            }
+        }
+    ]
+}

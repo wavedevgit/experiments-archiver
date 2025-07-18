@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2024-10_rapidash_discovery_sign_up",
+    "label": "Rapidash Discovery Early Sign Up",
+    "defaultConfig": {
+        "enableSignups": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable",
+            "config": {
+                "enableSignups": true
+            }
+        }
+    ]
+}

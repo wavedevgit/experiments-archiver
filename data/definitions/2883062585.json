@@ -1,0 +1,39 @@
+{
+    "kind": "user",
+    "id": "2024-01_unreads",
+    "label": "Unreads Experiment (grey-dot mode)",
+    "defaultConfig": {
+        "logExposure": false,
+        "autoOpen": false,
+        "manuallyOpen": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "logExposure": true,
+                "autoOpen": false,
+                "manuallyOpen": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Auto open migration",
+            "config": {
+                "logExposure": true,
+                "autoOpen": true,
+                "manuallyOpen": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Manually open migration",
+            "config": {
+                "logExposure": false,
+                "autoOpen": false,
+                "manuallyOpen": true
+            }
+        }
+    ]
+}

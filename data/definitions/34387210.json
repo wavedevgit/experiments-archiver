@@ -1,0 +1,39 @@
+{
+    "id": "2024-06_premium_soundboard_desktop_upsell",
+    "label": "Premium Soundboard Desktop Upsell",
+    "kind": "user",
+    "defaultConfig": {
+        "enableInlineUpsell": false,
+        "enableRoadblock": false,
+        "enableRoadblockWithSocialProof": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable inline upsell only",
+            "config": {
+                "enableInlineUpsell": true,
+                "enableRoadblock": false,
+                "enableRoadblockWithSocialProof": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable inline and roadblock upsells only",
+            "config": {
+                "enableInlineUpsell": true,
+                "enableRoadblock": true,
+                "enableRoadblockWithSocialProof": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enable inline and roadblock upsells with social proof",
+            "config": {
+                "enableInlineUpsell": true,
+                "enableRoadblock": true,
+                "enableRoadblockWithSocialProof": true
+            }
+        }
+    ]
+}

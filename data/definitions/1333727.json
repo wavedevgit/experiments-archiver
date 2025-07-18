@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-11_mobile_account_switcher_notifications",
+    "label": "Mobile Account Switcher: Notifications",
+    "defaultConfig": {
+        "isMultiAccountMobileNotificationsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable notifications for multiple accounts",
+            "config": {
+                "isMultiAccountMobileNotificationsEnabled": true
+            }
+        }
+    ]
+}

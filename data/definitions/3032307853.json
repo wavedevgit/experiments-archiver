@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2024-01_nvencadaptivekeyframe",
+    "label": "nvenc adaptive key frame interval",
+    "defaultConfig": {
+        "enableAdaptiveKeyFrame": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enable adaptive key frame for nvenc",
+            "config": {
+                "enableAdaptiveKeyFrame": true
+            }
+        }
+    ]
+}

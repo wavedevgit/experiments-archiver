@@ -1,0 +1,53 @@
+{
+    "kind": "user",
+    "id": "2024-05_june_2024_marketing_moment",
+    "label": "June 2024 Marketing Moment",
+    "defaultConfig": {
+        "shouldShowCards": false,
+        "canFlipReferralProgramCard": false,
+        "canFlipAppStylesCard": false,
+        "canFlipCustomNotificationSoundsCard": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Can only see cards",
+            "config": {
+                "shouldShowCards": true,
+                "canFlipReferralProgramCard": false,
+                "canFlipAppStylesCard": false,
+                "canFlipCustomNotificationSoundsCard": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Can only flip first card",
+            "config": {
+                "shouldShowCards": true,
+                "canFlipReferralProgramCard": true,
+                "canFlipAppStylesCard": false,
+                "canFlipCustomNotificationSoundsCard": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Can only flip first and second cards",
+            "config": {
+                "shouldShowCards": true,
+                "canFlipReferralProgramCard": true,
+                "canFlipAppStylesCard": true,
+                "canFlipCustomNotificationSoundsCard": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Can flip all cards",
+            "config": {
+                "shouldShowCards": true,
+                "canFlipReferralProgramCard": true,
+                "canFlipAppStylesCard": true,
+                "canFlipCustomNotificationSoundsCard": true
+            }
+        }
+    ]
+}

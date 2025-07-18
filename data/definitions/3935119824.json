@@ -1,0 +1,31 @@
+{
+    "kind": "user",
+    "id": "2024-07_message_forwarding_iterations",
+    "label": "Message forwarding iterations",
+    "defaultConfig": {
+        "hasOneTapSendButton": true,
+        "hasMessageInput": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "T2 + One tap send + preview",
+            "config": {
+                "canForwardMessages": false,
+                "hasInlineForwardButton": false,
+                "hasOneTapSendButton": false,
+                "hasMessageInput": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "T2 + Context message + preview",
+            "config": {
+                "canForwardMessages": false,
+                "hasInlineForwardButton": false,
+                "hasOneTapSendButton": true,
+                "hasMessageInput": false
+            }
+        }
+    ]
+}

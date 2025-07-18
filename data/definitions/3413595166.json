@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-12_app_embeds_redesign",
+    "label": "App Embeds Redesign",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-11_global_discovery_algolia_search",
+    "label": "Global Discovery Servers Search",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

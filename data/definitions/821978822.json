@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-05_server_profiles",
+    "label": "Server Profiles",
+    "defaultConfig": {
+        "shouldShowCard": false,
+        "canFlipCard": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Can only see the locked card",
+            "config": {
+                "shouldShowCard": true,
+                "canFlipCard": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Can see the locked card and flip it",
+            "config": {
+                "shouldShowCard": true,
+                "canFlipCard": true
+            }
+        }
+    ]
+}

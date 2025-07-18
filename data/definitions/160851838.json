@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2024-06_ctp_app_open_multiple_buckets",
+    "label": "CTP app open - A/A test - Multiple buckets",
+    "defaultConfig": {
+        "doSomething": false
+    },
+    "commonTriggerPoint": "r.CommonTriggerPoints.POST_CONNECTION_OPEN",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment 1",
+            "config": {
+                "doSomething": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Treatment 2",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ]
+}

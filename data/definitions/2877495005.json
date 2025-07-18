@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2024-07_ctp_open_nitro_multiple_buckets",
+    "label": "CTP open nitro - A/A test - Multiple buckets",
+    "defaultConfig": {
+        "doSomething": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment 1",
+            "config": {
+                "doSomething": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Treatment 2",
+            "config": {
+                "doSomething": false
+            }
+        }
+    ]
+}

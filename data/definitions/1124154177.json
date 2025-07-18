@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-01_home_feed_toggle",
+    "label": "Show Guild Feed Sorting Selector",
+    "defaultConfig": {
+        "showSelector": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Yes Selector",
+            "config": {
+                "showSelector": true
+            }
+        }
+    ]
+}

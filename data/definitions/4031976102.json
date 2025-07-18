@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-08_game_follow_survey",
+    "label": "Game Follow Fake Door Survey",
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
+}

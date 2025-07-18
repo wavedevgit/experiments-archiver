@@ -1,0 +1,30 @@
+{
+    "kind": "user",
+    "id": "2025-02_dm_defaults_new_users",
+    "label": "Default DM Settings - New Users",
+    "defaultConfig": {
+        "enabled": false,
+        "dmOffByDefault": false,
+        "messageRequestOnByDefault": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "DM Off by Default",
+            "config": {
+                "enabled": true,
+                "dmOffByDefault": true,
+                "messageRequestOnByDefault": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Message Reqeust On by Default",
+            "config": {
+                "enabled": true,
+                "dmOffByDefault": false,
+                "messageRequestOnByDefault": true
+            }
+        }
+    ]
+}

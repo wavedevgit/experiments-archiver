@@ -1,0 +1,35 @@
+{
+    "kind": "guild",
+    "id": "2023-03_server_subscriptions_tier_templates",
+    "label": "Server Subscriptions Tier Templates",
+    "defaultConfig": {
+        "enabled": false,
+        "showCreatorPortalLink": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "299 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "399 basic tier + no link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "399 basic tier + link",
+            "config": {
+                "enabled": true,
+                "showCreatorPortalLink": true
+            }
+        }
+    ]
+}

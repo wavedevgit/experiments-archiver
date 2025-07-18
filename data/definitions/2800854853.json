@@ -1,0 +1,18 @@
+{
+    "kind": "guild",
+    "id": "2025-06_server_content_level_setting",
+    "label": "Guild content level setting",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Guild content level setting",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

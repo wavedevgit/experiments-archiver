@@ -1,0 +1,47 @@
+{
+    "kind": "guild",
+    "id": "2024-03_ait_guild_entry_point",
+    "label": "Activities in Text Guild Experiment w/ new Entry Point",
+    "defaultConfig": {
+        "entryPointEnabled": false,
+        "activitiesInTextEnabled": false,
+        "desktopThrobberEnabled": false,
+        "showInOmniButtonMenu": false,
+        "showChatInputButton": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable new entry point in Chat Input and App Launcher",
+            "config": {
+                "entryPointEnabled": true,
+                "activitiesInTextEnabled": false,
+                "desktopThrobberEnabled": false,
+                "showInOmniButtonMenu": false,
+                "showChatInputButton": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable new entry point in Chat Input, App Launcher, and Activities In Text",
+            "config": {
+                "entryPointEnabled": true,
+                "activitiesInTextEnabled": true,
+                "desktopThrobberEnabled": false,
+                "showInOmniButtonMenu": true,
+                "showChatInputButton": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enable new entry point in Chat Input, App Launcher, Activities in Text, and Desktop Throbber",
+            "config": {
+                "entryPointEnabled": true,
+                "activitiesInTextEnabled": true,
+                "desktopThrobberEnabled": true,
+                "showInOmniButtonMenu": true,
+                "showChatInputButton": false
+            }
+        }
+    ]
+}

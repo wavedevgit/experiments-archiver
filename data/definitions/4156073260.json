@@ -1,0 +1,30 @@
+{
+    "kind": "user",
+    "id": "2022-04_account_profile_popout",
+    "label": "Account Profile Popout",
+    "defaultConfig": {
+        "isPopupEnabled": false,
+        "isTaglessAccountPanelEnabled": false,
+        "isJoinedTagButtonEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Account Profile Popout",
+            "config": {
+                "isPopupEnabled": true,
+                "isTaglessAccountPanelEnabled": false,
+                "isJoinedTagButtonEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Account Profile Popout w/ DiscordTag button",
+            "config": {
+                "isPopupEnabled": true,
+                "isTaglessAccountPanelEnabled": false,
+                "isJoinedTagButtonEnabled": true
+            }
+        }
+    ]
+}

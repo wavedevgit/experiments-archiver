@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2022-09_mobile_account_switcher",
+    "label": "Mobile Account Switcher",
+    "defaultConfig": {
+        "isMultiAccountMobileEnabled": false,
+        "clearCanUseMultiAccountMobile": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Account Switcher on Mobile",
+            "config": {
+                "isMultiAccountMobileEnabled": true,
+                "clearCanUseMultiAccountMobile": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Unenroll Account Switcher on Mobile and Clear Local Flag",
+            "config": {
+                "isMultiAccountMobileEnabled": false,
+                "clearCanUseMultiAccountMobile": true
+            }
+        }
+    ]
+}

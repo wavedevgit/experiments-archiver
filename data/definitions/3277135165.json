@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-12_message_request_home_count",
+    "label": "Safety Experience Message Request Home Count",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "The Message Request home count uses new data stores",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

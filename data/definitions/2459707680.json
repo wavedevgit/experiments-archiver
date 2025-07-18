@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-07_collectibles_android_shop_clientside",
+    "label": "Android Shop Experiment",
+    "defaultConfig": {
+        "androidShopEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables mobile shop on Android",
+            "config": {
+                "androidShopEnabled": true
+            }
+        }
+    ]
+}

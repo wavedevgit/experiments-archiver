@@ -1,0 +1,14 @@
+{
+    "kind": "user",
+    "id": "2025-05_hotwheels_user_affinity_v2",
+    "label": "Next iteration of the activity feed ranking model.",
+    "commonTriggerPoint": null,
+    "defaultConfig": {},
+    "treatments": [
+        {
+            "id": 14,
+            "label": "ML model V3 - User Affinity V2",
+            "config": {}
+        }
+    ]
+}

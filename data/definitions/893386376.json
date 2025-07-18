@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-07_ctp_open_nitro_vanilla",
+    "label": "CTP open nitro - A/A test - Vanilla",
+    "defaultConfig": {
+        "doSomething": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": false
+            }
+        }
+    ]
+}

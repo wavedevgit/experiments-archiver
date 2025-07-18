@@ -1,0 +1,17 @@
+{
+    "id": "2023-07_checkout_optimization_browser_autofill",
+    "label": "Checkout Optimization Browser Autofill",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "kind": "user",
+    "id": "2024-04_premium_hd_streaming_upsell_copy",
+    "label": "Premium HD Streaming Upsell New Copy",
+    "defaultConfig": {
+        "showNewRoadblockCopy": false,
+        "showNewRoadblockRoute": false,
+        "showNewUpsellCopy": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "show new roadblock copy",
+            "config": {
+                "showNewRoadblockCopy": true,
+                "showNewRoadblockRoute": false,
+                "showNewUpsellCopy": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "show new roadblock copy + new \"View All\" route",
+            "config": {
+                "showNewRoadblockCopy": true,
+                "showNewRoadblockRoute": true,
+                "showNewUpsellCopy": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "show new upsell copy + new roadblock copy + new \"View All\" route",
+            "config": {
+                "showNewRoadblockCopy": true,
+                "showNewRoadblockRoute": true,
+                "showNewUpsellCopy": true
+            }
+        }
+    ]
+}

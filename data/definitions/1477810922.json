@@ -1,0 +1,35 @@
+{
+    "kind": "user",
+    "id": "2025-05_guild_profile_invite_embed_iterations",
+    "label": "Enables iterations to guild profile invite embeds",
+    "defaultConfig": {
+        "updateCopy": false,
+        "updateButton": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "new copy only",
+            "config": {
+                "updateCopy": true,
+                "updateButton": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "new button only",
+            "config": {
+                "updateCopy": false,
+                "updateButton": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "new copy and button",
+            "config": {
+                "updateCopy": true,
+                "updateButton": true
+            }
+        }
+    ]
+}

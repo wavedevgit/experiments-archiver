@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-02_custom_status_editing_without_status_selector",
+    "label": "Custom Status Editing Without Status Selector",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable custom status editing without status selector",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

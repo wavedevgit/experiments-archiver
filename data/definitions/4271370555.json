@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2024-12_shop_link_mention",
+    "label": "Collectibles Shop Link Mention Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Render shop link as mention",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}

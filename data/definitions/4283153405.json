@@ -1,0 +1,28 @@
+{
+    "id": "2025-07_nitro_rebrand_churn_modal",
+    "kind": "user",
+    "label": "Nitro Rebrand Churn Modal",
+    "defaultConfig": {
+        "enabled": false,
+        "expressive": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables rebranded churn modal w/ utilitarian modals",
+            "config": {
+                "enabled": true,
+                "expressive": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enables rebranded churn modal w/ expressive modals",
+            "config": {
+                "enabled": true,
+                "expressive": true
+            }
+        }
+    ]
+}

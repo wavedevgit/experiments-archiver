@@ -1,0 +1,36 @@
+{
+    "kind": "user",
+    "id": "2025-07_typing_indicator_delay",
+    "label": "Typing Indicator Delay",
+    "defaultConfig": {
+        "delayMs": null,
+        "inExperiment": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "1.5 second delay",
+            "config": {
+                "delayMs": null,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 1,
+            "label": "2 second delay",
+            "config": {
+                "delayMs": null,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "3 second delay",
+            "config": {
+                "delayMs": null,
+                "inExperiment": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}

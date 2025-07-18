@@ -1,0 +1,36 @@
+{
+    "kind": "user",
+    "id": "2023-05_go_live_quest_fortnite",
+    "label": "Fortnite: Go Live Quest",
+    "defaultConfig": {
+        "dropsEnabled": false,
+        "streamLengthRequirement": 0,
+        "viewerCountRequirement": 0,
+        "autoEnrollment": false,
+        "showUnenroll": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "15 min stream req + auto enrollment",
+            "config": {
+                "dropsEnabled": true,
+                "streamLengthRequirement": 15,
+                "viewerCountRequirement": 1,
+                "autoEnrollment": true,
+                "showUnenroll": false
+            }
+        },
+        {
+            "id": 99,
+            "label": "2 minute stream req + auto enrollment",
+            "config": {
+                "dropsEnabled": true,
+                "streamLengthRequirement": 2,
+                "viewerCountRequirement": 1,
+                "autoEnrollment": true,
+                "showUnenroll": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2023-09_user_apps_guild",
+    "label": "Allow user app commands",
+    "defaultConfig": {
+        "userAppsTreatment": "Unknown"
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow user app commands",
+            "config": {
+                "userAppsTreatment": "Unknown"
+            }
+        }
+    ]
+}

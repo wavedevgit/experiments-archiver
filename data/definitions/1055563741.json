@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-07_report_raids",
+    "label": "Report Raids",
+    "defaultConfig": {
+        "enableRaidReporting": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Reporting Of Raids",
+            "config": {
+                "enableRaidReporting": true
+            }
+        }
+    ]
+}

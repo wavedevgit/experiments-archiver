@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-11_default_to_server_vanity_v2",
+    "label": "Default To Server Vanity v2",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

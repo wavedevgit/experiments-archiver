@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2021-12_discovery_requirements_m2",
+    "label": "Lower Server Discovery member count requirements",
+    "defaultConfig": {
+        "enableLowerMemberCountReq": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow a server to become discoverable with lower member count requirements",
+            "config": {
+                "enableLowerMemberCountReq": true
+            }
+        }
+    ]
+}

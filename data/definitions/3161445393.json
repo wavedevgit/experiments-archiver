@@ -1,0 +1,39 @@
+{
+    "id": "2025-07_gif_picker_delay",
+    "kind": "user",
+    "label": "GIF Picker Delay",
+    "defaultConfig": {
+        "enabled": false,
+        "delayMs": 0,
+        "inExperiment": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false,
+                "delayMs": 0,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 1,
+            "label": "Delay 100 ms",
+            "config": {
+                "enabled": true,
+                "delayMs": 100,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Delay 200 ms",
+            "config": {
+                "enabled": true,
+                "delayMs": 200,
+                "inExperiment": true
+            }
+        }
+    ]
+}

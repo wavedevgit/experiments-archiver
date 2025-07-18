@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2023-08_iframe_modal_guild",
+    "label": "iFrame Modal guild experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable iFrame Modal Guild",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

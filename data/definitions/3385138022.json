@@ -1,0 +1,24 @@
+{
+    "id": "2024-07_quest_interactable_expired_crendentials",
+    "kind": "user",
+    "label": "Quest interactable expired crendentials errors",
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "not interactable",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 1,
+            "label": "interactable",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
+}

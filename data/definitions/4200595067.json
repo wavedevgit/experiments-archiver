@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-01_guild_role_subscription_trials",
+    "label": "Guild Role Subscription Trials",
+    "defaultConfig": {
+        "enableRoleSubscriptionTrialsForGuild": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables guild to create Guild Role Subscription Trials",
+            "config": {
+                "enableRoleSubscriptionTrialsForGuild": true
+            }
+        }
+    ]
+}

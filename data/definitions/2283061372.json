@@ -1,0 +1,28 @@
+{
+    "kind": "user",
+    "id": "2024-09_user_app_install_education",
+    "label": "User App Install Education Experiment",
+    "defaultConfig": {
+        "enabled": false,
+        "showsTooltip": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "show animation on app launcher icon + tooltip when a user app is authorized when in a channel instead of showing auth success modal",
+            "config": {
+                "enabled": true,
+                "showsTooltip": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "show animation on app launcher icon when a user app is authorized when in a channel instead of showing auth success modal",
+            "config": {
+                "enabled": true,
+                "showsTooltip": false
+            }
+        }
+    ]
+}

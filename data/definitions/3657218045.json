@@ -1,0 +1,23 @@
+{
+    "kind": "user",
+    "id": "2024-08_self_recent_activity",
+    "label": "Self Recent Activity Experiment",
+    "defaultConfig": {
+        "pastActivityEnabled": false,
+        "selfPastActivityEnabled": false,
+        "mostRecentActivityEnabled": false,
+        "newActivityCardsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables past activity on the current user's profile",
+            "config": {
+                "pastActivityEnabled": false,
+                "selfPastActivityEnabled": true,
+                "mostRecentActivityEnabled": false,
+                "newActivityCardsEnabled": true
+            }
+        }
+    ]
+}

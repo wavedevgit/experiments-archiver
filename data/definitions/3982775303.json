@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2024-10_mobile_referral_trial_recipient",
+    "label": "Referral Recipient Experiment",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Referral Recipient Experiment on Mobile",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

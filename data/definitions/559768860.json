@@ -1,0 +1,24 @@
+{
+    "id": "2024-08_mobile_message_visibility_percentage_calculation",
+    "kind": "user",
+    "label": "Mobile Message Visibility Percentage Calculation",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Calculate visibility of mobile messages",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

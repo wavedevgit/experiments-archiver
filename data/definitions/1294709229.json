@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2023-11_cannibalization_model_data_collection",
+    "label": "Cannibalization Model Data Collection",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

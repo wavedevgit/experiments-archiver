@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-12_localized_pricing_promo_manager",
+    "label": "Localized Pricing Promo Manager",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Localized Pricing Promo Manager",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

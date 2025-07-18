@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-07_skill_trees_remove_top_perks",
+    "commonTriggerPoint": null,
+    "label": "Remove top perks from marketing page",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "remove top perks",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

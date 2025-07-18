@@ -1,0 +1,17 @@
+{
+    "id": "2024-06_premium_feature_apperance_upsell_desktop",
+    "label": "Premium Client Themes / App Icons Desktop Upsell",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
+}

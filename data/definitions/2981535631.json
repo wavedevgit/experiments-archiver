@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-04_emoji_suggestions",
+    "label": "Emoji Suggestions Experiment",
+    "defaultConfig": {
+        "isEmojiSuggestionsEnabled": false,
+        "isEmojiTextMatchSuggestionsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables static emoji suggestions",
+            "config": {
+                "isEmojiSuggestionsEnabled": true,
+                "isEmojiTextMatchSuggestionsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enables Emoji Suggestions using text content and emoji captions",
+            "config": {
+                "isEmojiSuggestionsEnabled": true,
+                "isEmojiTextMatchSuggestionsEnabled": true
+            }
+        }
+    ]
+}

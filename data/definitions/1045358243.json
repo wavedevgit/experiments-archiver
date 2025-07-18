@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2025-06_guild_pin_permission",
+    "label": "Guild Pin Permission",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allows use of the Pin Messages permission",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

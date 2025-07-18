@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-09_creator_monetization_raven",
+    "label": "Creator Monetization Onboarding v2",
+    "defaultConfig": {
+        "enableFastMonetizationOnboardingForGuild": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables guild to create Guild Role Subscriptions quickly",
+            "config": {
+                "enableFastMonetizationOnboardingForGuild": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2024-07_referral_program_sender_incentive",
+    "label": "Referral Program Sender Incentive",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Disabled",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

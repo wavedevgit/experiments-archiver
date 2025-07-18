@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2024-10_shop_variants",
+    "label": "Shop Variants Experiment",
+    "defaultConfig": {
+        "variantsReturnStyle": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Return Variants as Group",
+            "config": {
+                "variantsReturnStyle": null
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}

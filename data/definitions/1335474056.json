@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-03_activity_notification_improvements",
+    "label": "Activity Notification Improvements",
+    "defaultConfig": {
+        "disableCurrentActivityNotifications": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Disable notifications for current activity",
+            "config": {
+                "disableCurrentActivityNotifications": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": "2023-11_seasonal_gifting",
+    "label": "Seasonal Gifting 2023",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

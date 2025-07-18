@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-09_redesigned_icons_experiment",
+    "label": "Redesigned icons experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Redesigned icons enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

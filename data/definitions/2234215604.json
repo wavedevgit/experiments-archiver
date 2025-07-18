@@ -1,0 +1,20 @@
+{
+    "kind": "user",
+    "id": "2025-01_checkout_optimization_apple_pay",
+    "label": "Checkout Optimization Apple Pay",
+    "defaultConfig": {
+        "enabled": false,
+        "delay": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true,
+                "delay": true
+            }
+        }
+    ]
+}

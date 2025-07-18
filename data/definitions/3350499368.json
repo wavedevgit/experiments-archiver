@@ -1,0 +1,17 @@
+{
+    "id": "2024-08_premium_user_profile_upsell_desktop",
+    "label": "User Profile Upsell",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

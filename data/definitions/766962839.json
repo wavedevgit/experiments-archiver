@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-12_attachment_link_refresh",
+    "label": "Attachment Link Refresh User Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Refresh expired attachment links",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

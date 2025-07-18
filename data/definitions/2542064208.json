@@ -1,0 +1,30 @@
+{
+    "kind": "user",
+    "id": "2025-01_sensitive_content_defaults",
+    "label": "Sensitive Content Defaults",
+    "defaultConfig": {
+        "enabled": false,
+        "allBlur": false,
+        "mixed": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Mixed",
+            "config": {
+                "enabled": true,
+                "mixed": true,
+                "allBlur": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Blur Default",
+            "config": {
+                "enabled": true,
+                "mixed": false,
+                "allBlur": true
+            }
+        }
+    ]
+}

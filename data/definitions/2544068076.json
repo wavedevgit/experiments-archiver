@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-08_overlay3_out_of_process_enablement",
+    "label": "Overlay3 - Out of Process Enablement",
+    "defaultConfig": {
+        "useGlobalOverlay": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "useGlobalOverlay": true
+            }
+        }
+    ]
+}

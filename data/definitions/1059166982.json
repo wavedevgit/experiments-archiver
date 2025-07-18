@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2025-03_soundboard_row_limit",
+    "label": "Soundboard Row Limit",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show 2 rows before Show All is clicked",
+            "config": {
+                "enabled": true,
+                "numRows": 2
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show 3 rows before Show All is clicked",
+            "config": {
+                "enabled": true,
+                "numRows": 3
+            }
+        }
+    ]
+}

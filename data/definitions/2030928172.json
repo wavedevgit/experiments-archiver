@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-03_friend_finder_employees",
+    "label": "Friend Finder Employees User Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Friend Finder",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

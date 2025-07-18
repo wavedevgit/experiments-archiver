@@ -1,0 +1,30 @@
+{
+    "kind": "guild",
+    "id": "2024-08_secure_frames_encryption_guilds_v2",
+    "label": "Allowing testing secure frames for voice/video (Guilds)",
+    "defaultConfig": {
+        "protocolVersionFloor": 0,
+        "canSupportSecureFrames": false,
+        "canSupportMls": false
+    },
+    "treatments": [
+        {
+            "id": 10,
+            "label": "Can support secure frames above protocol version 112 (MLS)",
+            "config": {
+                "protocolVersionFloor": 12,
+                "canSupportSecureFrames": true,
+                "canSupportMls": true
+            }
+        },
+        {
+            "id": 11,
+            "label": "Can support secure frames above protocol version 114 (MLS)",
+            "config": {
+                "protocolVersionFloor": 14,
+                "canSupportSecureFrames": true,
+                "canSupportMls": true
+            }
+        }
+    ]
+}

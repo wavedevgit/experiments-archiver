@@ -1,0 +1,39 @@
+{
+    "kind": "user",
+    "id": "2024-06_profile_engagement_Ctas",
+    "label": "Simplified Profile Primary Engagement Ctas",
+    "defaultConfig": {
+        "messageCtaEnabled": false,
+        "activeInviteToCallCtaEnabled": false,
+        "persistentCallCtaEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Message Cta on all profiles",
+            "config": {
+                "messageCtaEnabled": true,
+                "activeInviteToCallCtaEnabled": false,
+                "persistentCallCtaEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Message Cta and invite to call Cta when active in call",
+            "config": {
+                "messageCtaEnabled": true,
+                "activeInviteToCallCtaEnabled": true,
+                "persistentCallCtaEnabled": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Message Cta and persistent call Cta",
+            "config": {
+                "messageCtaEnabled": true,
+                "activeInviteToCallCtaEnabled": false,
+                "persistentCallCtaEnabled": true
+            }
+        }
+    ]
+}

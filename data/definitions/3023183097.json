@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-06_leaderboard",
+    "label": "Leaderboard",
+    "defaultConfig": {
+        "hasLeaderboard": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Leaderboard",
+            "config": {
+                "hasLeaderboard": true
+            }
+        }
+    ]
+}

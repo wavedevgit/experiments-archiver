@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-08_home_badge",
+    "label": "Show badge on home channel",
+    "defaultConfig": {
+        "showBadge": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "show badge",
+            "config": {
+                "showBadge": true
+            }
+        }
+    ]
+}

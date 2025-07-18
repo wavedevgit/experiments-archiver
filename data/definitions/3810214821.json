@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2024-08_reaction_push_notifications_guild",
+    "label": "In App Notifications for Reactions (Guild)",
+    "defaultConfig": {
+        "enableInAppNotifications": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable In App Notifications for Reactions",
+            "config": {
+                "enableInAppNotifications": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2023-04_consumer_education_launch__reporting",
+    "label": "Consumer Education Launch - Reporting",
+    "defaultConfig": {
+        "bucket": 0,
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Reporting",
+            "config": {
+                "bucket": 1,
+                "enabled": true
+            }
+        }
+    ]
+}

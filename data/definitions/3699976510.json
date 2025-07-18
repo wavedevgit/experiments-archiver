@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-10_profile_activity_react_reply",
+    "label": "Profile Activity React Reply",
+    "defaultConfig": {
+        "activityReactReplyEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Profile Activity React / Reply",
+            "config": {
+                "activityReactReplyEnabled": true
+            }
+        }
+    ]
+}

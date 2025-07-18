@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2023-08_guild_member_mod_view",
+    "label": "Guild Member Mod View",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Guild Member Mod View",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

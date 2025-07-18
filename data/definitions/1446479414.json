@@ -1,0 +1,17 @@
+{
+    "id": "2023-01_forums_non_community",
+    "label": "Forum non-community",
+    "kind": "guild",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-05_brand_refresh_perks_experiment",
+    "label": "Brand Refresh Perks Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables new nitro perks related to brand refresh",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

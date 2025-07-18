@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-01_activity_status_cleanup",
+    "label": "Activity Status Cleanup",
+    "defaultConfig": {
+        "activityStatusCleanupEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Activity Status Cleanup Enabled",
+            "config": {
+                "activityStatusCleanupEnabled": true
+            }
+        }
+    ]
+}

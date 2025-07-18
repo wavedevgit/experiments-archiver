@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2024-12_guild_voice_channel_ringing",
+    "label": "Guild Voice Ringing",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow users to ring each other in Guild Voice Channels",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

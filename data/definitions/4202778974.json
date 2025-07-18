@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-06_google_play_price_change_notice_ks",
+    "commonTriggerPoint": null,
+    "label": "Google Play Price Change Notice Killswitch",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Force disable Google Play price change notice DC",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

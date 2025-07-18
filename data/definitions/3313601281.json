@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-12_mobile_guild_role_subscription_team_setup",
+    "label": "Mobile Guild Role Subscription Team Setup",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables guild to allow payout team setup on mobile",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

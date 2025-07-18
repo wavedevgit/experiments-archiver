@@ -1,0 +1,18 @@
+{
+    "id": "2025-07_apex_aa_validation__clientside__connectionopen_ios",
+    "kind": "user",
+    "label": "Apex AA Validation Connection Open iOS Only",
+    "defaultConfig": {
+        "isEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "AA test enabled. Noop on UI effect.",
+            "config": {
+                "isEnabled": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}

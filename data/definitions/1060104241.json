@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-03_enhanced_role_colors",
+    "label": "Enhanced Role Colors",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

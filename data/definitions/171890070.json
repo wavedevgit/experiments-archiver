@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-09_voice_channel_blocked_user_warning",
+    "label": "Voice Channel Blocked User Warning",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show blocked user warning in voice channel as a modal",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2021-11_discovery_tags",
+    "label": "Discovery Tags",
+    "defaultConfig": {
+        "shouldDisplayTags": false,
+        "shouldDisplayRecommendedSearchTags": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show keyword tags on home and search result pages",
+            "config": {
+                "shouldDisplayTags": true,
+                "shouldDisplayRecommendedSearchTags": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show keyword tags on home and search result pages and under the search bar",
+            "config": {
+                "shouldDisplayTags": true,
+                "shouldDisplayRecommendedSearchTags": true
+            }
+        }
+    ]
+}

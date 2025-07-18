@@ -1,0 +1,27 @@
+{
+    "id": "2024-06_premium_emoji_desktop_upsell",
+    "label": "Premium Emoji Desktop Upsell",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "addSocialProof": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable new roadblock experience",
+            "config": {
+                "enabled": true,
+                "addSocialProof": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable new roadblock experience with social proof",
+            "config": {
+                "enabled": true,
+                "addSocialProof": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-09_bug_reporter",
+    "label": "Bug Reporter",
+    "defaultConfig": {
+        "hasBugReporterAccess": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "🐛",
+            "config": {
+                "hasBugReporterAccess": true
+            }
+        }
+    ]
+}

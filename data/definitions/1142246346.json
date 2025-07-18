@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-02_hotwheels_overlay_invites_3",
+    "label": "Overlay Invites Notification Pt3",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled, no date cutoff",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled, within past week",
+            "config": {
+                "enabled": true,
+                "dateLookbackMs": null
+            }
+        }
+    ]
+}

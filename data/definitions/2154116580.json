@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-06_deprecate_old_settings_rollout",
+    "label": "Deprecate old settings rollout",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Removes all entrypoints to old settings",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

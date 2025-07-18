@@ -1,0 +1,24 @@
+{
+    "id": "2024-04_quest_playtime_task",
+    "kind": "user",
+    "label": "Quest Playtime Task",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Playtime enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

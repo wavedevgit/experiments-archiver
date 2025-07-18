@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2021-06_guild_role_subscriptions",
+    "label": "Guild Role Subscriptions",
+    "defaultConfig": {
+        "enableRoleSubscriptionsForGuild": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables guild to create Guild Role Subscriptions",
+            "config": {
+                "enableRoleSubscriptionsForGuild": true
+            }
+        }
+    ]
+}

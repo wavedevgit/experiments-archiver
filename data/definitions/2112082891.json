@@ -1,0 +1,13 @@
+{
+    "kind": "user",
+    "id": "2024-03_holdout_bug_main_right_way",
+    "label": "Holdout Bug Experiment Right Way (pls ignore)",
+    "defaultConfig": {},
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treament",
+            "config": {}
+        }
+    ]
+}

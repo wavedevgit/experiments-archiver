@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-12_collectibles_gifting_dm_entrypoint",
+    "label": "Collectibles Gifting From DM's",
+    "defaultConfig": {
+        "confirmUpsellEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 2,
+            "label": "Collectibles Gifting from DM's Enabled With Confirm Step Upsell",
+            "config": {
+                "confirmUpsellEnabled": true
+            }
+        }
+    ]
+}

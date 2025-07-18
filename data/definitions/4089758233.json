@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2021-11_member_verification_manual_approval",
+    "label": "Member Verification Manual Approval",
+    "defaultConfig": {
+        "manualApprovalEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable manual approval for membership verification",
+            "config": {
+                "manualApprovalEnabled": true
+            }
+        }
+    ]
+}

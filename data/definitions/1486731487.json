@@ -1,0 +1,27 @@
+{
+    "kind": "guild",
+    "id": "2024-07_rapidash_m3_guilds",
+    "label": "Rapidash M3 Guilds",
+    "defaultConfig": {
+        "enableClanCreation": true,
+        "requireTargeting": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Targeted guilds",
+            "config": {
+                "enableClanCreation": false,
+                "requireTargeting": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Untargeted guilds",
+            "config": {
+                "enableClanCreation": false,
+                "requireTargeting": true
+            }
+        }
+    ]
+}

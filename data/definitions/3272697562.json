@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2024-05_clans_valorant_pilot",
+    "label": "Clans Valorant Pilot",
+    "defaultConfig": {
+        "clanDiscoveryEnabled": false,
+        "defaultGameId": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show clan discovery (Valorant)",
+            "config": {
+                "clanDiscoveryEnabled": true,
+                "defaultGameId": "r.VALORANT_ID"
+            }
+        }
+    ]
+}

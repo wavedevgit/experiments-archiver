@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-04_dcf3p_integration_experiment",
+    "label": "DCF3P Integration Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users see 3p notice without dcf",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Users see 3p notice through dcf",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-05_dob_in_unclaimed_flow",
+    "label": "Age Gate in Unclaimed Account Flow",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show birthday fields before registration",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

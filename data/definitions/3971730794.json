@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-03_april_fools",
+    "label": "April Fools 2023",
+    "defaultConfig": {
+        "allowAprilFoolsSoundpack": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "April Fools 2023",
+            "config": {
+                "allowAprilFoolsSoundpack": true
+            }
+        }
+    ]
+}

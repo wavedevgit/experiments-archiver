@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-02_desktop_animated_icons",
+    "label": "Desktop animated icons",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Animated icons enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

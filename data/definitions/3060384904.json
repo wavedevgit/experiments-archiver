@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-05_clear_pending_incoming_friend_requests",
+    "label": "Enable ability to clear incoming friend requests",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

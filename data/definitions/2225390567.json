@@ -1,0 +1,27 @@
+{
+    "kind": "guild",
+    "id": "2023-08_guild_alert_mode_friend_server",
+    "label": "Guild Alert Mode (friend servers only)",
+    "defaultConfig": {
+        "showAlertMode": false,
+        "alsoShowMemberSafety": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show alert mode experience",
+            "config": {
+                "showAlertMode": true,
+                "alsoShowMemberSafety": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show alert mode experience with member safety",
+            "config": {
+                "showAlertMode": true,
+                "alsoShowMemberSafety": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-10_rapidash_discovery_entrypoint",
+    "label": "Rapidash Discovery Entrypoint",
+    "defaultConfig": {
+        "showDiscovery": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable",
+            "config": {
+                "showDiscovery": true
+            }
+        }
+    ]
+}

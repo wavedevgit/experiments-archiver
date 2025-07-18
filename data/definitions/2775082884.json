@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2021-03_videotoolbox_rate_optimization",
+    "label": "VideoToolbox Rate Control Optimizations",
+    "defaultConfig": {
+        "useExperimentalRateControl": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "useExperimentalRateControl": true
+            }
+        }
+    ]
+}

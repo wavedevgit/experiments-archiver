@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-06_activity_rythm_mini_shelf_banner",
+    "label": "Activity Rythm Mini-Shelf Banner",
+    "defaultConfig": {
+        "enableRythmMiniShelfBanner": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable mini-shelf banner",
+            "config": {
+                "enableRythmMiniShelfBanner": true
+            }
+        }
+    ]
+}

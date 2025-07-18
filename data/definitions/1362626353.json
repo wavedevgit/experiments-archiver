@@ -1,0 +1,35 @@
+{
+    "kind": "user",
+    "id": "2024-10_basic_tagline_experiment",
+    "label": "Basic Tagline Experiment",
+    "defaultConfig": {
+        "enabled": false,
+        "useEssentials": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "User see current tier cards",
+            "config": {
+                "enabled": false,
+                "useEssentials": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "users see new tier card with the essentials tagline ",
+            "config": {
+                "enabled": true,
+                "useEssentials": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "users see new tier card with the basics tagline ",
+            "config": {
+                "enabled": true,
+                "useEssentials": false
+            }
+        }
+    ]
+}

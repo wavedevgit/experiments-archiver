@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-08_explicit_media_redaction",
+    "label": "Explicit Media Redaction",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable explicit media redaction",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

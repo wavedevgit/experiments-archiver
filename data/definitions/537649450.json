@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-10_forum_post_preview",
+    "label": "Enable preview of Forum post content before creation",
+    "defaultConfig": {
+        "isEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "isEnabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-02_nameplate_purchasing",
+    "label": "Nameplate Purchase Experiment",
+    "defaultConfig": {
+        "canPurchase": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Can purchase",
+            "config": {
+                "canPurchase": true
+            }
+        }
+    ]
+}

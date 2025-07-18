@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2022-07_invites_disabledtest",
+    "label": "Report Raids",
+    "defaultConfig": {
+        "enableInvitesDisabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Reporting Of Raids",
+            "config": {
+                "enableInvitesDisabled": true
+            }
+        }
+    ]
+}

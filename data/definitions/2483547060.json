@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-07_overlay_default_disable",
+    "label": "Overlay Default Disable",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Default Disable Behavior",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

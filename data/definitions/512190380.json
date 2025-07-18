@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2024-07_expand_roles_inline",
+    "label": "Expand Roles Inline",
+    "defaultConfig": {
+        "expandRolesInlineEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Expand roles inline when +X is clicked in the redesigned profile popout",
+            "config": {
+                "expandRolesInlineEnabled": true
+            }
+        }
+    ]
+}

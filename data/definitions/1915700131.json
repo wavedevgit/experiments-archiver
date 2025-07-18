@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-04_unread_dm_dots_desktop",
+    "label": "Unread DM Dots (Desktop)",
+    "defaultConfig": {
+        "showUnreadDots": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show DM Dots",
+            "config": {
+                "showUnreadDots": true
+            }
+        }
+    ]
+}

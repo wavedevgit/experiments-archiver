@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-12_home_feedback_ux",
+    "label": "Show post feedback for home",
+    "defaultConfig": {
+        "showFeedback": false
+    },
+    "treatments": [
+        {
+            "id": 100,
+            "label": "show feedback",
+            "config": {
+                "showFeedback": true
+            }
+        }
+    ]
+}

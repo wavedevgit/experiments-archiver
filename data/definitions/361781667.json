@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-01_user_profile_custom_status_default_duration",
+    "label": "User Profile Custom Status Default Duration",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Default duration set to Don't Clear",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

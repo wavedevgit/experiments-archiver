@@ -1,0 +1,17 @@
+{
+    "id": "2025-06_quest_brand_color_removal",
+    "kind": "user",
+    "label": "Quest Brand Color Removal",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2023-12_nitro_standard_wow_moment_experiment",
+    "label": "Productionize Nitro Standard Flying Wumpus Wow Moment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Flying Wumpus Wow Moment shows for redeeming Nitro Standard gifts, trials, and purchases",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

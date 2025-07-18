@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-10_nitro_shop_entry_points",
+    "label": "User Profile Nitro Shop Entry Points",
+    "defaultConfig": {
+        "permanentEntryPointsEnabled": false,
+        "dimissibleUpsellsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Permanent Entry Points",
+            "config": {
+                "permanentEntryPointsEnabled": true,
+                "dimissibleUpsellsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Dimissible Upsells",
+            "config": {
+                "permanentEntryPointsEnabled": false,
+                "dimissibleUpsellsEnabled": true
+            }
+        }
+    ]
+}

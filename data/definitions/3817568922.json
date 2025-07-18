@@ -1,0 +1,17 @@
+{
+    "id": "2024-04_gateway_zstd_verification",
+    "label": "Gateway Zstd Verification",
+    "kind": "user",
+    "defaultConfig": {
+        "useZstd": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use Zstd",
+            "config": {
+                "useZstd": true
+            }
+        }
+    ]
+}

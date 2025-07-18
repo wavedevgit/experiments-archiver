@@ -1,0 +1,27 @@
+{
+    "id": "2023-06_reduced_payment_method_address_info",
+    "label": "Reduced Payment Method Address Info",
+    "kind": "user",
+    "defaultConfig": {
+        "bucket": 0,
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Simplify address form",
+            "config": {
+                "bucket": 1,
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Partial address in card form",
+            "config": {
+                "bucket": 2,
+                "enabled": true
+            }
+        }
+    ]
+}

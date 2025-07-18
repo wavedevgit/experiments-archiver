@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2024-03_simplified_profile_phase_one",
+    "label": "Simplified Profile Experiment",
+    "defaultConfig": {
+        "basicsEnabled": false,
+        "moreUserDetailsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Only the basics",
+            "config": {
+                "basicsEnabled": true,
+                "moreUserDetailsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "More user details",
+            "config": {
+                "basicsEnabled": true,
+                "moreUserDetailsEnabled": true
+            }
+        }
+    ]
+}

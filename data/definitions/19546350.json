@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2025-02_hotwheels_v2_model",
+    "label": "Next iteration of the activity feed ranking model.",
+    "commonTriggerPoint": null,
+    "defaultConfig": {},
+    "treatments": [
+        {
+            "id": 5,
+            "label": "ML model V1",
+            "config": {}
+        },
+        {
+            "id": 13,
+            "label": "ML model V2",
+            "config": {}
+        }
+    ]
+}

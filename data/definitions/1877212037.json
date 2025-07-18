@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2022-01_discovery_iar",
+    "label": "Ability to report servers in Server Discovery",
+    "defaultConfig": {
+        "canSeeInAppReportingButtons": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show IAR buttons in Server Discovery",
+            "config": {
+                "canSeeInAppReportingButtons": true
+            }
+        }
+    ]
+}

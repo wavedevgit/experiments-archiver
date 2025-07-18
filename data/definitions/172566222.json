@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2025-03_guild_profile_visibility_rollout",
+    "label": "Guild Profile Visibility Rollout",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Guild Profile Visibility Rollout",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}

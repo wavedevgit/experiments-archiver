@@ -1,0 +1,17 @@
+{
+    "id": "2023-07_domain_connection",
+    "label": "Domain Connection",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
