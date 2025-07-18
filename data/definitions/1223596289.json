@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2025-01_q1_marketing_messaging",
     "label": "2025 Q1 Collectible Deco Marketing Moment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Users will see the 2025 Q1 Collectible Deco Marketing Moment",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

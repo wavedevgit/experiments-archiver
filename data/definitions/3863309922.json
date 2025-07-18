@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2023-11_seasonal_gifting_marketing_2023",
     "label": "Seasonal Gifting Marketing 2023",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-11_xbox_game_invites",
     "label": "Xbox Game Invites Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Xbox Game Invites UI Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

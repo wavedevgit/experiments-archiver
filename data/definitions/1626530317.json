@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-02_activity_sharing_popout",
     "label": "Enables the rtc popout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "rtcPopoutEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "RTC Popout",
+            "config": {
+                "rtcPopoutEnabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_mobile_video_disable",
     "label": "Backgrounding Mobile App Disables Incoming Video",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "stopVideoWhenHidden": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "stopVideoWhenHidden": true
+            }
+        }
+    ]
 }

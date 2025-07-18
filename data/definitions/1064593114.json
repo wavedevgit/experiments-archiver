@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-11_expression_suggestions_disabled",
     "label": "Expression Suggestions Disabled Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "disabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Disable sticker expression suggestions",
+            "config": {
+                "disabled": true
+            }
+        }
+    ]
 }

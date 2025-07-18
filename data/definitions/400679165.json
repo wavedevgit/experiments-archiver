@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-01_clear_all_message_requests",
     "label": "Safety Experience Reject All Message Requests",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

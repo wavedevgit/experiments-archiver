@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-10_stealth_remediation",
     "label": "A new user remediation tool",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the new user remediation tool",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

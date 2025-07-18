@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-08_message_attachment_send_failure",
     "label": "Message Attachment Send Failure Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,29 @@
     "kind": "user",
     "id": "2024-07_gdm_blocked_user_warning",
     "label": "GDM Blocked User Warning",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "showAsModal": false,
+        "showAsBanner": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show blocked user warning in GDMs as a modal",
+            "config": {
+                "enabled": true,
+                "showAsModal": true,
+                "showAsBanner": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show blocked user warning in GDMs as a banner",
+            "config": {
+                "enabled": true,
+                "showAsBanner": true,
+                "showAsModal": false
+            }
+        }
+    ]
 }

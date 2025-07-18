@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2024-07_ctp_payment_flow_started_multiple_buckets",
     "label": "CTP payment flow started - A/A test - Multiple buckets",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "doSomething": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment 1",
+            "config": {
+                "doSomething": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Treatment 2",
+            "config": {
+                "doSomething": false
+            }
+        }
+    ]
 }

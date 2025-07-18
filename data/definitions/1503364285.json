@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2022-09_remote_audio_settings",
     "label": "Remote Audio Settings",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "readWriteRemoteSettings": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Read/write remote audio settings",
+            "config": {
+                "readWriteRemoteSettings": true
+            }
+        }
+    ]
 }

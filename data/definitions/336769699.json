@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_all_marketing_page_optimization_phase_1",
     "label": "Marketing Page Optimizations - Phase 1",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

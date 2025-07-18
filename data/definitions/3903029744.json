@@ -2,6 +2,34 @@
     "kind": "user",
     "id": "2024-06_enhanced_custom_status",
     "label": "Enhanced Custom Status Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "modifyStatusEnabled": false,
+        "permanentStatusEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Modifiable custom status",
+            "config": {
+                "modifyStatusEnabled": true,
+                "permanentStatusEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Permanent custom status",
+            "config": {
+                "modifyStatusEnabled": false,
+                "permanentStatusEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Modifiable and permament custom status",
+            "config": {
+                "modifyStatusEnabled": true,
+                "permanentStatusEnabled": true
+            }
+        }
+    ]
 }

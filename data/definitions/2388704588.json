@@ -2,6 +2,27 @@
     "kind": "user",
     "id": "2025-03_app_launcher_pep_button_label",
     "label": "Change PEP Button Label To Play",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "altLayout": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Change PEP Button Label To Play",
+            "config": {
+                "enabled": true,
+                "altLayout": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Change PEP Button Label To Play With Alt Layout",
+            "config": {
+                "enabled": true,
+                "altLayout": true
+            }
+        }
+    ]
 }

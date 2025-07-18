@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-10_app_oauth2_link_embed_mobile",
     "label": "app oauth2 link embed",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable new embed for app oauth2 links",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,68 @@
     "kind": "user",
     "id": "2025-05_activity_sharing_popout_per_server",
     "label": "Activity Sharing Popout Per Server",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "isEnabled": false,
+        "showActivitySharingIndicatorWhenSharing": false,
+        "autoOpenPopout": false,
+        "settingsPageEnabled": false,
+        "perServerControlsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Manually opened RTC popout only when not sharing",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": false,
+                "autoOpenPopout": false,
+                "settingsPageEnabled": false,
+                "perServerControlsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Manually opened RTC popout only when not sharing with settings page",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": false,
+                "autoOpenPopout": false,
+                "settingsPageEnabled": true,
+                "perServerControlsEnabled": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Manually opened RTC popout with settings page",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": true,
+                "autoOpenPopout": false,
+                "settingsPageEnabled": true,
+                "perServerControlsEnabled": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Auto-open RTC popout when not sharing with settings page",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": false,
+                "autoOpenPopout": true,
+                "settingsPageEnabled": true,
+                "perServerControlsEnabled": false
+            }
+        },
+        {
+            "id": 5,
+            "label": "Auto-open RTC popout when not sharing with settings page and per server controls",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": false,
+                "autoOpenPopout": true,
+                "settingsPageEnabled": true,
+                "perServerControlsEnabled": true
+            }
+        }
+    ]
 }

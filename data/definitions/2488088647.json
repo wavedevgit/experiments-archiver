@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-05_per_device_detection_modal",
     "label": "Per-device detection modal experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "optOutPerDevice": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Opt-out of the detection modal on a per-device basis",
+            "config": {
+                "optOutPerDevice": true
+            }
+        }
+    ]
 }

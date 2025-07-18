@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-04_changelog",
     "label": "New Changelog Messages",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "canReceiveMessage": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Receive changelog updates as messages",
+            "config": {
+                "canReceiveMessage": true
+            }
+        }
+    ]
 }

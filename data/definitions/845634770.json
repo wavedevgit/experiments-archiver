@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2024-03_packages",
     "label": "Packages",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "allowOpeningLootboxes": false,
+        "showMainEntrypoints": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow users to open packages",
+            "config": {
+                "allowOpeningLootboxes": true,
+                "showMainEntrypoints": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Allow users to open packages 2",
+            "config": {
+                "allowOpeningLootboxes": true,
+                "showMainEntrypoints": false
+            }
+        }
+    ]
 }

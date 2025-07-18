@@ -1,7 +1,24 @@
 {
-    "kind": "user",
     "id": "2025-02_quest_home_static_image",
+    "kind": "user",
     "label": "Quest Home Static Image Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -1,7 +1,18 @@
 {
     "kind": "user",
     "id": "2025-06_skill_trees_progress_bar",
+    "commonTriggerPoint": null,
     "label": "Skill Trees New Progress Bar",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

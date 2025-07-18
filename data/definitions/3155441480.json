@@ -1,7 +1,17 @@
 {
     "kind": "user",
     "id": "2024-06_message_bookmarks",
-    "label": "For Later - Bookmarks & Reminders",
-    "defaultConfig": {},
-    "treatments": []
+    "label": "Message Bookmarks",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable message bookmarks",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

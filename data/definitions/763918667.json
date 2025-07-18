@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-12_quests_nitro_permadecos",
     "label": "Quests Nitro Permadecos",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": null,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

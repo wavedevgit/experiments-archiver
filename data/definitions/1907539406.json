@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-07_camera_toggle_sound",
     "label": "Camera Toggle Sound",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Sound plays when camera is toggled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-05_rapidash_prepilot_applications",
     "label": "Rapidash Prepilot Application Gate",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableApplication": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable application of guilds",
+            "config": {
+                "enableApplication": true
+            }
+        }
+    ]
 }

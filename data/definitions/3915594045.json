@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-12_participants_panel",
     "label": "Participants Panel",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "hasParticipantsPanel": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Participants panel in VC and GDM",
+            "config": {
+                "hasParticipantsPanel": true
+            }
+        }
+    ]
 }

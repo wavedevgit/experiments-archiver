@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-10_social_proofing_file_size",
     "label": "Social Proofing File Size",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Should show nitro upsell for large files",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

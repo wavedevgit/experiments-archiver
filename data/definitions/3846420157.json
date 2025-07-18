@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-05_activity_death_by_ai_mini_shelf_banner",
     "label": "Actvity Death By AI Mini-Shelf Banner",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableDeathByAiMiniShelfBanner": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable mini-shelf banner",
+            "config": {
+                "enableDeathByAiMiniShelfBanner": true
+            }
+        }
+    ]
 }

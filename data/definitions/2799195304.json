@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-08_mobile_perguild_collectibles_edit",
     "label": "Mobile Per-guild Collectibles Edit",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Mobile Per-guild Collectibles Edit",
+            "config": {
+                "enabled": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
 }

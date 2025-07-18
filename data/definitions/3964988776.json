@@ -2,6 +2,24 @@
     "kind": "user",
     "id": "2025-03_sub_marketing_page_v2_experiment",
     "label": "Sub Marketing Page V2 Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Sub Users see current marketing page",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "sub users see new marketing page",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

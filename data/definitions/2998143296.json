@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2024-10_merge_notifications_tab",
     "label": "Merge notifications tab",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "variant": "notifications_button"
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Merge notifications tab - keep as button on the top right of ICYMI tab",
+            "config": {
+                "enabled": true,
+                "variant": "notifications_button"
+            }
+        },
+        {
+            "id": 2,
+            "label": "Merge notifications tab - keep as segmented section in ICYMI tab",
+            "config": {
+                "enabled": true,
+                "variant": "notifications_segmented_control"
+            }
+        }
+    ]
 }

@@ -1,7 +1,24 @@
 {
-    "kind": "user",
     "id": "2024-05_desktop_visual_refresh",
     "label": "Desktop Visual Refresh",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Refresh Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

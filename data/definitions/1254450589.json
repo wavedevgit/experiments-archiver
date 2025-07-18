@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-06_rtc_voice_state_sync_experiment",
     "label": "RTC and Voice State Desync Fixes",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Desync fixes enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

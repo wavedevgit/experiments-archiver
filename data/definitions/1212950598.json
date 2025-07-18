@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-01_underage_appeals_mobile",
     "label": "Luanching underage appeals on mobile",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the new user remediation tool",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

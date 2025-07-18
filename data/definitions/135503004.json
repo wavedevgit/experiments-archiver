@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-07_iframe_modal",
     "label": "iFrame Modal",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable iFrameModal",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

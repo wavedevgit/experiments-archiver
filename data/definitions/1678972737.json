@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_activityiframemountfromgatewayupdate",
     "label": "mount activity iframe in response to gateway update",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

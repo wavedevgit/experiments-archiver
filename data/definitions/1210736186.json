@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_activity_react_reply",
     "label": "Activity React Reply",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableActivityReactReply": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Activity React / Reply Buttons",
+            "config": {
+                "enableActivityReactReply": true
+            }
+        }
+    ]
 }

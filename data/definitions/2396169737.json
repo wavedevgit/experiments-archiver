@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-09_whats_new_drop_2_flip",
     "label": "What's New Drop 2",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "flipped": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Flipped",
+            "config": {
+                "flipped": true
+            }
+        }
+    ]
 }

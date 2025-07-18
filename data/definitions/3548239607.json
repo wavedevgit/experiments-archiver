@@ -1,7 +1,43 @@
 {
-    "kind": "user",
     "id": "2024-07_quest_bar_v2_reward_highlighting",
+    "kind": "user",
     "label": "Quest Bar V2 Reward Highlighting",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "variant": 0
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false,
+                "variant": 0
+            }
+        },
+        {
+            "id": 1,
+            "label": "Reward Available",
+            "config": {
+                "enabled": true,
+                "variant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Earn a Reward",
+            "config": {
+                "enabled": true,
+                "variant": 2
+            }
+        },
+        {
+            "id": 3,
+            "label": "Earn a Reward!",
+            "config": {
+                "enabled": true,
+                "variant": 3
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_guild_profile_discovery",
     "label": "Enables guild profile dialog on guild discovery cards",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

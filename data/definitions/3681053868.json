@@ -1,7 +1,17 @@
 {
     "kind": "user",
     "id": "2024-10_nitro_tab_forced_render",
-    "label": "Nitro Tab Forced Re-render Investigationf",
-    "defaultConfig": {},
-    "treatments": []
+    "label": "Nitro Tab Forced Re-render Investigation",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable nitro tab forced re-render",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

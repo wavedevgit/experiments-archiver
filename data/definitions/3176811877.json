@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2025-03_desktop_deeplinks",
     "label": "Desktop Deeplinks",
-    "defaultConfig": {},
-    "treatments": []
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "On",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

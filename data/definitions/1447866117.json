@@ -1,7 +1,18 @@
 {
-    "kind": "user",
     "id": "2025-06_soundboard_default_reordering",
+    "kind": "user",
     "label": "Soundboard Default Reordering",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Re-orders the default soundboard sounds to the bottom for non-Nitro users.",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

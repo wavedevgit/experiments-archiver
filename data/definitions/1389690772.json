@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2023-03_birthday_activities",
     "label": "Birthday Activities",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Birthday Activities",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Geo test Enable Birthday Activities but no share",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

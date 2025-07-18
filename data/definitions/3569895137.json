@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_family_center_vc_join",
     "label": "Family Center VC Join",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable VC Join in Family Center",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

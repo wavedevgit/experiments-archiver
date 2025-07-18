@@ -2,6 +2,19 @@
     "kind": "user",
     "id": "2024-10_rapidash_discovery_plus",
     "label": "Rapidash Discovery Plus",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "treatment": "control"
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Discovery Plus Enabled",
+            "config": {
+                "enabled": true,
+                "treatment": "discovery-plus"
+            }
+        }
+    ]
 }

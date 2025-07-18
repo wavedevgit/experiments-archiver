@@ -2,6 +2,37 @@
     "kind": "user",
     "id": "2023-12_collectibles_shop_marketing",
     "label": "Collectibles Shop Marketing Variations",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "variant": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Winter 2023",
+            "config": {
+                "variant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Jan 2024",
+            "config": {
+                "variant": 2
+            }
+        },
+        {
+            "id": 4,
+            "label": "Springtoons 2024",
+            "config": {
+                "variant": 4
+            }
+        },
+        {
+            "id": 5,
+            "label": "Shy 2024",
+            "config": {
+                "variant": 5
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-01_silent_messages",
     "label": "Silent Messages",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "allowSending": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow sending @silent messages",
+            "config": {
+                "allowSending": true
+            }
+        }
+    ]
 }

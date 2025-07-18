@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2024-03_nitro_home_header_experiment",
     "label": "Nitro Home Header",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users see the original Nitro Home header asset",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Users see the updated Nitro Home header asset",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

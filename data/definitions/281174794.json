@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-08-30_open-in-popout",
     "label": "Open Channel in Popout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

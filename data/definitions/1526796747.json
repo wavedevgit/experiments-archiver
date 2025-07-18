@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_rapidash_m3_joiners",
     "label": "Rapidash M3 Users",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableM3Experience": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Targeted users",
+            "config": {
+                "enableM3Experience": false
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_native_screen_share_picker",
     "label": "Use system picker for screen sharing",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableSystemPicker": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable system picker",
+            "config": {
+                "enableSystemPicker": false
+            }
+        }
+    ]
 }

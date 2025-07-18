@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-03_friend_finder_selected_states",
     "label": "Friend Finder State Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Friend Finder on select states configurable in exp config",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

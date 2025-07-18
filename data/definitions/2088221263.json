@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-05_gift_code_lookup",
     "label": "Gift Code Lookup",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Gift code lookup enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

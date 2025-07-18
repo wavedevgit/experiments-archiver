@@ -2,6 +2,27 @@
     "kind": "user",
     "id": "2022-12_premium_targeted_upsells",
     "label": "Premium Targeted Upsells",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use highest expected value to determine Nitro upsells",
+            "config": {
+                "enabled": true,
+                "useExpectedValue": true,
+                "useLikelihood": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Use highest likelihood to determine Nitro upsells",
+            "config": {
+                "enabled": true,
+                "useExpectedValue": false,
+                "useLikelihood": true
+            }
+        }
+    ]
 }

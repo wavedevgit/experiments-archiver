@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-11_app_launcher_desktop",
     "label": "App Launcher - Desktop",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the app launcher feature on desktop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

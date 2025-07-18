@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2024-11_marketing_page_v2_experiment",
     "label": "Marketing Page V2 Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "User see current marketing page",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "users see new marketing page",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

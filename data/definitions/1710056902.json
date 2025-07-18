@@ -2,6 +2,12 @@
     "kind": "user",
     "id": "2025-05_feedback_persistence_experiment",
     "label": "Feedback metadata persistence",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Persist impression times and opt-outs to backend; show mobile opt-outs",
+            "config": null
+        }
+    ]
 }

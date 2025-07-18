@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-05_iar_spam_reorder",
     "label": "IAR Spam Reorder",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

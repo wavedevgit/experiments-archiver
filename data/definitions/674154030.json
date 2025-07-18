@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-06_bogo_mobile_promotion_gate",
     "label": "BOGO Mobile Promotion Manager",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable BOGO Mobile Promotion Manager",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

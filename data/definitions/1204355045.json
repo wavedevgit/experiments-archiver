@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_collectibles_hide_shop_banner",
     "label": "Hide shop banner Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "shopBannerHidden": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables hiding shop banner",
+            "config": {
+                "shopBannerHidden": true
+            }
+        }
+    ]
 }

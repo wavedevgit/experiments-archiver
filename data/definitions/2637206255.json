@@ -1,7 +1,27 @@
 {
     "kind": "user",
     "id": "2025-02_name_plate_experiment",
-    "label": "Nameplates Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "label": "Name Plate Experiment",
+    "defaultConfig": {
+        "canSee": false,
+        "canBuy": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Can see",
+            "config": {
+                "canSee": true,
+                "canBuy": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Can see and buy",
+            "config": {
+                "canSee": true,
+                "canBuy": true
+            }
+        }
+    ]
 }

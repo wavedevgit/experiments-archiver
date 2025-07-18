@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-07_gif_picker_optimizations",
     "label": "GIF Picker Optimizations",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "sendParam": false,
+        "optimizationsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "sendParam": true,
+                "optimizationsEnabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "sendParam": true,
+                "optimizationsEnabled": true
+            }
+        }
+    ]
 }

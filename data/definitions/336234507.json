@@ -2,6 +2,34 @@
     "kind": "user",
     "id": "2025-04_desktop_refresh_fast_follows",
     "label": "Desktop Refresh Fast Follows",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "largerGuildIcons": false,
+        "darkerGuildListBackground": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Larger Guild Icons",
+            "config": {
+                "largerGuildIcons": true,
+                "darkerGuildListBackground": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Darker Guild List Background",
+            "config": {
+                "largerGuildIcons": false,
+                "darkerGuildListBackground": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Larger Guild Icons and Darker Guild List Background",
+            "config": {
+                "largerGuildIcons": true,
+                "darkerGuildListBackground": true
+            }
+        }
+    ]
 }

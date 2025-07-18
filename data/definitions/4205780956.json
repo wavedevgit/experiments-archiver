@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_open_platform_app_launcher",
     "label": "Open Platform App Launcher",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the App Launcher changes for Open Platform",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
 }

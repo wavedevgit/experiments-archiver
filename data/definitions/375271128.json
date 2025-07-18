@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2024-11_soundmoji_rendering",
     "label": "Render soundmojis",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

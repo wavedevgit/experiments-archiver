@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2025-04_apex_start_session",
+    "kind": "user",
     "label": "Apex App SDK Rollout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

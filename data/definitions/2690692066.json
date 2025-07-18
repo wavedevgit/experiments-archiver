@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_nameplate_new_release",
     "label": "Nameplate New Release Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "showNewReleaseBadge": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show new release badge",
+            "config": {
+                "showNewReleaseBadge": true
+            }
+        }
+    ]
 }

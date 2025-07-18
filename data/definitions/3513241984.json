@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2025-06_guild_sidebar_voice_stage_in_suggested",
     "label": "voice and stage channels appear in suggested if user mentioned in them",
-    "defaultConfig": {},
-    "treatments": []
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "voice and stage channels are shown in suggested",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

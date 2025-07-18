@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2025-06_quest_bar_skip_wait_for_subscriptions",
+    "kind": "user",
     "label": "Quests: Skip waiting for subscriptions",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Skip waiting for subscriptions",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

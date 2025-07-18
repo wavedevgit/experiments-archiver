@@ -2,6 +2,239 @@
     "kind": "user",
     "id": "2021-08_regional_payment_methods",
     "label": "Regional Payment Methods",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabledPaymentTypes": [
+            "Unknown"
+        ],
+        "forceCountryCode": null,
+        "validCountryCodes": [
+            "Unknown"
+        ]
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Regional Payment Method for Germany",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "DE",
+                "validCountryCodes": [
+                    "DE"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "label": "Regional Payment Method for US",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "US",
+                "validCountryCodes": [
+                    "US"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "label": "Regional Payment Method for Brazil",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "BR",
+                "validCountryCodes": [
+                    "BR"
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "label": "Regional Payment Method for Turkey",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "TR",
+                "validCountryCodes": [
+                    "TR"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "label": "Regional Payment Method for Poland",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "PL",
+                "validCountryCodes": [
+                    "PL"
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "label": "Enable paysafecard",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "DE",
+                "validCountryCodes": [
+                    "BG",
+                    "CZ",
+                    "DK",
+                    "HU",
+                    "RO",
+                    "SE",
+                    "DE"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "label": "Regional Payment Method for Philippines",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "PH",
+                "validCountryCodes": [
+                    "PH"
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "label": "Regional Payment Method for Malaysia",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "MY",
+                "validCountryCodes": [
+                    "MY"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "label": "Regional Payment Method for Vietnam",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "VN",
+                "validCountryCodes": [
+                    "VN"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "label": "Regional Payment Method for Indonesia",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "ID",
+                "validCountryCodes": [
+                    "ID"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "label": "Regional Payment Method for South Korea",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "KR",
+                "validCountryCodes": [
+                    "KR"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "label": "Regional Payment Method for Belgium",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "BE",
+                "validCountryCodes": [
+                    "BE"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "label": "Regional Payment Method for Austria",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "AT",
+                "validCountryCodes": [
+                    "AT"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "label": "Regional Payment Method for Netherlands",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "NL",
+                "validCountryCodes": [
+                    "NL"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "label": "Launch Paysafecard and Sofort",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown",
+                    "Unknown"
+                ],
+                "forceCountryCode": "ES",
+                "validCountryCodes": [
+                    "ES",
+                    "IT"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "label": "Launch Cash App",
+            "config": {
+                "enabledPaymentTypes": [
+                    "Unknown"
+                ],
+                "forceCountryCode": "US",
+                "validCountryCodes": [
+                    "US"
+                ]
+            }
+        }
+    ]
 }

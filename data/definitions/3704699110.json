@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2021-06_preview_promotions",
     "label": "Promotions Preview",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "previewEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Preview Enabled",
+            "config": {
+                "previewEnabled": true
+            }
+        }
+    ]
 }

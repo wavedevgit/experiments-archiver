@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-04_nvenc_hevc_blackwell",
     "label": "Enhanced H.265 encoding on NVIDIA Blackwell",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "useHevcBlackwellConfig": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable new config for H.265 on NVIDIA Blackwell",
+            "config": {
+                "useHevcBlackwellConfig": true
+            }
+        }
+    ]
 }

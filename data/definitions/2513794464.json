@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_user_profile_editing_holdout_h1",
     "label": "User Profile Editing Holdout Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "isInHoldout": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Is in Holdout",
+            "config": {
+                "isInHoldout": true
+            }
+        }
+    ]
 }

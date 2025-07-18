@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_hide_member_list_activities",
     "label": "Hide member list activities",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "hideActivities": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled (hide activities)",
+            "config": {
+                "hideActivities": true
+            }
+        }
+    ]
 }

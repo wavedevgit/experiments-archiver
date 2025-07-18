@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-05_virtual_currency_onboarding_experience",
     "label": "Virtual Currency Onboarding Experience",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Virtual Currency onboarding experience",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

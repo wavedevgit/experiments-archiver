@@ -2,6 +2,24 @@
     "kind": "user",
     "id": "2025-02_test_large_bucket_third",
     "label": "Test Large Bucket Third Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Variation with first treatment enabled",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Variation with second treatment enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

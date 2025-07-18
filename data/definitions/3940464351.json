@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2024-03_gateway_zstd",
     "label": "Gateway Zstd compression",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "useZstd": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use Zstd",
+            "config": {
+                "useZstd": true
+            }
+        }
+    ]
 }

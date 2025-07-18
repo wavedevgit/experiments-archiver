@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2023-11_voice_activity_notification_user",
     "label": "Voice Activity Notifications for User",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Voice Activity Notifications are enabled for user",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Control for AA test. Voice Activity Notifications are NOT enabled for user.",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
 }

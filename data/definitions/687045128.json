@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-08_private_channel_hiding",
     "label": "Private Channel Hiding",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableObfuscation": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Obfuscation Enable",
+            "config": {
+                "enableObfuscation": false
+            }
+        }
+    ]
 }

@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-06_dave_for_browser",
     "label": "Allowing testing DAVE protocol for browser",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "loadWasmModule": false,
+        "useWasmModule": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Load only",
+            "config": {
+                "loadWasmModule": true,
+                "useWasmModule": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable",
+            "config": {
+                "loadWasmModule": true,
+                "useWasmModule": true
+            }
+        }
+    ]
 }

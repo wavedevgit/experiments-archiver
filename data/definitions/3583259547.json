@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-07_announcement_views",
     "label": "Announcement Views",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

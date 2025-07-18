@@ -2,6 +2,24 @@
     "kind": "user",
     "id": "2025-02_rive_staff_testing",
     "label": "Rive staff testing",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enable Rive staff testing",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

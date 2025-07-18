@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-09_fewer_speaking_messages",
     "label": "Reduce speaking messages",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "matchVoiceServerSpeakingLogic": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Match the broadcast logic that the server will apply",
+            "config": {
+                "matchVoiceServerSpeakingLogic": true
+            }
+        }
+    ]
 }

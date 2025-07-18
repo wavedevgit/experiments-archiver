@@ -1,7 +1,17 @@
 {
     "kind": "user",
     "id": "2025-05_av_survey_taxonomy_refresh",
-    "label": "AV survey taxonomy re",
-    "defaultConfig": {},
-    "treatments": []
+    "label": "AV survey taxonomy refresh",
+    "defaultConfig": {
+        "showRefreshedTaxonomy": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show refreshed taxonomy",
+            "config": {
+                "showRefreshedTaxonomy": true
+            }
+        }
+    ]
 }

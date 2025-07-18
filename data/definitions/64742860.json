@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-04_dm_spam_filter_coachmark",
     "label": "Safety DM Spam Filter Coachmark rollout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

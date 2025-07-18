@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-10_screencapturekit",
     "label": "ScreenCaptureKit",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "allowScreenCaptureKit": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "enabled",
+            "config": {
+                "allowScreenCaptureKit": true
+            }
+        }
+    ]
 }

@@ -3,5 +3,11 @@
     "id": "2024-03_holdout_bug_main_wrong_way",
     "label": "Holdout Bug Experiment Wrong Way (pls ignore)",
     "defaultConfig": {},
-    "treatments": []
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treament",
+            "config": {}
+        }
+    ]
 }

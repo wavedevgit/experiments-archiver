@@ -2,6 +2,27 @@
     "kind": "user",
     "id": "2024-10_shop_skus_in_gift_flow",
     "label": "Gift Collectibles in DM",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "showBothNitroSkusInCategorySelect": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Gift Collectibles in DM, with existing Nitro flow",
+            "config": {
+                "enabled": true,
+                "showBothNitroSkusInCategorySelect": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Gift Collectibles in DM, select Nitro SKU from category",
+            "config": {
+                "enabled": true,
+                "showBothNitroSkusInCategorySelect": true
+            }
+        }
+    ]
 }

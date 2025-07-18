@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-08_message_forwarding_icon",
     "label": "Message forwarding icon change",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "useOldIcon": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use old icon",
+            "config": {
+                "useOldIcon": false
+            }
+        }
+    ]
 }

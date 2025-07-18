@@ -2,6 +2,24 @@
     "kind": "user",
     "id": "2025-05_core_product_illustration_migration",
     "label": "Core Product Illustration Migration",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enable Core Product Illustration Migration",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-07_bogo_marketing_materials_experiment",
     "label": "BOGO Marketing Materials",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable BOGO marketing materials",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_blocking_context",
     "label": "Blocking Context",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show blocking context in block confirmation modal",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

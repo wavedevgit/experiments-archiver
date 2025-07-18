@@ -1,7 +1,24 @@
 {
-    "kind": "user",
     "id": "2024-07_quests_mobile_ga",
+    "kind": "user",
     "label": "Quests Mobile GA",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
 }

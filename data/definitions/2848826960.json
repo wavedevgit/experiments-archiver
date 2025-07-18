@@ -1,7 +1,24 @@
 {
-    "kind": "user",
     "id": "2024-03_quests_client_monitoring",
+    "kind": "user",
     "label": "Quests client monitoring experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "disabled",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

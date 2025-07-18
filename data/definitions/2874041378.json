@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-01_expiring_status_v2",
     "label": "Expiring status Experiment V2",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "expiringStatus": false,
+        "defaultClickExpire": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "allow expiring status",
+            "config": {
+                "expiringStatus": true,
+                "defaultClickExpire": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "default change status click expires after 24h",
+            "config": {
+                "expiringStatus": true,
+                "defaultClickExpire": true
+            }
+        }
+    ]
 }

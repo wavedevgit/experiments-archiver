@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_video_occlusion_stat_tracking",
     "label": "Video Occlusion Stat Tracking Debug",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "revertOcclusionTrackingChanges": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Revert occlusion tracking changes",
+            "config": {
+                "revertOcclusionTrackingChanges": true
+            }
+        }
+    ]
 }

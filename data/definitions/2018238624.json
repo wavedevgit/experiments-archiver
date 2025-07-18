@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-07_desktop_skipped_updates",
     "label": "Optional desktop updates at startup",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "allowOptionalDesktopUpdates": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow optional desktop updates",
+            "config": {
+                "allowOptionalDesktopUpdates": true
+            }
+        }
+    ]
 }

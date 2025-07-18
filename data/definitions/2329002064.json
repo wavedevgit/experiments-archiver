@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_simplified_custom_status_bubble",
     "label": "Simplified Custom Status Bubble",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "simplifiedCustomStatusBubbleEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Simplified Custom Status Bubble Enabled",
+            "config": {
+                "simplifiedCustomStatusBubbleEnabled": true
+            }
+        }
+    ]
 }

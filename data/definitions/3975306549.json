@@ -2,6 +2,38 @@
     "kind": "user",
     "id": "2024-08_perks_demo_hd_streaming_opt_in_v2",
     "label": "HD Streaming",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": true,
+        "extendedDemoDuration": true,
+        "extendedOptInDuration": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "duration",
+            "config": {
+                "enabled": false,
+                "extendedDemoDuration": false,
+                "extendedOptInDuration": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "optin duration",
+            "config": {
+                "enabled": false,
+                "extendedDemoDuration": true,
+                "extendedOptInDuration": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Perk Demo Opt In - Extended Demo & Opt In Duration",
+            "config": {
+                "enabled": false,
+                "extendedDemoDuration": false,
+                "extendedOptInDuration": false
+            }
+        }
+    ]
 }

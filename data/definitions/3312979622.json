@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_sidechain_compression",
     "label": "Test sidechain compression",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableSidechainCompression": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Sidechain Compression enabled",
+            "config": {
+                "enableSidechainCompression": false
+            }
+        }
+    ]
 }

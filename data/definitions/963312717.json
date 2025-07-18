@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2025-06_android_shop_lazy_load_price",
     "label": "Android Shop Lazy Load Price",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "lazyLoadPrice": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Lazy load price",
+            "config": {
+                "lazyLoadPrice": true
+            }
+        }
+    ]
 }

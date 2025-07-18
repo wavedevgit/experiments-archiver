@@ -1,7 +1,18 @@
 {
     "kind": "user",
     "id": "2025-03_activity_controller_icon",
+    "commonTriggerPoint": null,
     "label": "Activities Icon - Desktop",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Change all activities icon to controller",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-11_teen_defaults__message_requests",
     "label": "New defaults for message requests",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the new defaults for message requests",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

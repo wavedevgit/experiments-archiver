@@ -2,6 +2,42 @@
     "kind": "user",
     "id": "2024-01_enhanced_hd_streaming_roadblock",
     "label": "Enhanced HD Streaming Roadblock",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "variant": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Variant 1A",
+            "config": {
+                "enabled": true,
+                "variant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Variant 1B",
+            "config": {
+                "enabled": true,
+                "variant": 2
+            }
+        },
+        {
+            "id": 3,
+            "label": "Variant 2A",
+            "config": {
+                "enabled": true,
+                "variant": 3
+            }
+        },
+        {
+            "id": 4,
+            "label": "Variant 2B",
+            "config": {
+                "enabled": true,
+                "variant": 4
+            }
+        }
+    ]
 }

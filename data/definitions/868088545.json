@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-08_iar_fraud_impersonation",
     "label": "In App Reports Fruad & Impersonation",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "showFraudMenuVariant": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "showFraudMenuVariant": true
+            }
+        }
+    ]
 }

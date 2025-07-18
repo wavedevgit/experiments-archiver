@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-05_quest_home",
     "label": "Quest Home",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Quest Home in the Friends List",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

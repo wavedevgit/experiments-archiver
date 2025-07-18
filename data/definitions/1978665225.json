@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2022-12_timestamp_tooltip",
     "label": "Timestamp Tooltip",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

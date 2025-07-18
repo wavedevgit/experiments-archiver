@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-02_voice_activity_status",
     "label": "Voice Activity Status",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "voiceActivityStatusEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Voice Activity Status Enabled",
+            "config": {
+                "voiceActivityStatusEnabled": true
+            }
+        }
+    ]
 }

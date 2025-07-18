@@ -2,6 +2,17 @@
     "kind": "user",
     "id": "2024-06_ctp_open_user_settings_everyone",
     "label": "CTP open user settings - A/A test - Everyone",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "doSomething": false
+    },
+    "commonTriggerPoint": "i.$P.OPEN_USER_SETTINGS",
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ]
 }

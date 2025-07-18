@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-04_dm_settings_upsell_staff_bypass",
     "label": "DM Settings Upsell Staff Bypass",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable DM Settings Upsell Staff Bypass to ignore cooldown",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

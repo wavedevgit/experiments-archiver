@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-02_app_storefront",
     "label": "App Storefront",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable App Storefront",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

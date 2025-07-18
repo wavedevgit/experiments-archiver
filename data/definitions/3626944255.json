@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_friends_popout",
     "label": "Friends Popout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,14 @@
     "kind": "user",
     "id": "2025-06_search_desktop_xdm_experiment",
     "label": "Search Desktop XDM Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables xDM search on desktop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

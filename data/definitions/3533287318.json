@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-07_staff_ai_features",
     "label": "Staff AI Features",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableAIFeatures": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable AI Features",
+            "config": {
+                "enableAIFeatures": true
+            }
+        }
+    ]
 }

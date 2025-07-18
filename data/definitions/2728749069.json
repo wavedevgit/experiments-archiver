@@ -1,7 +1,39 @@
 {
     "kind": "user",
     "id": "2024-03_gdm_facepiles_desktop",
-    "label": "Group DM Presence",
-    "defaultConfig": {},
-    "treatments": []
+    "label": "Group DM Facepiles (Desktop)",
+    "defaultConfig": {
+        "isFacepileEnabled": false,
+        "isStatusIndicatorEnabled": false,
+        "isTypingIndicatorEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Facepiles",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": false,
+                "isTypingIndicatorEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Facepiles + Status Indicator",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Facepiles + Status Indicator + Typing Indicator",
+            "config": {
+                "isFacepileEnabled": true,
+                "isStatusIndicatorEnabled": true,
+                "isTypingIndicatorEnabled": true
+            }
+        }
+    ]
 }

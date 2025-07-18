@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2024-03_perks_demo_hd_streaming",
     "label": "Perks Demo: HD Streaming",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "With HD Streaming Perk Demo enabled - ML predicted",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "With HD Streaming Perk Demo enabled - no ML prediction",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

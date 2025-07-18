@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_shy_project",
     "label": "Shy Project Marketing Variation",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "variant": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Summer 2024",
+            "config": {
+                "variant": 1
+            }
+        }
+    ]
 }

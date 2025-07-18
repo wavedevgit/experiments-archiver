@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-11_application_reporting_flow",
     "label": "Apps In-App Reporting",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable application IAR reporting flow",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

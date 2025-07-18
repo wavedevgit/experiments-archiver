@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_activity_sharing_popout_with_invisibility",
     "label": "Activity Sharing Popout with Invisibility",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "rtcPopoutEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable the RTC popout when the user is not sharing activity or is invisible",
+            "config": {
+                "rtcPopoutEnabled": true
+            }
+        }
+    ]
 }

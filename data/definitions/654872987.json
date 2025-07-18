@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-12_2023_eoy_ringtone",
     "label": "EOY Ringtone 2023",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

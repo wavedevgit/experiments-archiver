@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-09_show_server_sub_in_server_shop",
     "label": "Show server sub in server shop",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables showing server sub in server shop",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

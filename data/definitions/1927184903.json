@@ -1,7 +1,18 @@
 {
-    "kind": "user",
     "id": "2025-07_apex_aa_validation__clientside__voicecall_userlocale",
+    "kind": "user",
     "label": "Apex AA Validation Voice Call User Locale",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "isEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "AA test enabled. Noop on UI effect.",
+            "config": {
+                "isEnabled": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
 }

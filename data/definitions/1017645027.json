@@ -1,7 +1,18 @@
 {
-    "kind": "user",
     "id": "2025-03_dm_chat_wallpapers_viewer",
+    "kind": "user",
     "label": "DM Chat Wallpapers Viewer",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables viewing dm chat wallpapers",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

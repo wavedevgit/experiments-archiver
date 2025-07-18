@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2022-12_forum_activity",
     "label": "Increased activity view for Forums, per user",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

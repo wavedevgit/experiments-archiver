@@ -2,6 +2,30 @@
     "kind": "user",
     "id": "2022-02_multi_month_plans",
     "label": "Multi Month Plans",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "newPlans": [
+            "Unknown"
+        ]
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "3 and 6 Month Plans",
+            "config": {
+                "newPlans": [
+                    "Unknown",
+                    "Unknown"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "label": "3 Month Plan Only",
+            "config": {
+                "newPlans": [
+                    "Unknown"
+                ]
+            }
+        }
+    ]
 }

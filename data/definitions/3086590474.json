@@ -1,7 +1,18 @@
 {
-    "kind": "user",
     "id": "2025-01_valentines_gifting_2025",
     "label": "Valentines Gifting 2025",
-    "defaultConfig": {},
-    "treatments": []
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Valentines Gifting Promotion",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-06_simplified_profile_panel_friending",
     "label": "Simplified Profile Panel Friending Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "improvedPanelFriendingEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Improved friending",
+            "config": {
+                "improvedPanelFriendingEnabled": true
+            }
+        }
+    ]
 }

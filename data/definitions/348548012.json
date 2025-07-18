@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-01_friend_requests_alerts_new_users",
     "label": "Friend Request Setting Defaults",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "bucket": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "warning",
+            "config": {
+                "enabled": true,
+                "bucket": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "defaults",
+            "config": {
+                "enabled": true,
+                "bucket": 2
+            }
+        }
+    ]
 }

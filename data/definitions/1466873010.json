@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-06_content_entry_embed",
     "label": "Content Inventory Embed",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

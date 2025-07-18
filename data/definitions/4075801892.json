@@ -2,6 +2,47 @@
     "kind": "user",
     "id": "2024-06_repeat_gift_purchase",
     "label": "Repeat Gift Purchase",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "redirectToPlanSelectStep": false,
+        "removeGiftRecipientUI": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Redirect to review step",
+            "config": {
+                "enabled": true,
+                "redirectToPlanSelectStep": false,
+                "removeGiftRecipientUI": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Redirect to review step + remove gift recipient UI",
+            "config": {
+                "enabled": true,
+                "redirectToPlanSelectStep": false,
+                "removeGiftRecipientUI": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Redirect to customize step",
+            "config": {
+                "enabled": true,
+                "redirectToPlanSelectStep": true,
+                "removeGiftRecipientUI": false
+            }
+        },
+        {
+            "id": 4,
+            "label": "Redirect to customize step + remove gift recipient UI",
+            "config": {
+                "enabled": true,
+                "redirectToPlanSelectStep": true,
+                "removeGiftRecipientUI": true
+            }
+        }
+    ]
 }

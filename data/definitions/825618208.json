@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-08_user_apps",
     "label": "Allow user app commands",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "userAppsTreatment": "default"
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow user app commands",
+            "config": {
+                "userAppsTreatment": "allowed"
+            }
+        }
+    ]
 }

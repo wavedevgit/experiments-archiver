@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-11_totally_benign_and_non_controversial_notification_tweaks",
     "label": "Notification Changes",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use the unfinished, not ready, and totally benign notification tweaks",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

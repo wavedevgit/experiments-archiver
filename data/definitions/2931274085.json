@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-06_profile_react_reply",
     "label": "Simplified Profile React Reply",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "statusReactReplyEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Status React / Reply",
+            "config": {
+                "statusReactReplyEnabled": true
+            }
+        }
+    ]
 }

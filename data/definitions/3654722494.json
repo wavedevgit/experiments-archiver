@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2021-10_runtime_accessibility_system",
     "label": "Runtime Accessibility System",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "reporting": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled but silent",
+            "config": {
+                "enabled": true,
+                "reporting": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled and reporting",
+            "config": {
+                "enabled": true,
+                "reporting": true
+            }
+        }
+    ]
 }

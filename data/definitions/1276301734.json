@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-08_open_platform_link_sharing",
     "label": "Open Platform Link Sharing",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable app link sharing and install flow improvements",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

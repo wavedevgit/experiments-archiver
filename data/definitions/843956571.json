@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-05_tunein_shelf_promo_banner",
     "label": "Actvity TuneIn Shelf Promo Banner",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableTuneInShelfPromoBanner": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable shelf promo banner",
+            "config": {
+                "enableTuneInShelfPromoBanner": true
+            }
+        }
+    ]
 }

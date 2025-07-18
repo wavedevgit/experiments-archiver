@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_updated_fetch_subscription_plans_for_sku_error",
     "label": "Updated Fetch Subscription Plans For SKU Error",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable updated error throwing",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

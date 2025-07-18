@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-12_friend_suggestion_seen_state",
     "label": "Friend Suggestions Seen State",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Friend Suggestion Seen State",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

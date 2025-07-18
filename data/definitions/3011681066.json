@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2022-03_block_russian_purchases",
     "label": "Block purchases based on country",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "paymentsBlocked": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Payments Blocked",
+            "config": {
+                "paymentsBlocked": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-05_icymi_new_conversation_summaries",
     "label": "New conversation summary in ICYMI",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "contentGenerationEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "New conversation summary types in ICYMI",
+            "config": {
+                "contentGenerationEnabled": true
+            }
+        }
+    ]
 }

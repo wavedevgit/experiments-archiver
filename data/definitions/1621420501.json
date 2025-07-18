@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_improved_media_viewer",
     "label": "Improved Desktop Media Viewer",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "improvedDesktopMediaViewerEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Improved Desktop Media Viewer",
+            "config": {
+                "improvedDesktopMediaViewerEnabled": true
+            }
+        }
+    ]
 }

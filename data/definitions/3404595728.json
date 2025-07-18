@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-06_qos_heartbeat",
     "label": "Websocket QOS Heartbeat",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Send new QOS Heartbeat",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

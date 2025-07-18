@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-08_local_message_background_sending",
     "label": "Send Messages In The Backgrounded",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableBackgroundSending": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Background Sending",
+            "config": {
+                "enableBackgroundSending": true
+            }
+        }
+    ]
 }

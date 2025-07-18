@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-06_settings_defaults_aggregate",
     "label": "Settings Defaults Aggregate",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Aggregate Settings Default",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

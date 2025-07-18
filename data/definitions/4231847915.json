@@ -2,6 +2,34 @@
     "kind": "user",
     "id": "2024-05_clientside_recently_online_desktop",
     "label": "Recently Online Clientside Desktop",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "isFriendsAndDMsEnabled": false,
+        "isGuildMemberListEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Friends/DMs Only",
+            "config": {
+                "isFriendsAndDMsEnabled": true,
+                "isGuildMemberListEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Guild Member List Only",
+            "config": {
+                "isFriendsAndDMsEnabled": false,
+                "isGuildMemberListEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Friends/DMs and Guild Member List",
+            "config": {
+                "isFriendsAndDMsEnabled": true,
+                "isGuildMemberListEnabled": true
+            }
+        }
+    ]
 }

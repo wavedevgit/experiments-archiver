@@ -2,6 +2,18 @@
     "kind": "user",
     "id": "2024-01_chunked_message_attachment_uploads",
     "label": "Use chunked uploads for message attachments",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "chunkSize": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Chunked message attachment uploads",
+            "config": {
+                "enabled": true,
+                "chunkSize": 8388608
+            }
+        }
+    ]
 }

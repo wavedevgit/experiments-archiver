@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2024-01_expanded_gift_entry_points_profile_panel",
     "label": "Expanded Gift Entry Points - Profile Panel",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "hideChannelGiftButton": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show Gift Entry Point in Profile Panel",
+            "config": {
+                "enabled": true,
+                "hideChannelGiftButton": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Show Gift Entry Point in Profile Panel and Hide Channel Gift Button",
+            "config": {
+                "enabled": true,
+                "hideChannelGiftButton": true
+            }
+        }
+    ]
 }

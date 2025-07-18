@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-08_content_inventory_entry_signed_hash",
     "label": "Check Signature On Content Inventory Embed",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -1,7 +1,36 @@
 {
     "kind": "user",
     "id": "2025-07_nitro_tab_title_non_sub",
+    "commonTriggerPoint": null,
     "label": "Nitro Tab Title (non-sub)",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "variant": 0
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Get Nitro",
+            "config": {
+                "enabled": true,
+                "variant": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Join Nitro",
+            "config": {
+                "enabled": true,
+                "variant": 2
+            }
+        },
+        {
+            "id": 3,
+            "label": "Try Nitro",
+            "config": {
+                "enabled": true,
+                "variant": 3
+            }
+        }
+    ]
 }

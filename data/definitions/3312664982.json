@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-06_bogo_promotion_marketing_materials",
     "label": "Summer BOGO Marketing Materials",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable BOGO Promotion marketing materials",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

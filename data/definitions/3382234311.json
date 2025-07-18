@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-05_push_to_talk_latching",
     "label": "Push to Talk Latching",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableLatching": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable latching feature",
+            "config": {
+                "enableLatching": true
+            }
+        }
+    ]
 }

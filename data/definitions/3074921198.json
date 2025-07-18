@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-03_text_playground_settings_pane",
     "label": "Text Playground",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "showSetting": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable settings pane",
+            "config": {
+                "showSetting": true
+            }
+        }
+    ]
 }

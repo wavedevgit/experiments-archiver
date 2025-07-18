@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_quests_premium_rewards_holdout",
     "label": "Quest Premium Rewards Holdout",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Quest Premium Rewards",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

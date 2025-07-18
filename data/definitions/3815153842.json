@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_invites_refresh",
     "label": "Invites Refresh",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled - Treatment 1 (Invites Refresh)",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

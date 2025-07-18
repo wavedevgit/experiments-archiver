@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-08_server_shop_storefront",
     "label": "Server Shop Storefront",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables Server shop storefront",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

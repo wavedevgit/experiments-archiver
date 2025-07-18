@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-03_collectibles_springtoons_marketing",
     "label": "Springtoons marketing experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "coachtipEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables coachtip",
+            "config": {
+                "coachtipEnabled": true
+            }
+        }
+    ]
 }

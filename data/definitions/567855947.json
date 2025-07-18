@@ -2,6 +2,31 @@
     "kind": "user",
     "id": "2025-04_member_hub_gifting",
     "label": "Member Hub Gifting",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "cohort": 0
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Users see existing member hub gifting screen",
+            "config": {
+                "cohort": 0
+            }
+        },
+        {
+            "id": 1,
+            "label": "Users see variant 1 of member hub gifting screen and coachmark",
+            "config": {
+                "cohort": 1
+            }
+        },
+        {
+            "id": 2,
+            "label": "Users see variant 2 of member hub gifting screen",
+            "config": {
+                "cohort": 2
+            }
+        }
+    ]
 }

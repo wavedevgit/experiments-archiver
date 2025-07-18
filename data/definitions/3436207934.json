@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-12_shop_home_experiment",
     "label": "Shop Home API Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use Shop Home API",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

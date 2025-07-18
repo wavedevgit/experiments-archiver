@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-05_upload_refactor",
     "label": "Aligns attachment and non-attachment message sending",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "showSetting": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true,
+                "showSetting": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Disabled",
+            "config": {
+                "enabled": true,
+                "showSetting": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,24 @@
     "kind": "user",
     "id": "2024-12_hotwheels_activity_feed_inventory_thresholds",
     "label": "Hotwheels Activity Feed (Inventory Options)",
-    "defaultConfig": {},
-    "treatments": []
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "impressionAge": null
+    },
+    "treatments": [
+        {
+            "id": 11,
+            "label": "Relaxed impression capping. (16 hours -> 3 days)",
+            "config": {
+                "impressionAge": null
+            }
+        },
+        {
+            "id": 12,
+            "label": "All previous treatments combined.",
+            "config": {
+                "impressionAge": null
+            }
+        }
+    ]
 }

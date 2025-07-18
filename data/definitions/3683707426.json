@@ -2,6 +2,34 @@
     "kind": "user",
     "id": "2025-01_updated_activity_privacy_controls",
     "label": "Enables the rtc popout and updated settings page",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "rtcPopoutEnabled": false,
+        "updatedSettingsPageEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "RTC Popout",
+            "config": {
+                "rtcPopoutEnabled": true,
+                "updatedSettingsPageEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Updated Settings Page",
+            "config": {
+                "rtcPopoutEnabled": false,
+                "updatedSettingsPageEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Both Popout and Settings Page",
+            "config": {
+                "rtcPopoutEnabled": true,
+                "updatedSettingsPageEnabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-11_voice_activity_in_profile",
     "label": "Voice Activity in Profile",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "showVoiceActivityInProfile": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Voice activity displayed in user profile",
+            "config": {
+                "showVoiceActivityInProfile": true
+            }
+        }
+    ]
 }

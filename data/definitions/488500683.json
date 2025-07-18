@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2022-07_system_dm_safety_onboarding",
     "label": "System DM Safety Onboarding",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "systemDMRedesignEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled, v1 copy",
+            "config": {
+                "systemDMRedesignEnabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled, v2 copy",
+            "config": {
+                "systemDMRedesignEnabled": true
+            }
+        }
+    ]
 }

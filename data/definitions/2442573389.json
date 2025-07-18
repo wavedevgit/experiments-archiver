@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-05_search_results_feedback",
     "label": "Search Results Feedback",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false,
+        "force": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Eligible to see search results feedback",
+            "config": {
+                "enabled": true,
+                "force": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Force user to always see search results feedback",
+            "config": {
+                "enabled": true,
+                "force": true
+            }
+        }
+    ]
 }

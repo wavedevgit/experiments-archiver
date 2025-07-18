@@ -2,6 +2,14 @@
     "kind": "user",
     "id": "2025-04_feedback_trigger_experiment",
     "label": "Feedback trigger logic changes",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Do group eligibility check",
+            "config": {
+                "doGroupEligibilityCheck": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,12 @@
     "kind": "user",
     "id": "2025-06_krisp_stats_collection",
     "label": "Krisp Stats Collection Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Krisp Stats Collection",
+            "config": null
+        }
+    ]
 }

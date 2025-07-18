@@ -2,6 +2,20 @@
     "kind": "user",
     "id": "2025-05_input_profiles_experiment_web",
     "label": "Audio input profiles (studio mode)",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabledInputProfiles": []
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show Voice Isolation, Studio, and Custom",
+            "config": {
+                "enabledInputProfiles": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_bogo_countdown",
     "label": "BOGO Countdown Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Disable BOGO countdown",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
 }

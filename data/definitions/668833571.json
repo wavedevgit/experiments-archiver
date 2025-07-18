@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-07_gift_select_sku_desktop",
     "label": "Premium Gift Select SKU Select Desktop",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show Plan Select",
+            "config": {
+                "enabled": false
+            }
+        }
+    ]
 }

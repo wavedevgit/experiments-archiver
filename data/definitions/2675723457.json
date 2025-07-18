@@ -1,7 +1,17 @@
 {
-    "kind": "user",
     "id": "2025-01_quest_bar_copy_simplification",
+    "kind": "user",
     "label": "Quest Bar Copy Simplification",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Simplified copy",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-10_call_banner_bg",
     "label": "Call Banner Background Experiment",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

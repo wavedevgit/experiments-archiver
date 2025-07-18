@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2023-04_guild_media_channel_post_preview_embed_users",
     "label": "Guild Role Subscription Users",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabledForUser": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables for users Guild Media Post Preview Embeds",
+            "config": {
+                "enabledForUser": true
+            }
+        }
+    ]
 }

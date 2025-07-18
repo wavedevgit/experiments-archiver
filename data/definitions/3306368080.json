@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-10_icymi_sorting_fe",
     "label": "FE experiment for sorting on ICYMI",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables ICYMI - sorting will be controlled by backend exp",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

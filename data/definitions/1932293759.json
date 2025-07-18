@@ -2,6 +2,23 @@
     "kind": "user",
     "id": "2025-07_resumable_attachment_uploads",
     "label": "Resumable attachment uploads",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableResumableUploads": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Control",
+            "config": {
+                "enableResumableUploads": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Resumable Uploads Enabled",
+            "config": {
+                "enableResumableUploads": true
+            }
+        }
+    ]
 }

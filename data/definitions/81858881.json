@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2024-09_collectibles_shop_preload",
     "label": "Collectibles Shop Preload",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Preloads collectible shop payload",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

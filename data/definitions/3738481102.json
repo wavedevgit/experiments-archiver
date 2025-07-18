@@ -3,5 +3,7 @@
     "id": "2024-03_content_inventory_surface_holdout",
     "label": "Content Inventory Surface Holdout",
     "defaultConfig": {},
-    "treatments": []
+    "treatments": [
+        "Unknown"
+    ]
 }

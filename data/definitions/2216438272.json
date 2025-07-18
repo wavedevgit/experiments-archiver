@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-03_activity_status_descriptive_text",
     "label": "Activity Status Descriptive Text",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "descriptiveTextEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Descriptive text enabled",
+            "config": {
+                "descriptiveTextEnabled": true
+            }
+        }
+    ]
 }

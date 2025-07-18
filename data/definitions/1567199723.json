@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2021-08_guild_role_subscription_users",
     "label": "Guild Role Subscription Users",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enableRoleSubscriptionsForUser": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables users to create Guild Role Subscriptions",
+            "config": {
+                "enableRoleSubscriptionsForUser": true
+            }
+        }
+    ]
 }

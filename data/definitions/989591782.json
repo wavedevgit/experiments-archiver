@@ -2,6 +2,26 @@
     "kind": "user",
     "id": "2025-01_user_profile_custom_status_edit_preview",
     "label": "User Profile Custom Status Edit Preview",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabledWithStatusSelection": false,
+        "enabledWithoutSatusSelection": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable updated custom status editing modal with preview",
+            "config": {
+                "enabledWithStatusSelection": true,
+                "enabledWithoutSatusSelection": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable updated custom status editing modal with preview without status selection",
+            "config": {
+                "enabledWithStatusSelection": false,
+                "enabledWithoutSatusSelection": true
+            }
+        }
+    ]
 }

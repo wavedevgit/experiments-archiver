@@ -2,6 +2,27 @@
     "kind": "user",
     "id": "2025-05_change_disconnect_icon_experiment",
     "label": "Change Disconnect Icon",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "changeLeaveCallAndActivityIcons": false,
+        "isRTCIconRed": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use door icon",
+            "config": {
+                "changeLeaveCallAndActivityIcons": true,
+                "isRTCIconRed": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Use door icon with red RTC icon",
+            "config": {
+                "changeLeaveCallAndActivityIcons": true,
+                "isRTCIconRed": true
+            }
+        }
+    ]
 }

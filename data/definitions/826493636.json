@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-01_recent_avatars",
     "label": "Recent Avatars",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Allow users to select from recently uploaded avatars",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

@@ -2,6 +2,16 @@
     "kind": "user",
     "id": "2025-06_game_mentions_user",
     "label": "Game Mentions - User",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Game Mentions",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }

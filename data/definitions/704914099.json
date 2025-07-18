@@ -1,7 +1,24 @@
 {
-    "kind": "user",
     "id": "2024-10_quests_dismissal_survey",
+    "kind": "user",
     "label": "Quests Dismissal Survey",
-    "defaultConfig": {},
-    "treatments": []
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
 }
