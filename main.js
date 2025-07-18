@@ -16374,7 +16374,7 @@ async function main() {
 
   for (let [hash, definition] of Object.entries(bultIn)) {
     bultIn[hash] = definition.id;
-    if (!(await fs.readdir("./data/defintions")).includes(`${hash}.json`))
+    if (!(await fs.readdir("./data/definitions")).includes(`${hash}.json`))
       await fs.writeFile(
         `./data/definitions/${hash}.json`,
         JSON.stringify(definition, null, 4)
