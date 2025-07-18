@@ -1,17 +1,13 @@
 {
     "kind": "guild",
-    "id": "2023-09_gaming_stats_setup",
+    "id": "2023-08_guild_alert_mode_friend_server",
     "label": "Gaming stats exposure setup",
-    "defaultConfig": {
-        "trackGamingStats": false
-    },
+    "defaultConfig": {},
     "treatments": [
         {
             "id": 1,
             "label": "trigger gaming stats data",
-            "config": {
-                "trackGamingStats": true
-            }
+            "config": {}
         }
     ]
 }

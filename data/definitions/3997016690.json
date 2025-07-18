@@ -2,16 +2,22 @@
     "kind": "guild",
     "id": "2023-11_voice_activity_notification_guild",
     "label": "General Voice Channel Notifications for Guild",
-    "defaultConfig": {
-        "voiceChannelActivityNotifsEnabled": false
-    },
+    "defaultConfig": {},
     "treatments": [
+        {
+            "id": 1,
+            "label": "Deadchat notifs enabled, voice channel activity notifs disabled",
+            "config": {}
+        },
         {
             "id": 2,
             "label": "Deadchat notifs disabled, voice channel activity notifs enabled",
-            "config": {
-                "voiceChannelActivityNotifsEnabled": true
-            }
+            "config": {}
+        },
+        {
+            "id": 3,
+            "label": "Deadchat notifs enabled, voice channel activity notifs enabled",
+            "config": {}
         }
     ]
 }
