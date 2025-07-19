@@ -90,6 +90,13 @@ async function main() {
     await fs.mkdir("./data/definitions");
   // source: (mostly gist, discordlookup was used only on few exps) https://gist.github.com/XYZenix/95de40ff80091c0ff7b0cfd610bd10d7 & discordlookup
   const bultIn = {
+    3088683068: {
+      "kind": "user",
+      "id": "2024-06_android_shop",
+      "label": "",
+      "defaultConfig": {},
+      "treatments": []
+    },
     1333727: {
       kind: "user",
       id: "2022-11_mobile_account_switcher_notifications",
