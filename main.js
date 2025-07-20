@@ -79,10 +79,49 @@ function compressZlib(obj) {
 function deCompressZlib(zlibBinary) {
   return zlib.inflateSync(zlibBinary);
 }
-
+async function doGist(gistUrl, type) {
+  const cloneCmd = `git clone ${gistUrl} gist`;
+  await execAsync(cloneCmd);
+  // list all commits
+  const commits = await execAsync("cd ./gist && git rev-list --all");
+  const commitsDone = JSON.parse(
+    await fs.readFile("./commitsDone.json", "utf-8")
+  );
+  let ids = {};
+  try {
+    ids = JSON.parse(await fs.readFile("./data/ids.json"));
+  } catch {}
+  for (let commit of commits.stdout.split("\n")) {
+    if (!commitsDone.includes(commit)) {
+      console.log("at commit", commit);
+      // download experiments.json from commit
+      await execAsync("cd ./gist && git checkout ".concat(commit));
+      const content = JSON.parse(
+        await fs.readFile("./gist/experiments.json", "utf-8")
+      );
+      for (let experiment of content) {
+        const idHashed = v3(type === "apex" ? experiment.name : experiment.id);
+        await fs.writeFile(
+          `./data/definitions/${idHashed}.json`,
+          JSON.stringify(experiment, null, 4),
+          "utf-8"
+        );
+        if (!ids[idHashed]) ids[idHashed] = experiment.id;
+      }
+      commitsDone.push(commit);
+    }
+  }
+  await fs.writeFile(
+    "./commitsDone.json",
+    JSON.stringify(commitsDone, null, 4)
+  );
+  await fs.rm("./gist", { recursive: true, force: true });
+}
 async function main() {
   const gistUrl =
     "https://gist.github.com/DiscrapperManager/05962f6137eacd9dbbc589d97c8ece3f";
+  const gistUrlApex =
+    "https://gist.github.com/MinerPL/16716e4672ef571c0b2aa455f1aa9a3a";
   if ((await fs.readdir("./")).includes("gist"))
     await fs.rm("./gist", { force: true, recursive: true });
   if (!(await fs.readdir("./")).includes("data")) await fs.mkdir("./data");
@@ -90,12 +129,26 @@ async function main() {
     await fs.mkdir("./data/definitions");
   // source: (mostly gist, discordlookup was used only on few exps) https://gist.github.com/XYZenix/95de40ff80091c0ff7b0cfd610bd10d7 & discordlookup
   const bultIn = {
-    3088683068: {
-      "kind": "user",
-      "id": "2024-06_android_shop",
-      "label": "",
-      "defaultConfig": {},
-      "treatments": []
+    1269370305: {
+      kind: "apex",
+      name: "2025-07-resumable-attachment-uploads",
+      label: "",
+      defaultConfig: {},
+      variations: {},
+    },
+    1842027934: {
+      kind: "apex",
+      name: "2025-07-typing-indicator-delay",
+      label: "",
+      defaultConfig: {},
+      variations: {},
+    },
+    4200402083: {
+      kind: "apex",
+      name: "2025-07-gif-picker-delay",
+      label: "",
+      defaultConfig: {},
+      variations: {},
     },
     1333727: {
       kind: "user",
@@ -16380,53 +16433,18 @@ async function main() {
   const bultInIds = {};
 
   for (let [hash, definition] of Object.entries(bultIn)) {
-    bultInIds[hash] = definition.id;
+    bultIn[hash] = definition.id;
     if (!(await fs.readdir("./data/definitions")).includes(`${hash}.json`))
       await fs.writeFile(
         `./data/definitions/${hash}.json`,
         JSON.stringify(definition, null, 4)
       );
   }
-
-  const cloneCmd = `git clone ${gistUrl} gist`;
-  await execAsync(cloneCmd);
-  // list all commits
-  const commits = await execAsync("cd ./gist && git rev-list --all");
-  const commitsDone = JSON.parse(
-    await fs.readFile("./commitsDone.json", "utf-8")
-  );
-  let ids = {};
-  try {
-    ids = JSON.parse(await fs.readFile("./data/ids.json"));
-  } catch {}
-  for (let commit of commits.stdout.split("\n")) {
-    if (!commitsDone.includes(commit)) {
-      console.log("at commit", commit);
-      // download experiments.json from commit
-      await execAsync("cd ./gist && git checkout ".concat(commit));
-      const content = JSON.parse(
-        await fs.readFile("./gist/experiments.json", "utf-8")
-      );
-      for (let experiment of content) {
-        const idHashed = v3(experiment.id);
-        await fs.writeFile(
-          `./data/definitions/${idHashed}.json`,
-          JSON.stringify(experiment, null, 4),
-          "utf-8"
-        );
-        if (!ids[idHashed]) ids[idHashed] = experiment.id;
-      }
-      commitsDone.push(commit);
-    }
-  }
-  await fs.writeFile(
-    "./commitsDone.json",
-    JSON.stringify(commitsDone, null, 4)
-  );
+  await doGist(gistUrl, "user");
+  await doGist(gistUrlApex, "apex");
   await fs.writeFile(
     "./data/ids.json",
     JSON.stringify({ ...ids, ...bultInIds }, null, 4)
   );
-  await fs.rm("./gist", { recursive: true, force: true });
 }
 main();
