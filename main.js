@@ -79,7 +79,7 @@ function compressZlib(obj) {
 function deCompressZlib(zlibBinary) {
   return zlib.inflateSync(zlibBinary);
 }
-async function doGist(gistUrl, type) {
+async function doGist(gistUrl, type, id) {
   const cloneCmd = `git clone ${gistUrl} gist`;
   await execAsync(cloneCmd);
   // list all commits
@@ -87,7 +87,6 @@ async function doGist(gistUrl, type) {
   const commitsDone = JSON.parse(
     await fs.readFile("./commitsDone.json", "utf-8")
   );
-  let ids = {};
   try {
     ids = JSON.parse(await fs.readFile("./data/ids.json"));
   } catch {}
@@ -99,7 +98,7 @@ async function doGist(gistUrl, type) {
       const content = JSON.parse(
         await fs.readFile("./gist/experiments.json", "utf-8")
       );
-      for (let experiment of content) {
+      for (let experiment of Array.isArray(content) ? content : []) {
         const idHashed = v3(type === "apex" ? experiment.name : experiment.id);
         await fs.writeFile(
           `./data/definitions/${idHashed}.json`,
@@ -16431,6 +16430,7 @@ async function main() {
     },
   };
   const bultInIds = {};
+  let ids = {};
 
   for (let [hash, definition] of Object.entries(bultIn)) {
     bultIn[hash] = definition.id;
@@ -16440,8 +16440,8 @@ async function main() {
         JSON.stringify(definition, null, 4)
       );
   }
-  await doGist(gistUrl, "user");
-  await doGist(gistUrlApex, "apex");
+  await doGist(gistUrl, "user", ids);
+  await doGist(gistUrlApex, "apex", ids);
   await fs.writeFile(
     "./data/ids.json",
     JSON.stringify({ ...ids, ...bultInIds }, null, 4)
