@@ -79,7 +79,7 @@ function compressZlib(obj) {
 function deCompressZlib(zlibBinary) {
   return zlib.inflateSync(zlibBinary);
 }
-async function doGist(gistUrl, type, id) {
+async function doGist(gistUrl, type, ids) {
   const cloneCmd = `git clone ${gistUrl} gist`;
   await execAsync(cloneCmd);
   // list all commits
