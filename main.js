@@ -87,9 +87,7 @@ async function doGist(gistUrl, type, ids) {
   const commitsDone = JSON.parse(
     await fs.readFile("./commitsDone.json", "utf-8")
   );
-  try {
-    ids = JSON.parse(await fs.readFile("./data/ids.json"));
-  } catch {}
+
   for (let commit of commits.stdout.split("\n")) {
     if (!commitsDone.includes(commit)) {
       console.log("at commit", commit);
@@ -16431,7 +16429,9 @@ async function main() {
   };
   const bultInIds = {};
   let ids = {};
-
+  try {
+    ids = JSON.parse(await fs.readFile("./data/ids.json"));
+  } catch {}
   for (let [hash, definition] of Object.entries(bultIn)) {
     bultIn[hash] = definition.id;
     if (!(await fs.readdir("./data/definitions")).includes(`${hash}.json`))
