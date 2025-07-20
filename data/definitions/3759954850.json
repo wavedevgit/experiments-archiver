@@ -1,0 +1,9 @@
+{
+    "name": "2025-07-trial-redemption-cta-copy",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "bucket": "disabled"
+    },
+    "variations": {}
+}

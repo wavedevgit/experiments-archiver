@@ -1,0 +1,9 @@
+{
+    "name": "2025-07-nitro-tab-title-non-sub",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "variant": 0
+    },
+    "variations": {}
+}
