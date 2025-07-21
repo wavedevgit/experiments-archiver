@@ -97,13 +97,14 @@ async function doGist(gistUrl, type, ids) {
         await fs.readFile("./gist/experiments.json", "utf-8")
       );
       for (let experiment of Array.isArray(content) ? content : []) {
+        if (experiment.name) console.log(experiment);
         const idHashed = v3(type === "apex" ? experiment.name : experiment.id);
         await fs.writeFile(
           `./data/definitions/${idHashed}.json`,
           JSON.stringify(experiment, null, 4),
           "utf-8"
         );
-        if (!ids[idHashed]) ids[idHashed] = experiment?.id || experiment?.name;
+        if (!ids[idHashed]) ids[idHashed] = experiment.id || experiment.name;
       }
       commitsDone.push(commit);
     }
@@ -16433,7 +16434,7 @@ async function main() {
     ids = JSON.parse(await fs.readFile("./data/ids.json"));
   } catch {}
   for (let [hash, definition] of Object.entries(bultIn)) {
-    bultIn[hash] = definition?.id || definition?.name;
+    bultInIds[hash] = definition.id || definition.name;
     if (!(await fs.readdir("./data/definitions")).includes(`${hash}.json`))
       await fs.writeFile(
         `./data/definitions/${hash}.json`,
