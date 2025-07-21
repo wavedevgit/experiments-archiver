@@ -34,6 +34,33 @@
                 "delayMs": 200,
                 "inExperiment": true
             }
+        },
+        {
+            "id": 3,
+            "label": "Control (overlap)",
+            "config": {
+                "enabled": false,
+                "delayMs": 0,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 4,
+            "label": "Delay 100 ms (overlap)",
+            "config": {
+                "enabled": true,
+                "delayMs": 100,
+                "inExperiment": true
+            }
+        },
+        {
+            "id": 5,
+            "label": "Delay 200 ms (overlap)",
+            "config": {
+                "enabled": true,
+                "delayMs": 200,
+                "inExperiment": true
+            }
         }
     ]
 }
