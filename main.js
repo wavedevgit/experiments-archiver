@@ -103,7 +103,7 @@ async function doGist(gistUrl, type, ids) {
           JSON.stringify(experiment, null, 4),
           "utf-8"
         );
-        if (!ids[idHashed]) ids[idHashed] = experiment.id;
+        if (!ids[idHashed]) ids[idHashed] = experiment?.id || experiment?.name;
       }
       commitsDone.push(commit);
     }
