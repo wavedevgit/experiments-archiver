@@ -16433,7 +16433,7 @@ async function main() {
     ids = JSON.parse(await fs.readFile("./data/ids.json"));
   } catch {}
   for (let [hash, definition] of Object.entries(bultIn)) {
-    bultIn[hash] = definition.id;
+    bultIn[hash] = definition?.id || definition?.name;
     if (!(await fs.readdir("./data/definitions")).includes(`${hash}.json`))
       await fs.writeFile(
         `./data/definitions/${hash}.json`,
