@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-07_device_filtering",
+    "label": "Device filtering experiment",
+    "defaultConfig": {
+        "shouldFilterDevicesByFrecency": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Filter devices by frecency",
+            "config": {
+                "shouldFilterDevicesByFrecency": true
+            }
+        }
+    ]
+}
