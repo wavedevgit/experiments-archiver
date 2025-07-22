@@ -93,19 +93,22 @@ async function doGist(gistUrl, type, ids) {
       console.log("at commit", commit);
       // download experiments.json from commit
       await execAsync("cd ./gist && git checkout ".concat(commit));
-      try { 
-       const content = JSON.parse(
-        await fs.readFile("./gist/experiments.json", "utf-8")
-      );
-      for (let experiment of Array.isArray(content) ? content : []) {
-        if (experiment.name) console.log(experiment);
-        const idHashed = v3(type === "apex" ? experiment.name : experiment.id);
-        await fs.writeFile(
-          `./data/definitions/${idHashed}.json`,
-          JSON.stringify(experiment, null, 4),
-          "utf-8"
+      try {
+        const content = JSON.parse(
+          await fs.readFile("./gist/experiments.json", "utf-8")
         );
-        if (!ids[idHashed]) ids[idHashed] = experiment.id || experiment.name; 
+        for (let experiment of Array.isArray(content) ? content : []) {
+          if (experiment.name) console.log(experiment);
+          const idHashed = v3(
+            type === "apex" ? experiment.name : experiment.id
+          );
+          await fs.writeFile(
+            `./data/definitions/${idHashed}.json`,
+            JSON.stringify(experiment, null, 4),
+            "utf-8"
+          );
+          if (!ids[idHashed]) ids[idHashed] = experiment.id || experiment.name;
+        }
       } catch (err) {}
       commitsDone.push(commit);
     }
