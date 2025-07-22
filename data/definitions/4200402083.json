@@ -1,7 +1,40 @@
 {
-    "kind": "apex",
     "name": "2025-07-gif-picker-delay",
-    "label": "",
-    "defaultConfig": {},
-    "variations": {}
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "delayMs": 0,
+        "inExperiment": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "delayMs": 100,
+            "inExperiment": true
+        },
+        "2": {
+            "enabled": true,
+            "delayMs": 200,
+            "inExperiment": true
+        },
+        "3": {
+            "enabled": false,
+            "delayMs": 0,
+            "inExperiment": true
+        },
+        "4": {
+            "enabled": true,
+            "delayMs": 100,
+            "inExperiment": true
+        },
+        "5": {
+            "enabled": true,
+            "delayMs": 200,
+            "inExperiment": true
+        }
+    }
 }

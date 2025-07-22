@@ -4,5 +4,9 @@
     "defaultConfig": {
         "enabled": false
     },
-    "variations": {}
+    "variations": {
+        "1": {
+            "enabled": true
+        }
+    }
 }

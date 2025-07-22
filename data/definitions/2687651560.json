@@ -1,8 +1,8 @@
 {
-    "name": "2025-07-resumable-attachment-uploads",
+    "name": "2025-07-desktop-skipped-updates",
     "kind": "user",
     "defaultConfig": {
-        "enableResumableUploads": false
+        "allowOptionalDesktopUpdates": false
     },
     "variations": {
         "0": {
@@ -10,7 +10,7 @@
             "variant": 0
         },
         "1": {
-            "enableResumableUploads": true
+            "allowOptionalDesktopUpdates": true
         }
     }
 }

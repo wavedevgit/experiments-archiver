@@ -1,7 +1,22 @@
 {
-    "kind": "apex",
+    "kind": "user",
     "name": "2025-07-typing-indicator-delay",
-    "label": "",
-    "defaultConfig": {},
-    "variations": {}
+    "defaultConfig": {
+        "delayMs": null,
+        "inExperiment": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "delayMs": null,
+            "inExperiment": true
+        },
+        "2": {
+            "delayMs": null,
+            "inExperiment": true
+        }
+    }
 }

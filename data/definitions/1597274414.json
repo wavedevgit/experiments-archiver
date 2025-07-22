@@ -4,5 +4,9 @@
     "defaultConfig": {
         "value": "blue"
     },
-    "variations": {}
+    "variations": {
+        "1": {
+            "value": "green"
+        }
+    }
 }

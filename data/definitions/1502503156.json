@@ -5,5 +5,14 @@
         "enabled": false,
         "variant": 0
     },
-    "variations": {}
+    "variations": {
+        "1": {
+            "enabled": true,
+            "variant": 1
+        },
+        "2": {
+            "enabled": true,
+            "variant": 2
+        }
+    }
 }

@@ -5,5 +5,14 @@
         "enabled": false,
         "bucket": "disabled"
     },
-    "variations": {}
+    "variations": {
+        "1": {
+            "enabled": true,
+            "bucket": "treatment_1"
+        },
+        "2": {
+            "enabled": true,
+            "bucket": "treatment_2"
+        }
+    }
 }

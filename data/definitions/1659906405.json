@@ -1,8 +1,9 @@
 {
-    "name": "2025-07-resumable-attachment-uploads",
+    "name": "2025-07-camera-toggle-sound",
     "kind": "user",
     "defaultConfig": {
-        "enableResumableUploads": false
+        "enabled": false,
+        "inExperiment": false
     },
     "variations": {
         "0": {
@@ -10,7 +11,8 @@
             "variant": 0
         },
         "1": {
-            "enableResumableUploads": true
+            "enabled": true,
+            "inExperiment": true
         }
     }
 }
