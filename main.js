@@ -106,8 +106,7 @@ async function doGist(gistUrl, type, ids) {
           "utf-8"
         );
         if (!ids[idHashed]) ids[idHashed] = experiment.id || experiment.name; 
-      } catch(err) {}
-      }
+      } catch (err) {}
       commitsDone.push(commit);
     }
   }
