@@ -3,21 +3,32 @@
     "kind": "user",
     "label": "Video Quest Debug Gate",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "forceNoCrossOrigin": false
     },
     "treatments": [
         {
             "id": 0,
             "label": "Control",
             "config": {
-                "enabled": false
+                "enabled": false,
+                "forceNoCrossOrigin": false
             }
         },
         {
             "id": 1,
             "label": "Enabled",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "forceNoCrossOrigin": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Force No Cross Origin",
+            "config": {
+                "enabled": true,
+                "forceNoCrossOrigin": true
             }
         }
     ]
