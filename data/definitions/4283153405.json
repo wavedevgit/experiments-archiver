@@ -4,24 +4,24 @@
     "label": "Nitro Rebrand Churn Modal",
     "defaultConfig": {
         "enabled": false,
-        "expressive": false
+        "discountPrimary": false
     },
     "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Enables rebranded churn modal w/ utilitarian modals",
+            "label": "Enables rebranded churn modal w/ secondary discount CTA",
             "config": {
                 "enabled": true,
-                "expressive": false
+                "discountPrimary": false
             }
         },
         {
             "id": 2,
-            "label": "Enables rebranded churn modal w/ expressive modals",
+            "label": "Enables rebranded churn modal w/ primary discount CTA",
             "config": {
                 "enabled": true,
-                "expressive": true
+                "discountPrimary": true
             }
         }
     ]
