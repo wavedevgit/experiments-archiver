@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-07_att_exposure_aa",
+    "label": "ATT exposure experiment",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "T1",
+            "config": {
+                "enabled": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "T2",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
