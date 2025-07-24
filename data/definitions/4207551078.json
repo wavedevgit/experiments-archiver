@@ -18,9 +18,7 @@
             "id": 2,
             "label": "new icymi tab with some new features",
             "config": {
-                "enabled": true,
-                "activeVoice": false,
-                "activeConvos": true
+                "enabled": true
             }
         },
         {
@@ -28,8 +26,6 @@
             "label": "new icymi tab with more new features",
             "config": {
                 "enabled": true,
-                "activeVoice": true,
-                "activeConvos": true,
                 "forumThreads": true
             }
         }
