@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2025-06_game_mentions",
+    "label": "Game Mentions - Guild",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Game Mentions",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
