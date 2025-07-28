@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-07_virtual_currency_reheat_experiment",
+    "label": "Virtual Currency Reheat Experiment",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Virtual Currency reheat experience",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
