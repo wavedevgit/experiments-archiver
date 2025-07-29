@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2025-07_right_click_redemption",
+    "label": "Right Click Redemption",
+    "defaultConfig": {
+        "dotsInsteadOfCloseButton": false,
+        "rearrangeContextMenu": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Context Menu Instead of Close Button",
+            "config": {
+                "dotsInsteadOfCloseButton": true,
+                "rearrangeContextMenu": false
+            }
+        }
+    ]
+}
