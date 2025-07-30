@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-08_premium_brand_refresh_upsell_roadblocks_experiment",
+    "label": "Premium Brand Refresh Upsell Roadblocks Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "User sees control premium brand refresh upsell roadblocks",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "User sees premium brand refresh upsell roadblocks",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
