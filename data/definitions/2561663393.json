@@ -3,15 +3,25 @@
     "kind": "user",
     "label": "Display Name Styles Viewer",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "includeNonProfile": false
     },
     "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Enables viewing display name styles set by other users.",
+            "label": "Enables viewing display name styles on all surfaces.",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "includeNonProfile": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enables viewing display name styles on profile surfaces only.",
+            "config": {
+                "enabled": true,
+                "includeNonProfile": false
             }
         }
     ]
