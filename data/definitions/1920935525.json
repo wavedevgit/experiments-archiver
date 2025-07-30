@@ -1,0 +1,18 @@
+{
+    "kind": "guild",
+    "id": "2025-06_thread_search_partial_name_match",
+    "label": "Partial search term matching for thread titles",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Partial search term matching for thread titles",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
