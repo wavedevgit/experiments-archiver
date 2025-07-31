@@ -13,6 +13,14 @@
             "config": {
                 "enabled": true
             }
+        },
+        {
+            "id": 2,
+            "label": "Enables the V2 custom theme editor",
+            "config": {
+                "enabled": true,
+                "v2EditorEnabled": true
+            }
         }
     ]
 }
