@@ -1,0 +1,13 @@
+{
+    "kind": "user",
+    "id": "2025-07_stream_survey_taxonomy_refresh",
+    "label": "Stream survey taxonomy refresh",
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Show refreshed stream taxonomy",
+            "config": null
+        }
+    ]
+}

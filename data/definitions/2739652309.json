@@ -1,17 +1,13 @@
 {
     "kind": "user",
     "id": "2025-05_av_survey_taxonomy_refresh",
-    "label": "AV survey taxonomy refresh",
-    "defaultConfig": {
-        "showRefreshedTaxonomy": false
-    },
+    "label": "Call survey taxonomy refresh",
+    "defaultConfig": null,
     "treatments": [
         {
             "id": 1,
-            "label": "Show refreshed taxonomy",
-            "config": {
-                "showRefreshedTaxonomy": true
-            }
+            "label": "Show refreshed call taxonomy",
+            "config": null
         }
     ]
 }
