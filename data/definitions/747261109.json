@@ -1,0 +1,18 @@
+{
+    "id": "2025-07_custom_theme_mobile_rendering",
+    "kind": "user",
+    "label": "Custom Theme Mobile Rendering",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables custom theme rendering on mobile",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
