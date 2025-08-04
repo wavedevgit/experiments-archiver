@@ -1,0 +1,13 @@
+{
+    "kind": "guild",
+    "id": "2025-08_request_to_stream",
+    "label": "Request to Stream",
+    "defaultConfig": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Request to Stream Enabled",
+            "config": null
+        }
+    ]
+}
