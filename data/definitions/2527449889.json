@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-08-view-roblox-subgames-in-rich-presence",
+    "label": "View Roblox subgames in rich presence",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables viewing roblox subgames in rich presence",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
