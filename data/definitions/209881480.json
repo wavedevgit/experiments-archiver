@@ -1,0 +1,18 @@
+{
+    "id": "2025-08_nitro_rebrand_churn_modal_preview_invoice_step",
+    "kind": "user",
+    "label": "Nitro Rebrand Churn Modal Preview Invoice Step",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables preview invoice step in rebranded churn modal",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
