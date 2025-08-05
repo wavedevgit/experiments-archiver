@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-07_wow_moment_premium_brand_refresh_experiment",
+    "label": "Wow Moment Premium Brand Refresh Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "User sees premium brand refresh wow moment design",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
