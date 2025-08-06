@@ -5,6 +5,10 @@
         "value": "blue"
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "value": "green"
         }

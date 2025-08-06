@@ -6,6 +6,10 @@
         "variant": 0
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "enabled": true,
             "variant": 1
@@ -13,6 +17,10 @@
         "2": {
             "enabled": true,
             "variant": 2
+        },
+        "3": {
+            "enabled": true,
+            "variant": 3
         }
     }
 }

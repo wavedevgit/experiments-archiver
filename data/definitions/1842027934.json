@@ -17,6 +17,18 @@
         "2": {
             "delayMs": null,
             "inExperiment": true
+        },
+        "3": {
+            "delayMs": null,
+            "inExperiment": true
+        },
+        "4": {
+            "delayMs": null,
+            "inExperiment": true
+        },
+        "5": {
+            "delayMs": null,
+            "inExperiment": true
         }
     }
 }

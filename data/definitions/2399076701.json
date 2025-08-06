@@ -4,5 +4,10 @@
     "defaultConfig": {
         "isEnabled": false
     },
-    "variations": {}
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        }
+    }
 }

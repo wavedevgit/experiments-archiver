@@ -1,13 +1,16 @@
 {
-    "name": "2025-07-apex-aa-validation--clientside--simple",
+    "name": "2025-07-nameplate-per-server",
     "kind": "user",
     "defaultConfig": {
-        "isEnabled": false
+        "enabled": false
     },
     "variations": {
         "0": {
             "enabled": false,
             "variant": 0
+        },
+        "1": {
+            "enabled": true
         }
     }
 }
