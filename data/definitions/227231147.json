@@ -5,10 +5,19 @@
     "defaultConfig": null,
     "treatments": [
         {
+            "id": 0,
+            "label": "Control group for xDM search on desktop",
+            "config": {
+                "enabled": false,
+                "inExperiment": true
+            }
+        },
+        {
             "id": 1,
             "label": "Enables xDM search on desktop",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "inExperiment": true
             }
         }
     ]
