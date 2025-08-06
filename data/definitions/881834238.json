@@ -42,6 +42,17 @@
                 "showLinkToSettings": false,
                 "variantName": "treatment_3"
             }
+        },
+        {
+            "id": 4,
+            "label": "[Holdout] Popout not available when already sharing",
+            "config": {
+                "isEnabled": true,
+                "showActivitySharingIndicatorWhenSharing": false,
+                "showUpdatedSettingsPage": true,
+                "showLinkToSettings": true,
+                "variantName": "treatment_4"
+            }
         }
     ]
 }
