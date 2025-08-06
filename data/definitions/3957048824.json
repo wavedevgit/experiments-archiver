@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-collectibles-shop-takeover",
+    "kind": "user",
+    "defaultConfig": {
+        "enableShopTakeOver": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableShopTakeOver": true
+        }
+    }
+}

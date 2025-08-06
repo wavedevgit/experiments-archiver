@@ -2,7 +2,10 @@
     "kind": "user",
     "id": "2025-07_search_filters_redesign",
     "label": "Search Filters Redesign",
-    "defaultConfig": null,
+    "defaultConfig": {
+        "isPopoutFiltersRedesignEnabled": false,
+        "isResultFiltersRedesignEnabled": false
+    },
     "treatments": [
         {
             "id": 1,

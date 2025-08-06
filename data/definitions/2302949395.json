@@ -4,24 +4,14 @@
     "label": "Upsell Outbound Promos",
     "commonTriggerPoint": null,
     "defaultConfig": {
-        "enabled": false,
-        "getNitroCTA": false
+        "enabled": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enable upsells for outbound promos w/ Nagbar variant 1 - gift inventory cta",
             "config": {
-                "enabled": true,
-                "getNitroCTA": false
-            }
-        },
-        {
-            "id": 2,
-            "label": "Enable upsells for outbound promos w/ Nagbar variant 2 - get nitro cta",
-            "config": {
-                "enabled": true,
-                "getNitroCTA": true
+                "enabled": true
             }
         }
     ]
