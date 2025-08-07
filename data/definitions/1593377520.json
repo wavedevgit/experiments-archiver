@@ -3,7 +3,8 @@
     "id": "2025-06_golive_tile_resolution_gating",
     "label": "GoLive Tile Resolution Gating",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "adjustResolution": false
     },
     "commonTriggerPoint": null,
     "treatments": [
@@ -11,28 +12,48 @@
             "id": 0,
             "label": "Non-Nitro control",
             "config": {
-                "enabled": false
+                "enabled": false,
+                "adjustResolution": false
             }
         },
         {
             "id": 1,
             "label": "Tile size based wants enabled only for non-nitro users",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "adjustResolution": true
             }
         },
         {
             "id": 2,
             "label": "Nitro control",
             "config": {
-                "enabled": false
+                "enabled": false,
+                "adjustResolution": false
             }
         },
         {
             "id": 3,
             "label": "Tile size based wants enabled only for Nitro subscribers",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "adjustResolution": true
+            }
+        },
+        {
+            "id": 4,
+            "label": "Tile size based bitrate adjustments for non-nitro users",
+            "config": {
+                "enabled": true,
+                "adjustResolution": false
+            }
+        },
+        {
+            "id": 5,
+            "label": "Tile size based bitrate adjustments for Nitro users",
+            "config": {
+                "enabled": true,
+                "adjustResolution": false
             }
         }
     ]
