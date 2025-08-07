@@ -22,6 +22,14 @@
                 "enabled": true,
                 "showExpressionPickerButton": true
             }
+        },
+        {
+            "id": 3,
+            "label": "Enabled - New Entrypoint Only",
+            "config": {
+                "enabled": false,
+                "showExpressionPickerButton": true
+            }
         }
     ]
 }
