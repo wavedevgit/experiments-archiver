@@ -9,10 +9,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Context Menu Instead of Close Button",
+            "label": "Replace DM Close Button with Right-Click menu",
             "config": {
                 "dotsInsteadOfCloseButton": true,
                 "rearrangeContextMenu": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Replace DM Close Button with a focused menu",
+            "config": {
+                "dotsInsteadOfCloseButton": true,
+                "rearrangeContextMenu": true
             }
         }
     ]
