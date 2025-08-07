@@ -7,7 +7,6 @@
         "entrypoint": null,
         "filterStyle": null
     },
-    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
