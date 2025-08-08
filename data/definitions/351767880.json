@@ -3,7 +3,9 @@
     "kind": "user",
     "label": "Client Theme Color Picker",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "v2EditorEnabled": false,
+        "mobileRenderingEnabled": false
     },
     "commonTriggerPoint": null,
     "treatments": [
@@ -11,15 +13,27 @@
             "id": 1,
             "label": "Enables setting client theme color picker",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "v2EditorEnabled": false,
+                "mobileRenderingEnabled": false
             }
         },
         {
             "id": 2,
-            "label": "Enables the V2 custom theme editor",
+            "label": "Enables the V2 custom theme editor and mobile rendering",
             "config": {
                 "enabled": true,
-                "v2EditorEnabled": true
+                "v2EditorEnabled": true,
+                "mobileRenderingEnabled": true
+            }
+        },
+        {
+            "id": 3,
+            "label": "Same as 2 but for people who were previously in treatment 1",
+            "config": {
+                "enabled": true,
+                "v2EditorEnabled": true,
+                "mobileRenderingEnabled": true
             }
         }
     ]
