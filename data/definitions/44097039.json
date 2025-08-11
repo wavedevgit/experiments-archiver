@@ -1,0 +1,18 @@
+{
+    "id": "2025-08_churn_discount_header",
+    "kind": "user",
+    "label": "Churn Discount Subscription Header Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables a churn discount header in subscription details",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
