@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2025-08_create_dm_cta_desktop",
+    "label": "Create DM CTA (Desktop)",
+    "defaultConfig": {
+        "buttonVariant": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Side button",
+            "config": {
+                "buttonVariant": "side"
+            }
+        },
+        {
+            "id": 2,
+            "label": "Full width button",
+            "config": {
+                "buttonVariant": "full-width"
+            }
+        }
+    ]
+}
