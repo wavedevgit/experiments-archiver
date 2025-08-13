@@ -2,9 +2,7 @@
     "kind": "user",
     "id": "2025-06_search_desktop_xdm_feedback",
     "label": "Search Desktop XDM Feedback Experiment",
-    "defaultConfig": {
-        "enabled": false
-    },
+    "defaultConfig": null,
     "treatments": [
         {
             "id": 1,
