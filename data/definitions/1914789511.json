@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2025-07_shop_summer_sale_cohort_2",
+    "label": "Shop Summer Sale Cohort 2",
+    "commonTriggerPoint": null,
+    "defaultConfig": {},
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Bucket 1",
+            "config": {}
+        },
+        {
+            "id": 2,
+            "label": "Bucket 2",
+            "config": {}
+        }
+    ]
+}
