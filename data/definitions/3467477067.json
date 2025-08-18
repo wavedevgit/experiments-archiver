@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-call-bitrate-floor",
+    "kind": "user",
+    "defaultConfig": {
+        "minBitrate": 150000
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "minBitrate": 16000
+        },
+        "2": {
+            "minBitrate": 32000
+        },
+        "3": {
+            "minBitrate": 64000
+        }
+    }
+}

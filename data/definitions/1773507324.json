@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-halloween-gifting-2025",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "animated": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "animated": true
+        },
+        "2": {
+            "enabled": true,
+            "animated": false
+        }
+    }
+}

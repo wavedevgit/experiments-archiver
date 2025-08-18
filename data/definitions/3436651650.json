@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-canonical-game-list",
+    "kind": "user",
+    "defaultConfig": {
+        "useCanonicalList": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "useCanonicalList": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-game-detection-v2",
+    "kind": "user",
+    "defaultConfig": {
+        "useDetectionV2": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "useDetectionV2": true
+        }
+    }
+}

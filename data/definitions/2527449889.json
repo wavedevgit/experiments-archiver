@@ -1,18 +1,35 @@
 {
+    "name": "2025-08-view-roblox-subgames-in-rich-presence",
     "kind": "user",
-    "id": "2025-08-view-roblox-subgames-in-rich-presence",
-    "label": "View Roblox subgames in rich presence",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "showPlayButton": false,
+        "alternativeTitle": false
     },
-    "commonTriggerPoint": null,
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enables viewing roblox subgames in rich presence",
-            "config": {
-                "enabled": true
-            }
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "showPlayButton": false,
+            "alternativeTitle": false
+        },
+        "2": {
+            "enabled": true,
+            "showPlayButton": true,
+            "alternativeTitle": false
+        },
+        "3": {
+            "enabled": true,
+            "showPlayButton": false,
+            "alternativeTitle": true
+        },
+        "4": {
+            "enabled": true,
+            "showPlayButton": true,
+            "alternativeTitle": true
         }
-    ]
+    }
 }
