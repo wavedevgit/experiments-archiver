@@ -5,6 +5,7 @@
     "defaultConfig": {
         "cohort": "CONTROL"
     },
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 0,
