@@ -1,0 +1,24 @@
+{
+    "kind": "user",
+    "id": "2025-08_detected_file_size",
+    "label": "Detected File Size",
+    "defaultConfig": {
+        "useDetectedFileSize": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Control - Use File.size directly",
+            "config": {
+                "useDetectedFileSize": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Treatment - Use detected file size with fallback",
+            "config": {
+                "useDetectedFileSize": true
+            }
+        }
+    ]
+}
