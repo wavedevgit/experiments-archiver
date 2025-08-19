@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-08-emoji_studio_speedrun",
+    "label": "Emoji Studio V2 Speedrun",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled - Instant Upload, Emoji Editing Support",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
