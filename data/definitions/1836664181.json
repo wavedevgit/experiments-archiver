@@ -6,26 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Enable better popout filters",
+            "label": "No top filters",
             "config": {
-                "isPopoutFiltersRedesignEnabled": true,
-                "isResultFiltersRedesignEnabled": false
+                "isNoTopFiltersRedesignEnabled": true,
+                "isSuggestTopFiltersRedesignEnabled": false
             }
         },
         {
             "id": 2,
-            "label": "Enable better result filters",
+            "label": "Suggest top filters",
             "config": {
-                "isPopoutFiltersRedesignEnabled": false,
-                "isResultFiltersRedesignEnabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "Enable better popout and result filters",
-            "config": {
-                "isPopoutFiltersRedesignEnabled": true,
-                "isResultFiltersRedesignEnabled": true
+                "isNoTopFiltersRedesignEnabled": false,
+                "isSuggestTopFiltersRedesignEnabled": true
             }
         }
     ]
