@@ -1,0 +1,26 @@
+{
+    "kind": "user",
+    "name": "2025-08-negative-hardware-acceleration",
+    "defaultConfig": {
+        "forceEnableVideoHardwareAcceleration": false,
+        "forceEnableAppHardwareAcceleration": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "forceEnableVideoHardwareAcceleration": true,
+            "forceEnableAppHardwareAcceleration": false
+        },
+        "2": {
+            "forceEnableVideoHardwareAcceleration": false,
+            "forceEnableAppHardwareAcceleration": true
+        },
+        "3": {
+            "forceEnableVideoHardwareAcceleration": true,
+            "forceEnableAppHardwareAcceleration": true
+        }
+    }
+}
