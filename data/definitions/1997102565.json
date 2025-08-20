@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-remote-join-game-invite",
+    "kind": "user",
+    "defaultConfig": {
+        "enableRemoteJoin": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableRemoteJoin": true
+        }
+    }
+}
