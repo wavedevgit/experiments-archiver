@@ -1,0 +1,18 @@
+{
+    "id": "2025-08_custom_theme_share_send",
+    "kind": "user",
+    "label": "Custom Theme Share Send",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enables sharing functionality for custom client themes",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
