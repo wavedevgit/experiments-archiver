@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-08_collectibles_categories_v2_endpoint",
+    "label": "Collectibles V2 Endpoint",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "useV2Endpoint": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use V2 Endpoint",
+            "config": {
+                "useV2Endpoint": true
+            }
+        }
+    ]
+}
