@@ -6,7 +6,17 @@
     "treatments": [
         {
             "id": 1,
-            "label": "Request to Stream Enabled",
+            "label": "VC Status Icons",
+            "config": null
+        },
+        {
+            "id": 2,
+            "label": "Request to Stream without Overlay Notification",
+            "config": null
+        },
+        {
+            "id": 3,
+            "label": "Request to Stream with Overlay Notification",
             "config": null
         }
     ]
