@@ -4,7 +4,8 @@
     "label": "Fast Travel",
     "defaultConfig": {
         "backForwardButtons": false,
-        "titlebarFastTravel": false
+        "titlebarFastTravel": false,
+        "quickSwitcherInsteadOfTitle": false
     },
     "treatments": [
         {
@@ -12,15 +13,26 @@
             "label": "Back/Forward Buttons only",
             "config": {
                 "backForwardButtons": true,
-                "titlebarFastTravel": false
+                "titlebarFastTravel": false,
+                "quickSwitcherInsteadOfTitle": false
             }
         },
         {
             "id": 2,
-            "label": "Back/Forward buttons and titlebar fast travel",
+            "label": "back/forward buttons and quick switcher on title",
             "config": {
                 "backForwardButtons": true,
-                "titlebarFastTravel": true
+                "titlebarFastTravel": true,
+                "quickSwitcherInsteadOfTitle": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "back/forward buttons and quick switcher INSTEAD of title",
+            "config": {
+                "backForwardButtons": true,
+                "titlebarFastTravel": true,
+                "quickSwitcherInsteadOfTitle": true
             }
         }
     ]
