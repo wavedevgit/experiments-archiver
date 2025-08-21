@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-08_referral_program_relaxed_banner_eligibility",
+    "label": "Referral Program Relaxed Banner Eligibility Experiment",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control group. Users need eligible friends to see the referral program banner.",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Treatment Group 1. Users do not need eligible friends to see the referral program banner.",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
