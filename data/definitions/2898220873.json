@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-system-service",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "force": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "force": false
+        },
+        "2": {
+            "enabled": true,
+            "force": true
+        }
+    }
+}
