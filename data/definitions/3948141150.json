@@ -4,7 +4,8 @@
     "label": "Allowing testing DAVE protocol for browser",
     "defaultConfig": {
         "loadWasmModule": false,
-        "useWasmModule": false
+        "useWasmModule": false,
+        "preload": false
     },
     "treatments": [
         {
@@ -12,7 +13,8 @@
             "label": "Load only",
             "config": {
                 "loadWasmModule": true,
-                "useWasmModule": false
+                "useWasmModule": false,
+                "preload": false
             }
         },
         {
@@ -20,7 +22,17 @@
             "label": "Enable",
             "config": {
                 "loadWasmModule": true,
-                "useWasmModule": true
+                "useWasmModule": true,
+                "preload": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Preload",
+            "config": {
+                "loadWasmModule": true,
+                "useWasmModule": true,
+                "preload": true
             }
         }
     ]
