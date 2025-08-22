@@ -1,0 +1,17 @@
+{
+    "kind": "user",
+    "id": "2025-08_enable_rtc_panel_voice_states_by_default",
+    "label": "Enable RTC panel voice states by default experiment",
+    "defaultConfig": {
+        "enableRTCPanelVoiceStatesByDefault": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable RTC panel voice states by default",
+            "config": {
+                "enableRTCPanelVoiceStatesByDefault": true
+            }
+        }
+    ]
+}
