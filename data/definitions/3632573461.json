@@ -3,14 +3,24 @@
     "id": "2025-08-emoji_studio_speedrun",
     "label": "Emoji Studio V2 Speedrun",
     "defaultConfig": {
-        "enabled": false
+        "isEmojiEditingExperimentEnabled": false,
+        "isSelectFileBeforeEmojiStudioExperimentEnabled": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enabled - Instant Upload, Emoji Editing Support",
+            "label": "Emoji Editing",
             "config": {
-                "enabled": true
+                "isEmojiEditingExperimentEnabled": true,
+                "isSelectFileBeforeEmojiStudioExperimentEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Select Image File Before Emoji Studio",
+            "config": {
+                "isEmojiEditingExperimentEnabled": false,
+                "isSelectFileBeforeEmojiStudioExperimentEnabled": true
             }
         }
     ]
