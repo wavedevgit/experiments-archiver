@@ -3,14 +3,24 @@
     "kind": "user",
     "label": "Quest Preview Tool",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "v2Enabled": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Preview tool enabled",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "v2Enabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Preview tool 2 enabled",
+            "config": {
+                "enabled": true,
+                "v2Enabled": true
             }
         }
     ]
