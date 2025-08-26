@@ -17,7 +17,7 @@
         },
         {
             "id": 2,
-            "label": "Select Image File Before Emoji Studio",
+            "label": "\"Speedrun\": Select Image File Before Emoji Studio",
             "config": {
                 "isEmojiEditingExperimentEnabled": false,
                 "isSelectFileBeforeEmojiStudioExperimentEnabled": true
