@@ -1,0 +1,28 @@
+{
+    "id": "2025-09_you_bar",
+    "label": "You Bar",
+    "commonTriggerPoint": null,
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "backButtonBadge": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "You Bar",
+            "config": {
+                "enabled": true,
+                "backButtonBadge": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "You Bar",
+            "config": {
+                "enabled": true,
+                "backButtonBadge": true
+            }
+        }
+    ]
+}
