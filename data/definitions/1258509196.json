@@ -3,14 +3,24 @@
     "id": "2025-06_user_settings_redesign",
     "label": "User Settings Redesign",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "showRedesignedNotifications": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enable user settings redesign",
+            "label": "Enable user settings redesign with legacy notifications",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "showRedesignedNotifications": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable user settings redesign with new notifications page",
+            "config": {
+                "enabled": true,
+                "showRedesignedNotifications": true
             }
         }
     ]

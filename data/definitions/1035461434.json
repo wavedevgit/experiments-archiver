@@ -1,0 +1,18 @@
+{
+    "id": "2025-07_apex_cluster_randomization_aa",
+    "kind": "user",
+    "label": "Apex Cluster Randomization AA",
+    "defaultConfig": {
+        "isEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "AA test enabled. Noop on UI effect.",
+            "config": {
+                "isEnabled": true
+            }
+        }
+    ],
+    "commonTriggerPoint": null
+}
