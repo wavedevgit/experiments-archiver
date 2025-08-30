@@ -18115,4 +18115,553 @@
       }
     }
   }
+][
+  {
+    "name": "2025-07-apex-aa-validation--clientside--android",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-apex-aa-validation--clientside--hqdtesters",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-apex-aa-validation--clientside--ios",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-apex-aa-validation--clientside--simple",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-apex-aa-validation--clientside--usercountry",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-apex-aa-validation--clientside--userlocale",
+    "kind": "user",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      }
+    }
+  },
+  {
+    "name": "2025-07-camera-toggle-sound",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "inExperiment": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "inExperiment": true
+      }
+    }
+  },
+  {
+    "name": "2025-07-desktop-skipped-updates",
+    "kind": "user",
+    "defaultConfig": {
+      "allowOptionalDesktopUpdates": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "allowOptionalDesktopUpdates": true
+      }
+    }
+  },
+  {
+    "name": "2025-07-nameplate-per-server",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-07-nitro-tab-title-non-sub",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "variant": 0
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "variant": 1
+      },
+      "2": {
+        "enabled": true,
+        "variant": 2
+      },
+      "3": {
+        "enabled": true,
+        "variant": 3
+      }
+    }
+  },
+  {
+    "name": "2025-07-nitro-tab-title-sub",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-07-trial-redemption-cta-copy",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "bucket": "disabled"
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "bucket": "treatment_1"
+      },
+      "2": {
+        "enabled": true,
+        "bucket": "treatment_2"
+      }
+    }
+  },
+  {
+    "kind": "user",
+    "name": "2025-08-always-guild-media",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-browser-hevc",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-call-bitrate-floor",
+    "kind": "user",
+    "defaultConfig": {
+      "minBitrate": 150000
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "minBitrate": 16000
+      },
+      "2": {
+        "minBitrate": 32000
+      },
+      "3": {
+        "minBitrate": 64000
+      }
+    }
+  },
+  {
+    "name": "2025-08-canonical-game-list",
+    "kind": "user",
+    "defaultConfig": {
+      "useCanonicalList": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "useCanonicalList": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-collapsed-completed-quest-bar",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-collectibles-shop-takeover",
+    "kind": "user",
+    "defaultConfig": {
+      "enableShopTakeOver": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enableShopTakeOver": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-expressive-buy-gift-button",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-game-detection-v2",
+    "kind": "user",
+    "defaultConfig": {
+      "useDetectionV2": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "useDetectionV2": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-halloween-gifting-2025",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "animated": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "animated": true
+      },
+      "2": {
+        "enabled": true,
+        "animated": false
+      }
+    }
+  },
+  {
+    "kind": "user",
+    "name": "2025-08-negative-hardware-acceleration",
+    "defaultConfig": {
+      "forceEnableVideoHardwareAcceleration": false,
+      "forceEnableAppHardwareAcceleration": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "forceEnableVideoHardwareAcceleration": true,
+        "forceEnableAppHardwareAcceleration": false
+      },
+      "2": {
+        "forceEnableVideoHardwareAcceleration": false,
+        "forceEnableAppHardwareAcceleration": true
+      },
+      "3": {
+        "forceEnableVideoHardwareAcceleration": true,
+        "forceEnableAppHardwareAcceleration": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-proxy-request-signing-ticket",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-quest-ad-fetch-active-check",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-quest-home-v2-sorting-filtering",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-remote-join-game-invite",
+    "kind": "user",
+    "defaultConfig": {
+      "enableRemoteJoin": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enableRemoteJoin": true
+      }
+    }
+  },
+  {
+    "kind": "user",
+    "name": "2025-08-shop-catalog-banner-redesign",
+    "defaultConfig": {
+      "isEnabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "isEnabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-sponsored-quest",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-system-service",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "force": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "force": false
+      },
+      "2": {
+        "enabled": true,
+        "force": true
+      }
+    }
+  },
+  {
+    "name": "2025-08-view-roblox-subgames-in-rich-presence",
+    "kind": "user",
+    "defaultConfig": {
+      "enabled": false,
+      "showPlayButton": false,
+      "alternativeTitle": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "showPlayButton": false,
+        "alternativeTitle": false
+      },
+      "2": {
+        "enabled": true,
+        "showPlayButton": true,
+        "alternativeTitle": false
+      },
+      "3": {
+        "enabled": true,
+        "showPlayButton": false,
+        "alternativeTitle": true
+      },
+      "4": {
+        "enabled": true,
+        "showPlayButton": true,
+        "alternativeTitle": true
+      }
+    }
+  },
+  {
+    "kind": "user",
+    "name": "2025-08-voice-user-affinity",
+    "defaultConfig": {
+      "enabled": false
+    },
+    "variations": {
+      "0": {
+        "enabled": false,
+        "variant": 0
+      },
+      "1": {
+        "enabled": true,
+        "sortType": "vc_probability"
+      },
+      "2": {
+        "enabled": true,
+        "sortType": "communication_probability"
+      }
+    }
+  }
 ]
