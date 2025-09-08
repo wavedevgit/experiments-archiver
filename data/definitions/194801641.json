@@ -5,7 +5,8 @@
     "defaultConfig": {
         "enableHangStatus": false,
         "setDefaultStatus": false,
-        "allowChannelTopic": false
+        "allowChannelTopic": false,
+        "defaultStatusVariant": "original"
     },
     "treatments": [
         {
@@ -14,7 +15,8 @@
             "config": {
                 "enableHangStatus": true,
                 "setDefaultStatus": false,
-                "allowChannelTopic": false
+                "allowChannelTopic": false,
+                "defaultStatusVariant": "original"
             }
         },
         {
@@ -23,7 +25,8 @@
             "config": {
                 "enableHangStatus": true,
                 "setDefaultStatus": true,
-                "allowChannelTopic": false
+                "allowChannelTopic": false,
+                "defaultStatusVariant": "original"
             }
         },
         {
@@ -32,7 +35,38 @@
             "config": {
                 "enableHangStatus": true,
                 "setDefaultStatus": false,
-                "allowChannelTopic": true
+                "allowChannelTopic": true,
+                "defaultStatusVariant": "original"
+            }
+        },
+        {
+            "id": 4,
+            "label": "illocon hang statuses with channel topic",
+            "config": {
+                "enableHangStatus": true,
+                "setDefaultStatus": true,
+                "allowChannelTopic": true,
+                "defaultStatusVariant": "illocons"
+            }
+        },
+        {
+            "id": 5,
+            "label": "grey icon hang statuses with channel topic",
+            "config": {
+                "enableHangStatus": true,
+                "setDefaultStatus": true,
+                "allowChannelTopic": true,
+                "defaultStatusVariant": "icons"
+            }
+        },
+        {
+            "id": 6,
+            "label": "twemoji hang statuses with channel topic",
+            "config": {
+                "enableHangStatus": true,
+                "setDefaultStatus": true,
+                "allowChannelTopic": true,
+                "defaultStatusVariant": "twemoji"
             }
         }
     ]
