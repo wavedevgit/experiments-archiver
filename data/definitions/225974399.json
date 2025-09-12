@@ -1,0 +1,39 @@
+{
+    "kind": "user",
+    "id": "2025-08_do_not_disturb_reminder",
+    "label": "Do Not Disturb Reminder",
+    "defaultConfig": {
+        "enabled": false,
+        "titleText": null,
+        "bodyText": null
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enabled - Copy 1",
+            "config": {
+                "enabled": true,
+                "titleText": null,
+                "bodyText": null
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enabled - Copy 2",
+            "config": {
+                "enabled": true,
+                "titleText": null,
+                "bodyText": null
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enabled - Copy 3",
+            "config": {
+                "enabled": true,
+                "titleText": null,
+                "bodyText": null
+            }
+        }
+    ]
+}
