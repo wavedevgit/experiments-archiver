@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-09_ctp_quest_home_open_everyone",
+    "label": "CTP quest home open - A/A test - Everyone",
+    "defaultConfig": {
+        "doSomething": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ]
+}

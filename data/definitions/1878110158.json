@@ -1,0 +1,18 @@
+{
+    "kind": "user",
+    "id": "2025-09_ctp_quest_home_open_uneven_buckets",
+    "label": "CTP quest home open - A/A test - Uneven buckets",
+    "defaultConfig": {
+        "doSomething": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ]
+}

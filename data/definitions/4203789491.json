@@ -1,0 +1,25 @@
+{
+    "kind": "user",
+    "id": "2025-09_ctp_quest_home_open_multiple_buckets",
+    "label": "CTP quest home open - A/A test - Multiple buckets",
+    "defaultConfig": {
+        "doSomething": false
+    },
+    "commonTriggerPoint": null,
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment 1",
+            "config": {
+                "doSomething": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Treatment 2",
+            "config": {
+                "doSomething": true
+            }
+        }
+    ]
+}
