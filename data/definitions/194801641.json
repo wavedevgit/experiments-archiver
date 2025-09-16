@@ -8,6 +8,7 @@
         "allowChannelTopic": false,
         "defaultStatusVariant": "original"
     },
+    "commonTriggerPoint": null,
     "treatments": [
         {
             "id": 1,
