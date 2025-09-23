@@ -13,21 +13,6 @@
             "config": {
                 "enabled": true
             }
-        },
-        {
-            "id": 2,
-            "label": "new icymi tab with some new features",
-            "config": {
-                "enabled": true
-            }
-        },
-        {
-            "id": 3,
-            "label": "new icymi tab with more new features",
-            "config": {
-                "enabled": true,
-                "forumThreads": true
-            }
         }
     ]
 }
