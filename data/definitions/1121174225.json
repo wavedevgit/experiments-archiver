@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "id": "2025-09_hotwheels_nvidia_boost",
+    "label": "Next iteration of the activity feed ranking model.",
+    "commonTriggerPoint": null,
+    "defaultConfig": {},
+    "treatments": [
+        {
+            "id": 16,
+            "label": "ML model V3 - Nvidia small boost",
+            "config": {}
+        },
+        {
+            "id": 17,
+            "label": "ML model V3 - Nvidia big boost",
+            "config": {}
+        }
+    ]
+}
