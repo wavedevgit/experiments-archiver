@@ -41,7 +41,7 @@
                 "setDefaultStatus": true,
                 "allowChannelTopic": true,
                 "allowPermanentClear": false,
-                "defaultStatusVariant": "twemoji"
+                "defaultStatusVariant": "twemojimild"
             }
         },
         {
@@ -52,7 +52,7 @@
                 "setDefaultStatus": true,
                 "allowChannelTopic": true,
                 "allowPermanentClear": true,
-                "defaultStatusVariant": "twemoji"
+                "defaultStatusVariant": "twemojimild"
             }
         },
         {
