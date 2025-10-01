@@ -4,7 +4,8 @@
     "label": "User Settings Redesign",
     "defaultConfig": {
         "enabled": false,
-        "showRedesignedNotifications": false
+        "showRedesignedNotifications": false,
+        "showLegacyOpen": false
     },
     "treatments": [
         {
@@ -12,7 +13,8 @@
             "label": "Enable user settings redesign with legacy notifications",
             "config": {
                 "enabled": true,
-                "showRedesignedNotifications": false
+                "showRedesignedNotifications": false,
+                "showLegacyOpen": false
             }
         },
         {
@@ -20,7 +22,17 @@
             "label": "Enable user settings redesign with new notifications page",
             "config": {
                 "enabled": true,
-                "showRedesignedNotifications": true
+                "showRedesignedNotifications": true,
+                "showLegacyOpen": false
+            }
+        },
+        {
+            "id": 3,
+            "label": "Enable user settings redesign with legacy open",
+            "config": {
+                "enabled": true,
+                "showRedesignedNotifications": false,
+                "showLegacyOpen": true
             }
         }
     ]
