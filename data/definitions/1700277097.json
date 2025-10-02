@@ -1,0 +1,17 @@
+{
+    "id": "2025-10_server_friends_in_vc_invites",
+    "label": "Server Friends in VC Invites",
+    "kind": "guild",
+    "defaultConfig": {
+        "isFriendsInVCInvitesEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Friends in VC Invites",
+            "config": {
+                "isFriendsInVCInvitesEnabled": true
+            }
+        }
+    ]
+}
