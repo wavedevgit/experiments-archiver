@@ -1,0 +1,27 @@
+{
+    "kind": "user",
+    "id": "2025-10_overlay_v3_one_click_go_live",
+    "label": "Overlay V3 One Click Go Live",
+    "defaultConfig": {
+        "oneClickGoLiveEnabled": false,
+        "useStreamCtaCopy": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Use Stream CTA Copy",
+            "config": {
+                "oneClickGoLiveEnabled": false,
+                "useStreamCtaCopy": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable One Click Go Live with Stream CTA Copy",
+            "config": {
+                "oneClickGoLiveEnabled": true,
+                "useStreamCtaCopy": true
+            }
+        }
+    ]
+}
