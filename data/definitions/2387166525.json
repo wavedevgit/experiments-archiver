@@ -1,14 +1,14 @@
 {
     "kind": "guild",
     "id": "2025-08_portkey_enabled",
-    "label": "GameServer Enabled",
+    "label": "Portkey Enabled",
     "defaultConfig": {
         "enabled": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "Enable GameServer",
+            "label": "Enable Portkey",
             "config": {
                 "enabled": true
             }
