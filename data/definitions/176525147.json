@@ -6,7 +6,8 @@
         "enabled": false,
         "suggestionDesign": "horizontal",
         "highlightDesign": "mention",
-        "onlyExactMatch": false
+        "onlyExactMatch": false,
+        "eagerRecentSenders": false
     },
     "treatments": [
         {
@@ -16,7 +17,8 @@
                 "enabled": true,
                 "suggestionDesign": "vertical",
                 "highlightDesign": "simple",
-                "onlyExactMatch": false
+                "onlyExactMatch": false,
+                "eagerRecentSenders": false
             }
         },
         {
@@ -26,7 +28,8 @@
                 "enabled": true,
                 "suggestionDesign": "vertical",
                 "highlightDesign": "simple",
-                "onlyExactMatch": true
+                "onlyExactMatch": true,
+                "eagerRecentSenders": false
             }
         },
         {
@@ -36,7 +39,8 @@
                 "enabled": true,
                 "suggestionDesign": "vertical",
                 "highlightDesign": "mention",
-                "onlyExactMatch": false
+                "onlyExactMatch": false,
+                "eagerRecentSenders": false
             }
         },
         {
@@ -46,7 +50,19 @@
                 "enabled": true,
                 "suggestionDesign": "horizontal",
                 "highlightDesign": "simple",
-                "onlyExactMatch": false
+                "onlyExactMatch": false,
+                "eagerRecentSenders": false
+            }
+        },
+        {
+            "id": 5,
+            "label": "Exact match + eager recent senders",
+            "config": {
+                "enabled": true,
+                "suggestionDesign": "vertical",
+                "highlightDesign": "simple",
+                "onlyExactMatch": true,
+                "eagerRecentSenders": true
             }
         }
     ]
