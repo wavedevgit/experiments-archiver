@@ -1,0 +1,17 @@
+{
+    "id": "2025-10_overlay_default_keybind",
+    "label": "Overlay Default Keybind",
+    "kind": "user",
+    "defaultConfig": {
+        "keybindOverride": true
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "alt + a Keybind",
+            "config": {
+                "keybindOverride": "alt+a"
+            }
+        }
+    ]
+}
