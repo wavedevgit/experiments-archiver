@@ -1,0 +1,13 @@
+{
+    "name": "2025-08-game-detection-error-logging",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        }
+    }
+}

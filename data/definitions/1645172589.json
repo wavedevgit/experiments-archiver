@@ -1,9 +1,9 @@
 {
-    "name": "2025-08-system-service",
+    "name": "2025-09-threads-in-channel-list-qol",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "installStartup": false
+        "variant": "none"
     },
     "variations": {
         "0": {
@@ -12,11 +12,15 @@
         },
         "1": {
             "enabled": true,
-            "installStartup": false
+            "variant": "icon-with-avatar"
         },
         "2": {
             "enabled": true,
-            "installStartup": true
+            "variant": "icon-in-bubble"
+        },
+        "3": {
+            "enabled": true,
+            "variant": "small-text-only"
         }
     }
 }

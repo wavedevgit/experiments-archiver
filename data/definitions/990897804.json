@@ -1,0 +1,16 @@
+{
+    "name": "2025-09-shop-cards-v2",
+    "kind": "user",
+    "defaultConfig": {
+        "showCardsV2": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showCardsV2": true
+        }
+    }
+}

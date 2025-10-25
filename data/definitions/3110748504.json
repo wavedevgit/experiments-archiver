@@ -1,0 +1,26 @@
+{
+    "kind": "user",
+    "name": "2025-10-krisp-at-end",
+    "defaultConfig": {
+        "noiseCancellationAfterProcessing": false,
+        "vadAfterWebrtc": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "noiseCancellationAfterProcessing": true,
+            "vadAfterWebrtc": false
+        },
+        "2": {
+            "noiseCancellationAfterProcessing": false,
+            "vadAfterWebrtc": true
+        },
+        "3": {
+            "noiseCancellationAfterProcessing": true,
+            "vadAfterWebrtc": true
+        }
+    }
+}

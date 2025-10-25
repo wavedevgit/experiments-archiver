@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-device-selection-improvements",
+    "kind": "user",
+    "defaultConfig": {
+        "showDeviceSelectionImprovements": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showDeviceSelectionImprovements": true
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "2025-10-collectibles-featured-block-new-badge",
+    "kind": "user",
+    "defaultConfig": {
+        "variant": "no_badge"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "variant": "first_block_only"
+        },
+        "2": {
+            "variant": "right_block_only"
+        },
+        "3": {
+            "variant": "both_blocks"
+        }
+    }
+}

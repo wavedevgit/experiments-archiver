@@ -1,0 +1,17 @@
+{
+    "name": "2025-08-soundboard-upsell-pinning",
+    "kind": "user",
+    "defaultConfig": {},
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "upsellPinningMode": 0
+        },
+        "2": {
+            "upsellPinningMode": 1
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2025-10-wow-moment-backtest",
+    "defaultConfig": {
+        "brandRefreshWowMomentEnabled": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "brandRefreshWowMomentEnabled": false
+        }
+    }
+}

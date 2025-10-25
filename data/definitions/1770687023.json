@@ -1,9 +1,9 @@
 {
-    "name": "2025-08-system-service",
+    "name": "2025-08-overlay-stream-watch-nudge",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "installStartup": false
+        "designVariant": null
     },
     "variations": {
         "0": {
@@ -12,11 +12,15 @@
         },
         "1": {
             "enabled": true,
-            "installStartup": false
+            "designVariant": 0
         },
         "2": {
             "enabled": true,
-            "installStartup": true
+            "designVariant": 1
+        },
+        "3": {
+            "enabled": true,
+            "designVariant": 2
         }
     }
 }

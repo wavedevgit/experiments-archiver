@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2025-08-sleepy-panda",
+    "defaultConfig": {
+        "isEnabled": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "isEnabled": false
+        }
+    }
+}

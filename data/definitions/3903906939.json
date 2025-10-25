@@ -1,0 +1,16 @@
+{
+    "name": "2025-09-remove-reward-tile-shine",
+    "kind": "user",
+    "defaultConfig": {
+        "shouldUseShine": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "shouldUseShine": false
+        }
+    }
+}

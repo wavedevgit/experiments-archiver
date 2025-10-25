@@ -1,0 +1,16 @@
+{
+    "name": "2025-09-collectibles-hero-button-alignment",
+    "kind": "user",
+    "defaultConfig": {
+        "showButtonLeftAligned": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showButtonLeftAligned": true
+        }
+    }
+}

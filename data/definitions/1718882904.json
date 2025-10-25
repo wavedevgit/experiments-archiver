@@ -1,0 +1,16 @@
+{
+    "name": "2025-09-video-qoe-metrics-tracking",
+    "kind": "user",
+    "defaultConfig": {
+        "externalAnalyticsEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "externalAnalyticsEnabled": true
+        }
+    }
+}

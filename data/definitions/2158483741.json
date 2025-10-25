@@ -1,0 +1,40 @@
+{
+    "kind": "user",
+    "name": "2025-10-offer-reminders-ux-experiment",
+    "defaultConfig": {
+        "variant": "control",
+        "showNagbar": true,
+        "hasExperimentalTooltip": false,
+        "hasNitroTabBadgeOfferReminder": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "variant": "nagbar-refresh",
+            "showNagbar": true,
+            "hasExperimentalTooltip": true,
+            "hasNitroTabBadgeOfferReminder": false
+        },
+        "2": {
+            "variant": "offer-badge",
+            "showNagbar": false,
+            "hasExperimentalTooltip": true,
+            "hasNitroTabBadgeOfferReminder": true
+        },
+        "3": {
+            "variant": "offer-countdown",
+            "showNagbar": false,
+            "hasExperimentalTooltip": true,
+            "hasNitroTabBadgeOfferReminder": true
+        },
+        "4": {
+            "variant": "hero-countdown",
+            "showNagbar": false,
+            "hasExperimentalTooltip": true,
+            "hasNitroTabBadgeOfferReminder": true
+        }
+    }
+}

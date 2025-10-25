@@ -1,0 +1,18 @@
+{
+    "name": "2025-09-user-settings-redesign-2a",
+    "kind": "user",
+    "defaultConfig": {
+        "showRedesignedNotifications": false,
+        "showRedesignedVoiceAndVideo": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showRedesignedNotifications": true,
+            "showRedesignedVoiceAndVideo": true
+        }
+    }
+}

@@ -1,9 +1,9 @@
 {
-    "name": "2025-08-system-service",
+    "name": "2025-10-quest-home-entrypoint-onboarding",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "installStartup": false
+        "variant": null
     },
     "variations": {
         "0": {
@@ -12,11 +12,19 @@
         },
         "1": {
             "enabled": true,
-            "installStartup": false
+            "variant": 0
         },
         "2": {
             "enabled": true,
-            "installStartup": true
+            "variant": 1
+        },
+        "3": {
+            "enabled": true,
+            "variant": 2
+        },
+        "4": {
+            "enabled": true,
+            "variant": 3
         }
     }
 }

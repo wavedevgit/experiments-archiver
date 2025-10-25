@@ -1,0 +1,13 @@
+{
+    "name": "2025-10-go-live-auto-quality",
+    "kind": "user",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": null,
+        "2": null
+    }
+}

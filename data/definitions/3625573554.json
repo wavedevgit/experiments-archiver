@@ -1,9 +1,9 @@
 {
-    "name": "2025-08-system-service",
+    "name": "2025-08-mobile-apple-payment-links",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "installStartup": false
+        "discountEnabled": false
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "installStartup": false
+            "discountEnabled": false
         },
         "2": {
             "enabled": true,
-            "installStartup": true
+            "discountEnabled": true
         }
     }
 }

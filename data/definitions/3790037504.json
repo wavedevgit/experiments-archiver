@@ -1,0 +1,22 @@
+{
+    "name": "2025-09-cmc-refresh",
+    "kind": "user",
+    "defaultConfig": {
+        "newUIEnabled": false,
+        "searchEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "newUIEnabled": true,
+            "searchEnabled": false
+        },
+        "2": {
+            "newUIEnabled": true,
+            "searchEnabled": true
+        }
+    }
+}

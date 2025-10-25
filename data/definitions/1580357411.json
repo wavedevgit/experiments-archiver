@@ -1,0 +1,50 @@
+{
+    "name": "2025-09-quest-brand-color-removal-phase-2",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "status": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "status": {
+                "progressBlur": true,
+                "label1": false,
+                "label2": false,
+                "shineWipe": true
+            }
+        },
+        "2": {
+            "enabled": true,
+            "status": {
+                "progressBlur": false,
+                "label1": true,
+                "label2": false,
+                "shineWipe": false
+            }
+        },
+        "3": {
+            "enabled": true,
+            "status": {
+                "progressBlur": false,
+                "label1": false,
+                "label2": true,
+                "shineWipe": false
+            }
+        },
+        "4": {
+            "enabled": true,
+            "status": {
+                "progressBlur": false,
+                "label1": false,
+                "label2": false,
+                "shineWipe": true
+            }
+        }
+    }
+}

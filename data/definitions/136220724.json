@@ -1,9 +1,9 @@
 {
-    "name": "2025-08-system-service",
+    "name": "2025-09-wishlist-in-dm-gifting-flow",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "installStartup": false
+        "shouldShowShopBannerWhenWishlistEmpty": false
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "installStartup": false
+            "shouldShowShopBannerWhenWishlistEmpty": true
         },
         "2": {
             "enabled": true,
-            "installStartup": true
+            "shouldShowShopBannerWhenWishlistEmpty": false
         }
     }
 }

@@ -1,0 +1,25 @@
+{
+    "name": "2025-10-soundboard-xp-3",
+    "kind": "user",
+    "defaultConfig": {
+        "sortingStrategy": "control"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "sortingStrategy": "top_sounds"
+        },
+        "2": {
+            "sortingStrategy": "newest_creation_date"
+        },
+        "3": {
+            "sortingStrategy": "recently_used_by_user"
+        },
+        "4": {
+            "sortingStrategy": "metrics_capture"
+        }
+    }
+}

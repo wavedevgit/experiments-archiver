@@ -1,0 +1,12 @@
+{
+    "name": "2025-08-go-live-source-ordering",
+    "kind": "user",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": null
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "2025-09-ad-session-id-experiment",
+    "kind": "user",
+    "defaultConfig": {
+        "use_ad_session_id": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "use_ad_session_id": false
+        },
+        "2": {
+            "use_ad_session_id": true
+        },
+        "3": {
+            "use_ad_session_id": true
+        },
+        "4": {
+            "use_ad_session_id": false
+        },
+        "5": {
+            "use_ad_session_id": false
+        }
+    }
+}

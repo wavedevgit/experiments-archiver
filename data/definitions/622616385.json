@@ -1,0 +1,22 @@
+{
+    "kind": "user",
+    "name": "2025-10-message-bidi-handling",
+    "defaultConfig": {
+        "isolateMentionsInNotifications": false,
+        "alignMessagesStart": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "isolateMentionsInNotifications": true,
+            "alignMessagesStart": false
+        },
+        "2": {
+            "isolateMentionsInNotifications": true,
+            "alignMessagesStart": true
+        }
+    }
+}
