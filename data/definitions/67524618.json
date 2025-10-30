@@ -5,7 +5,10 @@
     "defaultConfig": {
         "enableClips": false,
         "enablePremiumEarlyAccessAnnouncementCoachmark": false,
-        "enablePremiumEarlyAccessGoLiveRoadblock": false
+        "enablePremiumEarlyAccessGoLiveRoadblock": false,
+        "enableScreenshotKeybind": false,
+        "enableVoiceOnlyClips": false,
+        "enableAdvancedSignals": false
     },
     "treatments": [
         {
@@ -14,7 +17,10 @@
             "config": {
                 "enableClips": false,
                 "enablePremiumEarlyAccessAnnouncementCoachmark": true,
-                "enablePremiumEarlyAccessGoLiveRoadblock": true
+                "enablePremiumEarlyAccessGoLiveRoadblock": true,
+                "enableScreenshotKeybind": false,
+                "enableVoiceOnlyClips": false,
+                "enableAdvancedSignals": false
             }
         },
         {
@@ -23,7 +29,10 @@
             "config": {
                 "enableClips": true,
                 "enablePremiumEarlyAccessAnnouncementCoachmark": true,
-                "enablePremiumEarlyAccessGoLiveRoadblock": false
+                "enablePremiumEarlyAccessGoLiveRoadblock": false,
+                "enableScreenshotKeybind": false,
+                "enableVoiceOnlyClips": false,
+                "enableAdvancedSignals": false
             }
         }
     ]
