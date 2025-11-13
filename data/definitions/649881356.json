@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2025-10_voice_invite_suggestions",
+    "label": "Voice Invite Suggestions",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Voice Invite Suggestions - Enabled",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
