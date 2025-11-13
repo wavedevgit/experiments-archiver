@@ -6,18 +6,18 @@
     "treatments": [
         {
             "id": 1,
-            "label": "No top filters",
+            "label": "Top Filters",
             "config": {
-                "isNoTopFiltersRedesignEnabled": true,
-                "isSuggestTopFiltersRedesignEnabled": false
+                "isEnabled": true,
+                "isHasFilterElevated": false
             }
         },
         {
             "id": 2,
-            "label": "Suggest top filters",
+            "label": "Top Filters (has: before mentions:)",
             "config": {
-                "isNoTopFiltersRedesignEnabled": false,
-                "isSuggestTopFiltersRedesignEnabled": true
+                "isEnabled": true,
+                "isHasFilterElevated": true
             }
         }
     ]
