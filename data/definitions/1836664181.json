@@ -5,9 +5,19 @@
     "defaultConfig": null,
     "treatments": [
         {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "isInExperiment": true,
+                "isEnabled": false,
+                "isHasFilterElevated": false
+            }
+        },
+        {
             "id": 1,
             "label": "Top Filters",
             "config": {
+                "isInExperiment": true,
                 "isEnabled": true,
                 "isHasFilterElevated": false
             }
@@ -16,6 +26,7 @@
             "id": 2,
             "label": "Top Filters (has: before mentions:)",
             "config": {
+                "isInExperiment": true,
                 "isEnabled": true,
                 "isHasFilterElevated": true
             }
