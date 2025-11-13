@@ -6,25 +6,28 @@
     "defaultConfig": {
         "enabled": false,
         "backButtonBadge": false,
-        "animateBetweenServers": false
+        "animateBetweenServers": false,
+        "profileButton": false
     },
     "treatments": [
         {
             "id": 1,
-            "label": "You Bar",
+            "label": "You Bar no profile button",
             "config": {
                 "enabled": true,
-                "backButtonBadge": false,
-                "animateBetweenServers": false
+                "backButtonBadge": true,
+                "animateBetweenServers": false,
+                "profileButton": false
             }
         },
         {
             "id": 2,
-            "label": "You Bar with badged back button",
+            "label": "You Bar profile button",
             "config": {
                 "enabled": true,
                 "backButtonBadge": true,
-                "animateBetweenServers": false
+                "animateBetweenServers": false,
+                "profileButton": true
             }
         },
         {
@@ -33,7 +36,8 @@
             "config": {
                 "enabled": true,
                 "backButtonBadge": true,
-                "animateBetweenServers": true
+                "animateBetweenServers": true,
+                "profileButton": false
             }
         }
     ]
