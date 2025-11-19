@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2025-10-go-live-zoom-pan",
+    "defaultConfig": {
+        "allowGoLiveZoomPan": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "allowGoLiveZoomPan": true
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "name": "2025-10-soundboard-xp-3",
     "kind": "user",
     "defaultConfig": {
-        "sortingStrategy": "control"
+        "sortingStrategy": "oldest_creation_date"
     },
     "variations": {
         "0": {

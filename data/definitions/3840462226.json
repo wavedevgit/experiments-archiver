@@ -1,0 +1,21 @@
+{
+    "name": "2025-10-display-name-styles-mobile",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "surfaces": 2
+        },
+        "2": {
+            "enabled": true,
+            "surfaces": 1
+        }
+    }
+}

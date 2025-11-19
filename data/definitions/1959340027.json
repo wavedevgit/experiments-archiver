@@ -1,0 +1,22 @@
+{
+    "name": "2025-11-use-embedded-survey",
+    "kind": "user",
+    "defaultConfig": {
+        "enableNitroUnsubSurvey": false,
+        "enableEmbeddedSurvey": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableNitroUnsubSurvey": true,
+            "enableEmbeddedSurvey": false
+        },
+        "2": {
+            "enableNitroUnsubSurvey": true,
+            "enableEmbeddedSurvey": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "2025-10-collectibles-custom-cursors",
+    "kind": "user",
+    "defaultConfig": {
+        "enableCustomCursors": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableCustomCursors": true
+        }
+    }
+}
