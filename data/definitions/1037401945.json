@@ -1,0 +1,18 @@
+{
+    "kind": "guild",
+    "id": "2025-11_guild_powerups_mobile",
+    "commonTriggerPoint": null,
+    "label": "Guild Powerups Mobile",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Guild Powerups Mobile",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
