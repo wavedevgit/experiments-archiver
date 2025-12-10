@@ -9,25 +9,14 @@
             "label": "Control group for xDM search on desktop",
             "config": {
                 "isXDMSearchEnabled": false,
-                "isGlobalSettingDefaultEnabled": false,
                 "inExperiment": true
             }
         },
         {
             "id": 1,
-            "label": "Enables xDM search with xDM setting as default on",
-            "config": {
-                "isXDMSearchEnabled": true,
-                "isGlobalSettingDefaultEnabled": true,
-                "inExperiment": true
-            }
-        },
-        {
-            "id": 2,
             "label": "Enables xDM search with xDM setting as default off",
             "config": {
                 "isXDMSearchEnabled": true,
-                "isGlobalSettingDefaultEnabled": false,
                 "inExperiment": true
             }
         }
