@@ -1,0 +1,26 @@
+{
+    "name": "2025-12-user-profile-show-recommendations-in-breadcrumbs",
+    "kind": "user",
+    "defaultConfig": {
+        "enabledInPopout": false,
+        "enabledInSidebar": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabledInPopout": true,
+            "enabledInSidebar": true
+        },
+        "2": {
+            "enabledInPopout": true,
+            "enabledInSidebar": false
+        },
+        "3": {
+            "enabledInPopout": false,
+            "enabledInSidebar": true
+        }
+    }
+}

@@ -1,9 +1,9 @@
 {
-    "name": "2025-12-social-layer-storefront-user-experiment",
+    "name": "2025-12-game-profiles-v2",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "wishlistRetargetingEnabled": false
+        "canToggle": false
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "wishlistRetargetingEnabled": false
+            "canToggle": false
         },
         "2": {
             "enabled": true,
-            "wishlistRetargetingEnabled": true
+            "canToggle": true
         }
     }
 }

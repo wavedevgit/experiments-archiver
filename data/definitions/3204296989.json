@@ -1,0 +1,16 @@
+{
+    "name": "2025-11-earned-impression-user-session-experiment",
+    "kind": "user",
+    "defaultConfig": {
+        "use_user_session_for_earned": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "use_user_session_for_earned": true
+        }
+    }
+}

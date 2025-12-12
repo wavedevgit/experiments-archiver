@@ -1,8 +1,8 @@
 {
-    "name": "2025-10-ad-request-behavior-experiment",
+    "name": "2025-11-h265-no-software",
     "kind": "user",
     "defaultConfig": {
-        "enableNewRequestBehavior": false
+        "treatment": "control"
     },
     "variations": {
         "0": {
@@ -10,10 +10,10 @@
             "variant": 0
         },
         "1": {
-            "enableNewRequestBehavior": true
+            "treatment": "no_software_decode"
         },
         "2": {
-            "enableNewRequestBehavior": true
+            "treatment": "disabled"
         }
     }
 }

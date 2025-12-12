@@ -1,0 +1,16 @@
+{
+    "name": "2025-12-shop-hero-hscroll",
+    "kind": "user",
+    "defaultConfig": {
+        "enableHeroHScroll": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableHeroHScroll": true
+        }
+    }
+}

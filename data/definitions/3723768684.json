@@ -12,11 +12,7 @@
         },
         "1": {
             "affineGiftingEnabled": true,
-            "affinityThreshold": 0.3
-        },
-        "2": {
-            "affineGiftingEnabled": true,
-            "affinityThreshold": 0.5
+            "affinityThreshold": 0.1
         }
     }
 }

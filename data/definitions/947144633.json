@@ -1,0 +1,16 @@
+{
+    "name": "2025-12-video-stats-for-nerds",
+    "kind": "user",
+    "defaultConfig": {
+        "enableVideoStatsForNerds": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableVideoStatsForNerds": true
+        }
+    }
+}

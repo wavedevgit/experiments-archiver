@@ -1,0 +1,22 @@
+{
+    "name": "2025-11-restart-on-excessive-memory-usage",
+    "kind": "user",
+    "defaultConfig": {
+        "enable": false,
+        "enableForce": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enable": true,
+            "enableForce": false
+        },
+        "2": {
+            "enable": true,
+            "enableForce": true
+        }
+    }
+}

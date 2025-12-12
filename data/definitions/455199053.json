@@ -1,0 +1,25 @@
+{
+    "name": "2025-11-message-context-menu",
+    "kind": "user",
+    "defaultConfig": {
+        "variant": "control",
+        "forceIconsLeft": false,
+        "reorderMessageMenuItems": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "variant": "icons_added",
+            "forceIconsLeft": true,
+            "reorderMessageMenuItems": false
+        },
+        "2": {
+            "variant": "items_reordered",
+            "forceIconsLeft": true,
+            "reorderMessageMenuItems": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "2025-10-winter-wonderland-2025",
+    "kind": "user",
+    "defaultConfig": {
+        "hasPromoUpsell": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "hasPromoUpsell": true
+        }
+    }
+}
