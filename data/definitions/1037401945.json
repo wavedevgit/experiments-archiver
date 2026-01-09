@@ -4,14 +4,24 @@
     "commonTriggerPoint": null,
     "label": "Guild Powerups Mobile",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "notificationsEnabled": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enable Guild Powerups Mobile",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "notificationsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Guild Powerups Mobile with Notifications",
+            "config": {
+                "enabled": true,
+                "notificationsEnabled": true
             }
         }
     ]
