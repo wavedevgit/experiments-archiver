@@ -1,0 +1,28 @@
+{
+    "kind": "guild",
+    "id": "2025-11-guild-powerups-mobile",
+    "commonTriggerPoint": null,
+    "label": "Guild Powerups Mobile",
+    "defaultConfig": {
+        "enabled": false,
+        "notificationsEnabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Guild Powerups Mobile",
+            "config": {
+                "enabled": true,
+                "notificationsEnabled": false
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable Guild Powerups Mobile with Notifications",
+            "config": {
+                "enabled": true,
+                "notificationsEnabled": true
+            }
+        }
+    ]
+}
