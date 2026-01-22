@@ -1,5 +1,5 @@
 {
-    "name": "2025-11-h265-no-software",
+    "name": "2025-12-nitro-s-rewards",
     "kind": "user",
     "defaultConfig": {
         "treatment": "control"
@@ -10,13 +10,10 @@
             "variant": 0
         },
         "1": {
-            "treatment": "no_software_decode"
+            "treatment": "treatment_a"
         },
         "2": {
-            "treatment": "disabled"
-        },
-        "3": {
-            "treatment": "no_software_decode_with_fallback"
+            "treatment": "treatment_b"
         }
     }
 }

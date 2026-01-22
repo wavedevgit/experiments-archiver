@@ -1,8 +1,8 @@
 {
-    "name": "2025-11-h265-no-software",
     "kind": "user",
+    "name": "2026-01-clips-max-pending-tasks",
     "defaultConfig": {
-        "treatment": "control"
+        "count": 0
     },
     "variations": {
         "0": {
@@ -10,13 +10,16 @@
             "variant": 0
         },
         "1": {
-            "treatment": "no_software_decode"
+            "count": 480
         },
         "2": {
-            "treatment": "disabled"
+            "count": 240
         },
         "3": {
-            "treatment": "no_software_decode_with_fallback"
+            "count": 120
+        },
+        "4": {
+            "count": 60
         }
     }
 }

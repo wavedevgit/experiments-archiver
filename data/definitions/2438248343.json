@@ -1,0 +1,22 @@
+{
+    "name": "2025-12-desktop-message-previews",
+    "kind": "user",
+    "defaultConfig": {
+        "showMessagePreviews": false,
+        "prioritizeOverStatus": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showMessagePreviews": true,
+            "prioritizeOverStatus": false
+        },
+        "2": {
+            "showMessagePreviews": true,
+            "prioritizeOverStatus": true
+        }
+    }
+}

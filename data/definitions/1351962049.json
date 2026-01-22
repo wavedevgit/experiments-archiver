@@ -1,8 +1,8 @@
 {
-    "name": "2025-11-h265-no-software",
     "kind": "user",
+    "name": "2026-01-clips-buffer-size",
     "defaultConfig": {
-        "treatment": "control"
+        "size": 2147483648
     },
     "variations": {
         "0": {
@@ -10,13 +10,13 @@
             "variant": 0
         },
         "1": {
-            "treatment": "no_software_decode"
+            "size": 1073741824
         },
         "2": {
-            "treatment": "disabled"
+            "size": 536870912
         },
         "3": {
-            "treatment": "no_software_decode_with_fallback"
+            "size": 268435456
         }
     }
 }

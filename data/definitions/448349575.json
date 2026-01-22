@@ -1,0 +1,13 @@
+{
+    "name": "2026-01-game-blocklist",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        }
+    }
+}

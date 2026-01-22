@@ -1,28 +1,22 @@
 {
-    "kind": "guild",
-    "id": "2025-11-guild-powerups-mobile",
-    "commonTriggerPoint": null,
-    "label": "Guild Powerups Mobile",
+    "name": "2025-11-guild-powerups-mobile",
+    "kind": "user",
     "defaultConfig": {
         "enabled": false,
         "notificationsEnabled": false
     },
-    "treatments": [
-        {
-            "id": 1,
-            "label": "Enable Guild Powerups Mobile",
-            "config": {
-                "enabled": true,
-                "notificationsEnabled": false
-            }
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
         },
-        {
-            "id": 2,
-            "label": "Enable Guild Powerups Mobile with Notifications",
-            "config": {
-                "enabled": true,
-                "notificationsEnabled": true
-            }
+        "1": {
+            "enabled": true,
+            "notificationsEnabled": false
+        },
+        "2": {
+            "enabled": true,
+            "notificationsEnabled": true
         }
-    ]
+    }
 }

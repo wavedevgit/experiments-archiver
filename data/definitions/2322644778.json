@@ -1,0 +1,16 @@
+{
+    "name": "2026-01-red-dot-navigate-to-mentions",
+    "kind": "user",
+    "defaultConfig": {
+        "enableTracking": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableTracking": true
+        }
+    }
+}

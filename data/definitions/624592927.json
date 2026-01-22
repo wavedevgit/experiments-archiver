@@ -1,9 +1,9 @@
 {
-    "name": "2025-12-user-profile-wishlist-popout",
+    "name": "2025-11-quest-bar-listen-for-source-error",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "showRecommendations": false
+        "variant": null
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "showRecommendations": false
+            "variant": 0
         },
         "2": {
             "enabled": true,
-            "showRecommendations": true
+            "variant": 1
         }
     }
 }

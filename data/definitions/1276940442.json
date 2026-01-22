@@ -1,9 +1,9 @@
 {
-    "name": "2025-12-user-profile-wishlist-popout",
+    "name": "2025-12-soundboard-upsell-redesign",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "showRecommendations": false
+        "bottomBar": false
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "showRecommendations": false
+            "bottomBar": false
         },
         "2": {
             "enabled": true,
-            "showRecommendations": true
+            "bottomBar": true
         }
     }
 }

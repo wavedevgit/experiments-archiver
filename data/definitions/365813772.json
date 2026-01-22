@@ -1,0 +1,16 @@
+{
+    "name": "2026-01-fast-connect-identify",
+    "kind": "user",
+    "defaultConfig": {
+        "enableFastConnectEarlyIdentify": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableFastConnectEarlyIdentify": true
+        }
+    }
+}
