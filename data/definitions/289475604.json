@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2025-01_voice_user_activities",
+    "label": "Voice User Activities on Hover",
+    "defaultConfig": {
+        "enableUserHoverActivities": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable activities on user hover",
+            "config": {
+                "enableUserHoverActivities": true
+            }
+        }
+    ]
+}
