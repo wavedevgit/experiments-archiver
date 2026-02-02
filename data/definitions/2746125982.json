@@ -1,0 +1,25 @@
+{
+    "id": "2026-02_expand_voice_invite_suggestions",
+    "kind": "guild",
+    "label": "Expand Voice Invite Suggestions",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "totalSuggestions": 5
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Control",
+            "config": {
+                "totalSuggestions": 5
+            }
+        },
+        {
+            "id": 2,
+            "label": "More Suggestions (10)",
+            "config": {
+                "totalSuggestions": 10
+            }
+        }
+    ]
+}
