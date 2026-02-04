@@ -7,7 +7,9 @@
         {
             "id": 1,
             "label": "Use BVC for allowed devices",
-            "config": null
+            "config": {
+                "allowBVC": true
+            }
         }
     ]
 }
