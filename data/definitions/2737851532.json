@@ -19,7 +19,7 @@
             "enabled": true,
             "displayNudges": true,
             "minUserDMAffinity": -1,
-            "maxNudgeCount": 1,
+            "maxNudgeCount": 2,
             "maxNudgeAge": null,
             "minSinceReceiverMessageMs": null,
             "minLatestMessageAgeMs": null
@@ -27,8 +27,8 @@
         "2": {
             "enabled": true,
             "displayNudges": true,
-            "minUserDMAffinity": -1,
-            "maxNudgeCount": 5,
+            "minUserDMAffinity": 0.05,
+            "maxNudgeCount": 2,
             "maxNudgeAge": null,
             "minSinceReceiverMessageMs": null,
             "minLatestMessageAgeMs": null
@@ -37,7 +37,7 @@
             "enabled": true,
             "displayNudges": true,
             "minUserDMAffinity": -1,
-            "maxNudgeCount": 1,
+            "maxNudgeCount": 2,
             "maxNudgeAge": null,
             "minSinceReceiverMessageMs": null,
             "minLatestMessageAgeMs": null
@@ -45,8 +45,8 @@
         "4": {
             "enabled": true,
             "displayNudges": true,
-            "minUserDMAffinity": -1,
-            "maxNudgeCount": 5,
+            "minUserDMAffinity": 0.05,
+            "maxNudgeCount": 2,
             "maxNudgeAge": null,
             "minSinceReceiverMessageMs": null,
             "minLatestMessageAgeMs": null
@@ -61,33 +61,6 @@
             "minLatestMessageAgeMs": null
         },
         "6": {
-            "enabled": true,
-            "displayNudges": false,
-            "minUserDMAffinity": -1,
-            "maxNudgeCount": 1,
-            "maxNudgeAge": null,
-            "minSinceReceiverMessageMs": null,
-            "minLatestMessageAgeMs": null
-        },
-        "7": {
-            "enabled": true,
-            "displayNudges": false,
-            "minUserDMAffinity": -1,
-            "maxNudgeCount": 5,
-            "maxNudgeAge": null,
-            "minSinceReceiverMessageMs": null,
-            "minLatestMessageAgeMs": null
-        },
-        "8": {
-            "enabled": true,
-            "displayNudges": false,
-            "minUserDMAffinity": -1,
-            "maxNudgeCount": 1,
-            "maxNudgeAge": null,
-            "minSinceReceiverMessageMs": null,
-            "minLatestMessageAgeMs": null
-        },
-        "9": {
             "enabled": true,
             "displayNudges": false,
             "minUserDMAffinity": -1,
