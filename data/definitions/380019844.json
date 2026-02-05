@@ -1,9 +1,9 @@
 {
-    "name": "2025-11-nitro-privacy-perk",
+    "name": "2026-01-unified-checkout-ui",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "in_experiment": false
+        "variation": 0
     },
     "variations": {
         "0": {
@@ -11,8 +11,8 @@
             "variant": 0
         },
         "1": {
-            "in_experiment": true,
-            "enabled": true
+            "enabled": true,
+            "variation": 1
         }
     }
 }

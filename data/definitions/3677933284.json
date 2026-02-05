@@ -1,0 +1,22 @@
+{
+    "name": "2025-11-overlay-chat",
+    "kind": "user",
+    "defaultConfig": {
+        "hasChat": false,
+        "hasFriendList": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "hasChat": true,
+            "hasFriendList": false
+        },
+        "2": {
+            "hasChat": true,
+            "hasFriendList": true
+        }
+    }
+}

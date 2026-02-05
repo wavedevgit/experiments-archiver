@@ -1,9 +1,9 @@
 {
-    "name": "2025-11-nitro-privacy-perk",
+    "name": "2026-01-video-quest-start-cta",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "in_experiment": false
+        "variant": null
     },
     "variations": {
         "0": {
@@ -11,8 +11,12 @@
             "variant": 0
         },
         "1": {
-            "in_experiment": true,
-            "enabled": true
+            "enabled": true,
+            "variant": 0
+        },
+        "2": {
+            "enabled": true,
+            "variant": 1
         }
     }
 }

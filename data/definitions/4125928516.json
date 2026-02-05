@@ -1,9 +1,9 @@
 {
-    "name": "2025-12-quest-cta-refactor-rollout",
     "kind": "user",
+    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
         "enabled": false,
-        "enabledQuestStates": null
+        "showFriendButton": false
     },
     "variations": {
         "0": {
@@ -12,11 +12,11 @@
         },
         "1": {
             "enabled": true,
-            "enabledQuestStates": null
+            "showFriendButton": false
         },
         "2": {
             "enabled": true,
-            "enabledQuestStates": null
+            "showFriendButton": true
         }
     }
 }

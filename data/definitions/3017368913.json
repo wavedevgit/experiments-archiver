@@ -1,0 +1,19 @@
+{
+    "name": "2026-02-go-live-hdr",
+    "kind": "user",
+    "defaultConfig": {
+        "hdrCaptureMode": "never"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "hdrCaptureMode": "always"
+        },
+        "2": {
+            "hdrCaptureMode": "permittedDevicesOnly"
+        }
+    }
+}

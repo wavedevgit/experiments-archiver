@@ -1,0 +1,100 @@
+{
+    "name": "2026-01-reply-nudge",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "displayNudges": false,
+        "minUserDMAffinity": -1,
+        "maxNudgeCount": 1,
+        "maxNudgeAge": null,
+        "minSinceReceiverMessageMs": null,
+        "minLatestMessageAgeMs": null
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "displayNudges": true,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 1,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "2": {
+            "enabled": true,
+            "displayNudges": true,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 5,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "3": {
+            "enabled": true,
+            "displayNudges": true,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 1,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "4": {
+            "enabled": true,
+            "displayNudges": true,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 5,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "5": {
+            "enabled": true,
+            "displayNudges": true,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 5,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "6": {
+            "enabled": true,
+            "displayNudges": false,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 1,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "7": {
+            "enabled": true,
+            "displayNudges": false,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 5,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "8": {
+            "enabled": true,
+            "displayNudges": false,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 1,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        },
+        "9": {
+            "enabled": true,
+            "displayNudges": false,
+            "minUserDMAffinity": -1,
+            "maxNudgeCount": 5,
+            "maxNudgeAge": null,
+            "minSinceReceiverMessageMs": null,
+            "minLatestMessageAgeMs": null
+        }
+    }
+}

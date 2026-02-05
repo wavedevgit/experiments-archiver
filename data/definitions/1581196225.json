@@ -1,0 +1,30 @@
+{
+    "kind": "user",
+    "name": "2025-11-auto-open-tiv",
+    "defaultConfig": {
+        "collectAnalytics": false,
+        "autoOpenTIV": false,
+        "autoNavigateChannel": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "collectAnalytics": true,
+            "autoOpenTIV": true,
+            "autoNavigateChannel": false
+        },
+        "2": {
+            "collectAnalytics": true,
+            "autoOpenTIV": true,
+            "autoNavigateChannel": true
+        },
+        "3": {
+            "collectAnalytics": true,
+            "autoOpenTIV": false,
+            "autoNavigateChannel": true
+        }
+    }
+}

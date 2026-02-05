@@ -1,9 +1,8 @@
 {
-    "name": "2025-11-nitro-privacy-perk",
+    "name": "2026-02-bf-browser",
     "kind": "user",
     "defaultConfig": {
-        "enabled": false,
-        "in_experiment": false
+        "allowEnhancedNav": true
     },
     "variations": {
         "0": {
@@ -11,8 +10,7 @@
             "variant": 0
         },
         "1": {
-            "in_experiment": true,
-            "enabled": true
+            "allowEnhancedNav": false
         }
     }
 }

@@ -1,18 +1,16 @@
 {
-    "name": "2025-11-nitro-privacy-perk",
+    "name": "2026-01-content-inventory-application-widget-preview",
     "kind": "user",
-    "defaultConfig": {
-        "enabled": false,
-        "in_experiment": false
-    },
     "variations": {
         "0": {
             "enabled": false,
             "variant": 0
         },
         "1": {
-            "in_experiment": true,
             "enabled": true
         }
+    },
+    "defaultConfig": {
+        "enabled": false
     }
 }
