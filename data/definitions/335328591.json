@@ -1,6 +1,6 @@
 {
+    "name": "2026-02-boost-to-unlock-coachmark",
     "kind": "user",
-    "name": "2025-12-proportional-vad-indicator",
     "defaultConfig": {
         "enabled": false
     },
@@ -11,10 +11,6 @@
         },
         "1": {
             "enabled": true
-        },
-        "2": {
-            "enabled": true,
-            "disableUI": true
         }
     }
 }

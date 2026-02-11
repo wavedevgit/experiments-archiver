@@ -10,11 +10,11 @@
             "enabled": false,
             "variant": 0
         },
-        "1": {
+        "2": {
             "enabled": true,
             "variant": 0
         },
-        "2": {
+        "3": {
             "enabled": true,
             "variant": 1
         }
