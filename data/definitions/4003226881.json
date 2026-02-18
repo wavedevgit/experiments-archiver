@@ -1,0 +1,19 @@
+{
+    "name": "2026-02-boosting-marketing-page-video",
+    "kind": "user",
+    "defaultConfig": {
+        "placement": "none"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "placement": "top"
+        },
+        "2": {
+            "placement": "bottom"
+        }
+    }
+}

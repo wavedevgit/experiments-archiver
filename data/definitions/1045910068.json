@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-first-booster-upsell",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true
+        }
+    }
+}
