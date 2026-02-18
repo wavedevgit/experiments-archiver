@@ -1,8 +1,8 @@
 {
+    "name": "2026-02-pubsub-bulk-ban-users",
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
-        "enabled": false
+        "usePubSub": false
     },
     "variations": {
         "0": {
@@ -10,7 +10,7 @@
             "variant": 0
         },
         "1": {
-            "enabled": true
+            "usePubSub": true
         }
     }
 }

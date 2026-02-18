@@ -1,6 +1,6 @@
 {
+    "name": "2026-02-private-profiles",
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
         "enabled": false
     },

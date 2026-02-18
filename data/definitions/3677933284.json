@@ -3,7 +3,8 @@
     "kind": "user",
     "defaultConfig": {
         "hasChat": false,
-        "hasFriendList": false
+        "hasFriendList": false,
+        "showNowPlayingForDifferentGames": false
     },
     "variations": {
         "0": {
@@ -12,11 +13,18 @@
         },
         "1": {
             "hasChat": true,
-            "hasFriendList": false
+            "hasFriendList": false,
+            "showNowPlayingForDifferentGames": false
         },
         "2": {
             "hasChat": true,
-            "hasFriendList": true
+            "hasFriendList": true,
+            "showNowPlayingForDifferentGames": false
+        },
+        "3": {
+            "hasChat": true,
+            "hasFriendList": true,
+            "showNowPlayingForDifferentGames": true
         }
     }
 }

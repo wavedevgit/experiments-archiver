@@ -1,8 +1,8 @@
 {
+    "name": "2026-02-gdm-all-reaction-notifications",
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
-        "enabled": false
+        "showSettingsToggle": false
     },
     "variations": {
         "0": {
@@ -10,7 +10,7 @@
             "variant": 0
         },
         "1": {
-            "enabled": true
+            "showSettingsToggle": true
         }
     }
 }

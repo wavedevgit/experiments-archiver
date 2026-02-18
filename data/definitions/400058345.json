@@ -1,6 +1,6 @@
 {
+    "name": "2026-02-gift-cards",
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
         "enabled": false
     },

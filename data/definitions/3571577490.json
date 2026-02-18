@@ -1,8 +1,8 @@
 {
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
+    "name": "2026-02-adaptive-message-limit",
     "defaultConfig": {
-        "enabled": false
+        "strategy": "off"
     },
     "variations": {
         "0": {
@@ -10,7 +10,10 @@
             "variant": 0
         },
         "1": {
-            "enabled": true
+            "strategy": "conservative"
+        },
+        "2": {
+            "strategy": "aggressive"
         }
     }
 }

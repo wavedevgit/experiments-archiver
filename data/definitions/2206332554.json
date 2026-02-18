@@ -1,6 +1,6 @@
 {
+    "name": "2026-02-premium-offer-reminder-xp",
     "kind": "user",
-    "name": "2026-01-improved-dm-send",
     "defaultConfig": {
         "enabled": false
     },
