@@ -16561,6 +16561,10 @@ async function main() {
   await doGist(gistUrlApex, "apex", ids);
   const build = await ( await fetch("https://raw.githubusercontent.com/wavedevgit/discord-client-datamining/refs/heads/discord_developers/build/build.json")).json() 
   for (let experiment of build.experiments) {
+    if (!experiment.id && !experiment.name) {
+      console.log("no id or name !devportal!", experiment)
+      continue;
+    }
     const id = v3(experiment.id || experiment.name) 
     ids[id] = experiment.id || experiment.name 
     await fs.writeFile(
