@@ -16559,6 +16559,16 @@ async function main() {
   }
   await doGist(gistUrl, "user", ids);
   await doGist(gistUrlApex, "apex", ids);
+  const build = await ( await fetch("https://raw.githubusercontent.com/wavedevgit/discord-client-datamining/refs/heads/discord_developers/build/build.json")).json() 
+  for (let experiment of build.experiments) {
+    const id = v3(experiment.id || experiment.name) 
+    ids[id] = experiment.id || experiment.name 
+    await fs.writeFile(
+        `./data/definitions/${id}.json`,
+        JSON.stringify(experiment, null, 4)
+    );
+  }
+  
   await fs.writeFile(
     "./data/ids.json",
     JSON.stringify({ ...ids, ...bultInIds }, null, 4)
