@@ -7,10 +7,6 @@
         "altCta": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "altTitle": true,
             "altBody": false,

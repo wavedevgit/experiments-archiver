@@ -5,10 +5,6 @@
         "use_ad_session_id": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "use_ad_session_id": false
         },

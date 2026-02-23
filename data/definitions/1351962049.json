@@ -5,10 +5,6 @@
         "size": 2147483648
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "size": 1073741824
         },

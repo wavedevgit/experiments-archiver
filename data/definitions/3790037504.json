@@ -7,10 +7,6 @@
         "desktopSendIconEnabled": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "newUIEnabled": true,
             "searchEnabled": false,

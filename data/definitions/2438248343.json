@@ -6,10 +6,6 @@
         "prioritizeOverStatus": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "showMessagePreviews": true,
             "prioritizeOverStatus": false

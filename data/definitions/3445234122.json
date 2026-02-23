@@ -2,10 +2,6 @@
     "name": "2026-01-content-inventory-application-widget-preview",
     "kind": "user",
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "enabled": true
         }

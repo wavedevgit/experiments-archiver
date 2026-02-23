@@ -8,10 +8,6 @@
         "generic_inputs": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "settings_updates": false,
             "power_events": true,

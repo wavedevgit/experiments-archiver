@@ -5,10 +5,6 @@
         "sortingStrategy": "oldest_creation_date"
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "sortingStrategy": "top_sounds"
         },

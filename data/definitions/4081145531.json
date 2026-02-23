@@ -1,16 +1,12 @@
 {
-    "name": "2026-01-quest-bar-unfurl",
+    "name": "2026-02-quest-bar-expressive-button",
     "kind": "user",
     "defaultConfig": {
         "enabled": false,
-        "variant": null
+        "variant": 0
     },
     "variations": {
-        "2": {
-            "enabled": true,
-            "variant": 0
-        },
-        "3": {
+        "1": {
             "enabled": true,
             "variant": 1
         }

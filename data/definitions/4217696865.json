@@ -1,0 +1,26 @@
+{
+    "kind": "user",
+    "name": "2026-02-channel-wave-button",
+    "defaultConfig": {
+        "enabled": false,
+        "showSticker": false,
+        "showClose": true
+    },
+    "variations": {
+        "1": {
+            "enabled": true,
+            "showSticker": false,
+            "showClose": false
+        },
+        "2": {
+            "enabled": true,
+            "showSticker": true,
+            "showClose": false
+        },
+        "3": {
+            "enabled": true,
+            "showSticker": true,
+            "showClose": true
+        }
+    }
+}

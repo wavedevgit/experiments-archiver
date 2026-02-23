@@ -8,10 +8,6 @@
         "hasNitroTabBadgeOfferReminder": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "variant": "nagbar-refresh",
             "showNagbar": true,

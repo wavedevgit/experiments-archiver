@@ -7,10 +7,6 @@
         "autoNavigateChannel": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "collectAnalytics": true,
             "autoOpenTIV": true,

@@ -1,6 +1,6 @@
 {
+    "name": "2026-02-android-app-upsell-banner",
     "kind": "user",
-    "name": "2026-01-rename-invite-button-cta",
     "defaultConfig": {
         "enabled": false
     },

@@ -7,10 +7,6 @@
         "enableMetrics": true
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "provider": "giphy",
             "fallbackProvider": "tenor",

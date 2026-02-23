@@ -6,10 +6,6 @@
         "enabledQuestStates": null
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "enabled": true,
             "enabledQuestStates": null

@@ -6,10 +6,6 @@
         "in_experiment": false
     },
     "variations": {
-        "0": {
-            "enabled": false,
-            "variant": 0
-        },
         "1": {
             "in_experiment": true,
             "enabled": true
