@@ -7,17 +7,28 @@
         {
             "id": 1,
             "label": "VC Status Icons",
-            "config": null
+            "config": {
+                "enableVCStatusIcons": true
+            }
         },
         {
             "id": 2,
             "label": "Request to Stream without Overlay Notification",
-            "config": null
+            "config": {
+                "enableVCStatusIcons": true,
+                "enableRequestToStream": true,
+                "enableOpenTIVForPing": true
+            }
         },
         {
             "id": 3,
             "label": "Request to Stream with Overlay Notification",
-            "config": null
+            "config": {
+                "enableVCStatusIcons": true,
+                "enableRequestToStream": true,
+                "enableOpenTIVForPing": true,
+                "enableRequestToStreamOverlayNotification": true
+            }
         }
     ]
 }
