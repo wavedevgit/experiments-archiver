@@ -1,0 +1,12 @@
+{
+    "name": "2026-02-join-game-community-cta",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "1": {
+            "enabled": true
+        }
+    }
+}
