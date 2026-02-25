@@ -1,0 +1,15 @@
+{
+    "name": "2026-01-ads-manager-gtm-edit-permissions",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false
+        },
+        "1": {
+            "enabled": true
+        }
+    }
+}
