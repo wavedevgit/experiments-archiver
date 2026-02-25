@@ -1,0 +1,24 @@
+{
+    "name": "2026-01-dev-portal-navigation-update",
+    "kind": "user",
+    "defaultConfig": {
+        "isLandingPageEnabled": true,
+        "isVisualUpdateEnabled": false,
+        "isNavigationUpdateEnabled": false,
+        "isNewDarkThemeEnabled": false
+    },
+    "variations": {
+        "0": {
+            "isLandingPageEnabled": false,
+            "isVisualUpdateEnabled": false,
+            "isNavigationUpdateEnabled": false,
+            "isNewDarkThemeEnabled": false
+        },
+        "1": {
+            "isLandingPageEnabled": true,
+            "isVisualUpdateEnabled": true,
+            "isNavigationUpdateEnabled": true,
+            "isNewDarkThemeEnabled": true
+        }
+    }
+}
