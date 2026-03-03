@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-02_voice_channel_history_hover",
+    "label": "Voice Channel History",
+    "defaultConfig": {
+        "enableHistoryHover": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable history popout hover behavior",
+            "config": {
+                "enableHistoryHover": true
+            }
+        }
+    ]
+}
