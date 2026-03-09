@@ -1,0 +1,25 @@
+{
+    "id": "2026-03_voice_badge",
+    "kind": "guild",
+    "label": "Display Voice Channel Badge",
+    "commonTriggerPoint": null,
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false
+            }
+        },
+        {
+            "id": 1,
+            "label": "Show voice badges",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
