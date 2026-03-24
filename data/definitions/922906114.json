@@ -2,6 +2,7 @@
     "kind": "guild",
     "id": "2026-02_past_vc_activity_messages",
     "label": "Past VC Activity Messages",
+    "commonTriggerPoint": null,
     "defaultConfig": {
         "enabled": false
     },
