@@ -2,7 +2,6 @@
     "id": "2026-03_voice_badge",
     "kind": "guild",
     "label": "Display Voice Channel Badge",
-    "commonTriggerPoint": null,
     "defaultConfig": {
         "enabled": false
     },
