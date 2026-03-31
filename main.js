@@ -16573,9 +16573,21 @@ async function main() {
     );
   }
   
-  await fs.writeFile(
-    "./data/ids.json",
-    JSON.stringify({ ...ids, ...bultInIds }, null, 4)
-  );
+const sortedIds = Object.fromEntries(
+  Object.entries({ ...ids, ...bultInIds }).sort((a, b) => {
+    const getDate = (val) => {
+      const match = val.match(/^(\d{4})[-_](\d{2})/);
+      if (!match) return 0;
+      return new Date(`${match[1]}-${match[2]}-01`).getTime();
+    };
+
+    return getDate(a[1]) - getDate(b[1]);
+  })
+);
+
+await fs.writeFile(
+  "./data/ids.json",
+  JSON.stringify(sortedIds, null, 4)
+);
 }
 main();
