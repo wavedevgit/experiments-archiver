@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-03_spoiler_channel",
+    "label": "Spoiler Channel",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable spoiler channel setting",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
