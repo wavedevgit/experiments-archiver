@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-03_guild_official_messages",
+    "label": "Guild Official Messages",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable official messages",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
