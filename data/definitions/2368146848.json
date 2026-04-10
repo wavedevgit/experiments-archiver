@@ -3,14 +3,24 @@
     "id": "2026-02_voice_channel_history_hover",
     "label": "Voice Channel History",
     "defaultConfig": {
-        "enableHistoryHover": false
+        "enableHistoryHover": false,
+        "showGhostUser": false
     },
     "treatments": [
         {
             "id": 1,
             "label": "Enable history popout hover behavior",
             "config": {
-                "enableHistoryHover": true
+                "enableHistoryHover": true,
+                "showGhostUser": true
+            }
+        },
+        {
+            "id": 2,
+            "label": "Enable history popout hover behavior without ghost user",
+            "config": {
+                "enableHistoryHover": true,
+                "showGhostUser": false
             }
         }
     ]
