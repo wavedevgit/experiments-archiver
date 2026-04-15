@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-04_guild_verification_role",
+    "label": "Guild Verification Role",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable verification role setting",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
