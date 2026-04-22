@@ -1,0 +1,16 @@
+{
+    "name": "2026-03-collectibles-profile-frames",
+    "kind": "user",
+    "defaultConfig": {
+        "enableProfileFrames": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableProfileFrames": true
+        }
+    }
+}

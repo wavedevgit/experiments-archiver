@@ -1,0 +1,13 @@
+{
+    "name": "2026-03-denormalized-perks-access-read",
+    "kind": "user",
+    "defaultConfig": 0,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": 1,
+        "2": 2
+    }
+}

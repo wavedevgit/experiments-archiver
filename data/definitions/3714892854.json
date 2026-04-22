@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-game-detection-collect-executable-fingerprint",
+    "kind": "user",
+    "defaultConfig": {
+        "enabledForAllGames": false,
+        "enabledForRunningGames": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabledForAllGames": true,
+            "enabledForRunningGames": false
+        },
+        "2": {
+            "enabledForAllGames": false,
+            "enabledForRunningGames": true
+        }
+    }
+}

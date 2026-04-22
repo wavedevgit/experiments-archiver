@@ -2,7 +2,8 @@
     "name": "2026-02-process-boost-on-voice",
     "kind": "user",
     "defaultConfig": {
-        "boostProcessPriority": true
+        "processPriority": null,
+        "threadPriorityConfiguration": 0
     },
     "variations": {
         "0": {
@@ -10,7 +11,20 @@
             "variant": 0
         },
         "1": {
-            "boostProcessPriority": false
+            "processPriority": null,
+            "threadPriorityConfiguration": 0
+        },
+        "2": {
+            "processPriority": null,
+            "threadPriorityConfiguration": 1
+        },
+        "3": {
+            "processPriority": null,
+            "threadPriorityConfiguration": 2
+        },
+        "4": {
+            "processPriority": null,
+            "threadPriorityConfiguration": 3
         }
     }
 }

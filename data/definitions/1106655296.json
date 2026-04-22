@@ -1,0 +1,40 @@
+{
+    "kind": "user",
+    "name": "2025-04-desktop-refresh-fast-follows",
+    "defaultConfig": {
+        "largerGuildIcons": false,
+        "darkerGuildListBackground": false,
+        "distinctBorders": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "largerGuildIcons": true,
+            "darkerGuildListBackground": false,
+            "distinctBorders": false
+        },
+        "2": {
+            "largerGuildIcons": false,
+            "darkerGuildListBackground": true,
+            "distinctBorders": false
+        },
+        "3": {
+            "largerGuildIcons": true,
+            "darkerGuildListBackground": true,
+            "distinctBorders": false
+        },
+        "4": {
+            "largerGuildIcons": false,
+            "darkerGuildListBackground": false,
+            "distinctBorders": true
+        },
+        "5": {
+            "largerGuildIcons": true,
+            "darkerGuildListBackground": false,
+            "distinctBorders": true
+        }
+    }
+}

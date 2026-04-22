@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-app-store-bottom-sheet-overlay",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true
+        }
+    }
+}

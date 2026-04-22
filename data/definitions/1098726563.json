@@ -1,0 +1,16 @@
+{
+    "name": "2026-03-icymi-desktop",
+    "kind": "user",
+    "defaultConfig": {
+        "icymiDesktopEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "icymiDesktopEnabled": true
+        }
+    }
+}

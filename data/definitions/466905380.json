@@ -8,6 +8,10 @@
         "boostsIgnoreDisambiguators": false
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "boostFavorites": true,
             "boostCapitalizedWords": true,

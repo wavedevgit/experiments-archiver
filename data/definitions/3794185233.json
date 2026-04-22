@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-silp-in-app-redesign-profile",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "treatment": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "treatment": "v1"
+        },
+        "2": {
+            "enabled": true,
+            "treatment": "v2"
+        }
+    }
+}

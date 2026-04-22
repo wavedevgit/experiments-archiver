@@ -1,0 +1,14 @@
+{
+    "name": "2026-03-audio-effects-probe",
+    "kind": "user",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "probeAudioEffects": true
+        }
+    }
+}

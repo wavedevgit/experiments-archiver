@@ -6,6 +6,10 @@
         "enableIntegrityCheck": false
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "enableObfuscation": true,
             "enableIntegrityCheck": false
@@ -13,6 +17,10 @@
         "2": {
             "enableObfuscation": true,
             "enableIntegrityCheck": true
+        },
+        "3": {
+            "enableObfuscation": false,
+            "enableIntegrityCheck": false
         }
     }
 }

@@ -1,0 +1,34 @@
+{
+    "name": "2026-01-you-bar",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "animateBetweenServers": false,
+        "questDockEnabled": false,
+        "largeAvatarEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "animateBetweenServers": false,
+            "questDockEnabled": true,
+            "largeAvatarEnabled": false
+        },
+        "2": {
+            "enabled": true,
+            "animateBetweenServers": false,
+            "questDockEnabled": true,
+            "largeAvatarEnabled": true
+        },
+        "3": {
+            "enabled": true,
+            "animateBetweenServers": false,
+            "questDockEnabled": false,
+            "largeAvatarEnabled": true
+        }
+    }
+}

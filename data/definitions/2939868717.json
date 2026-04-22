@@ -1,0 +1,14 @@
+{
+    "kind": "user",
+    "name": "2026-03-content-inventory-memberlist-and-ranker",
+    "defaultConfig": {
+        "enabled": true,
+        "impressionCappingEnabled": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        }
+    }
+}

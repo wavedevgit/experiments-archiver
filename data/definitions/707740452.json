@@ -5,8 +5,26 @@
         "enabled": false
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "enabled": true
+        },
+        "2": {
+            "enabled": true,
+            "disableUI": true
+        },
+        "3": {
+            "enabled": true,
+            "disableUI": true,
+            "swallowVolumeOnlySpeakingEvents": true
+        },
+        "4": {
+            "enabled": true,
+            "disableUI": true,
+            "dontEmitVolumeOnlySpeakingEvents": true
         }
     }
 }

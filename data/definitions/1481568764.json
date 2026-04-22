@@ -2,11 +2,21 @@
     "kind": "user",
     "name": "2025-10-friendship-anniversary-gifting",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "showDmPrompts": false
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
-            "enabled": true
+            "enabled": true,
+            "showDmPrompts": true
+        },
+        "2": {
+            "enabled": true,
+            "showDmPrompts": false
         }
     }
 }

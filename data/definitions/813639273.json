@@ -1,0 +1,16 @@
+{
+    "name": "2026-04-collectibles-orbs-redeem-short-text",
+    "kind": "user",
+    "defaultConfig": {
+        "useShortRedeemText": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "useShortRedeemText": true
+        }
+    }
+}

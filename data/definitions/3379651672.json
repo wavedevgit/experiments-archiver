@@ -5,11 +5,21 @@
         "treatment": "control"
     },
     "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
         "1": {
             "treatment": "treatment_a"
         },
         "2": {
             "treatment": "treatment_b"
+        },
+        "3": {
+            "treatment": "treatment_c"
+        },
+        "4": {
+            "treatment": "treatment_d"
         }
     }
 }

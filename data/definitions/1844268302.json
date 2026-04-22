@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-unified-checkout-ui-premium-flows",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "variation": 0,
+        "enabledCheckoutFlows": null
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "variation": 1,
+            "enabledCheckoutFlows": null
+        }
+    }
+}

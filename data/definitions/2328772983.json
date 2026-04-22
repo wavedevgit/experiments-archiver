@@ -1,0 +1,22 @@
+{
+    "kind": "user",
+    "name": "2026-02-mobile-visual-refresh",
+    "defaultConfig": {
+        "enabled": false,
+        "chatInputFloating": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "chatInputFloating": false
+        },
+        "2": {
+            "enabled": true,
+            "chatInputFloating": true
+        }
+    }
+}

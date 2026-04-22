@@ -1,0 +1,30 @@
+{
+    "name": "2026-04-desktop-notification-center",
+    "kind": "user",
+    "defaultConfig": {
+        "notificationCenterVariant": null,
+        "entrypoint": null,
+        "filterStyle": null
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "notificationCenterVariant": "popout",
+            "entrypoint": "title-bar-left",
+            "filterStyle": "dropdown"
+        },
+        "2": {
+            "notificationCenterVariant": "popout",
+            "entrypoint": "server-rail-top",
+            "filterStyle": "dropdown"
+        },
+        "3": {
+            "notificationCenterVariant": "sidebar",
+            "entrypoint": "server-rail-top",
+            "filterStyle": "dropdown"
+        }
+    }
+}

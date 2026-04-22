@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-receiver-invite-embed-refresh",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "activityPreviewEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "activityPreviewEnabled": false
+        },
+        "2": {
+            "enabled": true,
+            "activityPreviewEnabled": true
+        }
+    }
+}

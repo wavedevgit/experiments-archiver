@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-new-server-boost-system-messages",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "showCta": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "showCta": true
+        },
+        "2": {
+            "enabled": true,
+            "showCta": false
+        }
+    }
+}

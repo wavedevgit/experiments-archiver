@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-overlay-default-keybind",
+    "kind": "user",
+    "defaultConfig": {
+        "keybindOverride": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "keybindOverride": "ctrl+tab"
+        },
+        "2": {
+            "keybindOverride": "alt+x"
+        },
+        "3": {
+            "keybindOverride": "ctrl+l"
+        }
+    }
+}

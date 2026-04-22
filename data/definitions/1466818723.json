@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-02-longer-group-dm-invites",
+    "defaultConfig": {
+        "inviteMaxAgeSeconds": 86400
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "inviteMaxAgeSeconds": 604800
+        }
+    }
+}

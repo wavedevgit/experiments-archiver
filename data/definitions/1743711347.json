@@ -1,0 +1,14 @@
+{
+    "kind": "user",
+    "name": "2026-03-krisp-stats-collection",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableStats": true
+        }
+    }
+}

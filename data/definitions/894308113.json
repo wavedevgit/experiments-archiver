@@ -1,0 +1,22 @@
+{
+    "name": "2026-04-profile-message-cta",
+    "kind": "user",
+    "defaultConfig": {
+        "showCTA": false,
+        "hideDMInput": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showCTA": true,
+            "hideDMInput": false
+        },
+        "2": {
+            "showCTA": true,
+            "hideDMInput": true
+        }
+    }
+}

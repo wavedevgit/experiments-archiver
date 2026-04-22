@@ -1,0 +1,16 @@
+{
+    "name": "2026-04-require-account-link-game-invite",
+    "kind": "user",
+    "defaultConfig": {
+        "required": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "required": true
+        }
+    }
+}

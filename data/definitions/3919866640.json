@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-game-profiles-mobile",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "storeLinksEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "storeLinksEnabled": false
+        },
+        "2": {
+            "enabled": true,
+            "storeLinksEnabled": true
+        }
+    }
+}

@@ -3,7 +3,17 @@
     "kind": "user",
     "defaultConfig": null,
     "variations": {
-        "1": null,
-        "2": null
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "allowAutoQuality": true,
+            "migrateAutoQuality": true
+        },
+        "2": {
+            "allowAutoQuality": true,
+            "defaultAutoQuality": true
+        }
     }
 }

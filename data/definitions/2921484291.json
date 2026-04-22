@@ -1,0 +1,16 @@
+{
+    "name": "2026-03-video-capture-device-no-reuse",
+    "kind": "user",
+    "defaultConfig": {
+        "overrideDeviceReuse": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "overrideDeviceReuse": true
+        }
+    }
+}

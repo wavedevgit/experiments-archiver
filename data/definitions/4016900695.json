@@ -1,0 +1,26 @@
+{
+    "name": "2026-03-soundboard-default-reordering",
+    "kind": "user",
+    "defaultConfig": {
+        "alwaysPinned": false,
+        "reorderDefaultSounds": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "alwaysPinned": true,
+            "reorderDefaultSounds": true
+        },
+        "2": {
+            "alwaysPinned": false,
+            "reorderDefaultSounds": true
+        },
+        "3": {
+            "alwaysPinned": true,
+            "reorderDefaultSounds": false
+        }
+    }
+}

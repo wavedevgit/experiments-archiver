@@ -1,0 +1,26 @@
+{
+    "name": "2026-04-steam-reviews-v2",
+    "kind": "user",
+    "defaultConfig": {
+        "recentEnabled": false,
+        "englishEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "recentEnabled": true,
+            "englishEnabled": false
+        },
+        "2": {
+            "recentEnabled": false,
+            "englishEnabled": true
+        },
+        "3": {
+            "recentEnabled": true,
+            "englishEnabled": true
+        }
+    }
+}

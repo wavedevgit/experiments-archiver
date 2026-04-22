@@ -1,0 +1,16 @@
+{
+    "name": "2026-04-channel-pinning",
+    "kind": "user",
+    "defaultConfig": {
+        "canPinEverywhere": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "canPinEverywhere": true
+        }
+    }
+}

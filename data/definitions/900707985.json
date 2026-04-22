@@ -1,0 +1,19 @@
+{
+    "name": "2026-03-nitro-s-rewards-v2-test",
+    "kind": "user",
+    "defaultConfig": {
+        "treatment": "control"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "treatment": "treatment_c"
+        },
+        "2": {
+            "treatment": "treatment_d"
+        }
+    }
+}

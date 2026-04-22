@@ -1,0 +1,16 @@
+{
+    "name": "2026-01-user-offer-notice-timing-v2-xp",
+    "kind": "user",
+    "defaultConfig": {
+        "thresholdMs": 0
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "thresholdMs": 604800000
+        }
+    }
+}

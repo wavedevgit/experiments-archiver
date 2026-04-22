@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-client-heartbeat-skipped",
+    "kind": "user",
+    "defaultConfig": {
+        "logHeartbeatSkipped": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "logHeartbeatSkipped": true
+        }
+    }
+}

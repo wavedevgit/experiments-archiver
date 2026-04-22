@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-desktop-activity-quest-header",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "showSkipButton": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "showSkipButton": true
+        },
+        "2": {
+            "enabled": true,
+            "showSkipButton": false
+        }
+    }
+}

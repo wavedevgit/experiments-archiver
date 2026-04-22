@@ -1,0 +1,16 @@
+{
+    "name": "2026-03-requiremodule-caching-redux",
+    "kind": "user",
+    "defaultConfig": {
+        "moduleCacheEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "moduleCacheEnabled": true
+        }
+    }
+}

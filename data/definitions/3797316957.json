@@ -1,0 +1,30 @@
+{
+    "name": "2026-04-storefront-pricing",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "thresholdMs": null
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "thresholdMs": false
+        },
+        "2": {
+            "enabled": true,
+            "thresholdMs": null
+        },
+        "3": {
+            "enabled": true,
+            "thresholdMs": null
+        },
+        "4": {
+            "enabled": true,
+            "thresholdMs": null
+        }
+    }
+}

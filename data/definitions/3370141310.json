@@ -1,0 +1,39 @@
+{
+    "name": "2026-03-soundboard-upsell-coloring",
+    "kind": "user",
+    "defaultConfig": {
+        "gradientBackground": false,
+        "subscribeButtonVariant": "expressive",
+        "useLegacyButton": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "gradientBackground": false,
+            "useLegacyButton": true
+        },
+        "2": {
+            "gradientBackground": true,
+            "subscribeButtonVariant": "overlay-primary"
+        },
+        "3": {
+            "gradientBackground": true,
+            "subscribeButtonVariant": "primary"
+        },
+        "4": {
+            "gradientBackground": true,
+            "useLegacyButton": true
+        },
+        "5": {
+            "gradientBackground": false,
+            "subscribeButtonVariant": "overlay-primary"
+        },
+        "6": {
+            "gradientBackground": false,
+            "subscribeButtonVariant": "primary"
+        }
+    }
+}

@@ -3,6 +3,12 @@
     "kind": "user",
     "defaultConfig": null,
     "variations": {
-        "1": null
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "preferSystemEffects": true
+        }
     }
 }

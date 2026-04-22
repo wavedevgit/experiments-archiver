@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-slayer-storefront-shop-tab",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "useGameShopsDropdown": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "useGameShopsDropdown": false
+        },
+        "2": {
+            "enabled": true,
+            "useGameShopsDropdown": true
+        }
+    }
+}

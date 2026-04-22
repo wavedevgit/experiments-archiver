@@ -1,0 +1,22 @@
+{
+    "kind": "user",
+    "name": "2026-04-clips-primary-entry-point",
+    "defaultConfig": {
+        "topBarButton": false,
+        "userStatusMenu": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "topBarButton": true,
+            "userStatusMenu": false
+        },
+        "2": {
+            "topBarButton": false,
+            "userStatusMenu": true
+        }
+    }
+}

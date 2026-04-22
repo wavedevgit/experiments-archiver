@@ -1,0 +1,22 @@
+{
+    "kind": "user",
+    "name": "2026-04-upcoming-server-event",
+    "defaultConfig": {
+        "showSettingsToggle": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showSettingsToggle": true
+        },
+        "2": {
+            "showSettingsToggle": true
+        },
+        "3": {
+            "showSettingsToggle": true
+        }
+    }
+}

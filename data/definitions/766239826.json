@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-03-clips-m1",
+    "defaultConfig": {
+        "newEmbedUi": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "newEmbedUi": true
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-debug-experiment",
+    "kind": "user",
+    "defaultConfig": {
+        "emitEvent": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "emitEvent": true,
+            "variation": 1
+        },
+        "2": {
+            "emitEvent": true,
+            "variation": 2
+        }
+    }
+}
