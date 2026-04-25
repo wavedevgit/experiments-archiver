@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-04-http-request-sample",
+    "defaultConfig": {
+        "sampleRate": 0
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "sampleRate": 0.0001
+        }
+    }
+}
