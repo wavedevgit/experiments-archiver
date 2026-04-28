@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-04_topical_navigation_aa",
+    "label": "Topical Navigation",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Treatment",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
