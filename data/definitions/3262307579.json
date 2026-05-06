@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-04_application_identity_linked_roles",
+    "label": "Application Identity Linked Roles",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Application Identity Linked Roles",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
