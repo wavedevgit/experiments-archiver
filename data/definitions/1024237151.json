@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-05_game_invites_channel",
+    "label": "Game Invites Channel",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable game invites channel",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
