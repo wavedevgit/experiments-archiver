@@ -16572,9 +16572,15 @@ async function main() {
         JSON.stringify(experiment, null, 4)
     );
   }
+
+// thank you for this daily updated gist that doesnt suck :heart:
+const dataFromXYZenixGist = await ( await fetch("https://gist.githubusercontent.com/XYZenix/95de40ff80091c0ff7b0cfd610bd10d7/raw/experiments.csv")).text() 
+const moreIdsOfc =  dataFromXYZenixGist.split("\n").map(e=>e.split(",")[0])).slice(1) 
+const idsFromXYZenix = {}
+for (let id of moreIdsOfc) idsFromXYZenix[v3(id)] = id 
   
 const sortedIds = Object.fromEntries(
-  Object.entries({ ...ids, ...bultInIds }).sort((a, b) => {
+  Object.entries({ ...ids, ...bultInIds, ...gistIds, ...idsFromXYZenix  }).sort((a, b) => {
     const getDate = (val) => {
       const match = val.match(/^(\d{4})[-_](\d{2})/);
       if (!match) return 0;
