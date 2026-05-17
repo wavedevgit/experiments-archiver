@@ -16580,7 +16580,7 @@ const idsFromXYZenix = {}
 for (let id of moreIdsOfc) idsFromXYZenix[v3(id)] = id 
   
 const sortedIds = Object.fromEntries(
-  Object.entries({ ...ids, ...bultInIds, ...gistIds, ...idsFromXYZenix  }).sort((a, b) => {
+  Object.entries({ ...ids, ...bultInIds, ...idsFromXYZenix  }).sort((a, b) => {
     const getDate = (val) => {
       const match = val.match(/^(\d{4})[-_](\d{2})/);
       if (!match) return 0;
