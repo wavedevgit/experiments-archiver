@@ -16575,7 +16575,7 @@ async function main() {
 
 // thank you for this daily updated gist that doesnt suck :heart:
 const dataFromXYZenixGist = await ( await fetch("https://gist.githubusercontent.com/XYZenix/95de40ff80091c0ff7b0cfd610bd10d7/raw/experiments.csv")).text() 
-const moreIdsOfc =  dataFromXYZenixGist.split("\n").map(e=>e.split(",")[0])).slice(1) 
+const moreIdsOfc =  dataFromXYZenixGist.split("\n").map(e=>e.split(",")[0]).slice(1) 
 const idsFromXYZenix = {}
 for (let id of moreIdsOfc) idsFromXYZenix[v3(id)] = id 
   
