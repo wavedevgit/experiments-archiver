@@ -1,7 +1,6 @@
 {
     "127854": "search_experiment_internal",
     "910384": "2026-04-in-app-notification-react",
-    "222737896": "2026-05-nitro-tab-discount-expressive-badge",
     "1333727": "2022-11_mobile_account_switcher_notifications",
     "1463559": "2025-10-shop-collection-asset-migration",
     "2443034": "2024-03_clan_discovery",
@@ -218,6 +217,7 @@
     "219248678": "2025-06_search_desktop_xdm_feedback",
     "220226331": "2025-02_test_user_auth_apply_filter_dm",
     "221503477": "2020-08_premium_marketing_svp_remove_tier_1",
+    "222737896": "2026-05-nitro-tab-discount-expressive-badge",
     "223451362": "2025-11-ml-genre-removal-v2",
     "224767210": "2022-04_selective_metric_computation",
     "224989674": "2021-04_persist_deeplink_2",
