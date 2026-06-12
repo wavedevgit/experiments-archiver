@@ -1,0 +1,22 @@
+{
+    "name": "2026-06-android-two-week-trials",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "discountCTAEnabled": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": false,
+            "discountCTAEnabled": true
+        },
+        "2": {
+            "enabled": true,
+            "discountCTAEnabled": true
+        }
+    }
+}

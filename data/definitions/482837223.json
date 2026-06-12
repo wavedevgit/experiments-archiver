@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-05-clips-media-comments",
+    "defaultConfig": {
+        "enableMediaComments": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableMediaComments": true
+        }
+    }
+}

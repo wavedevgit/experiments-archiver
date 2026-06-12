@@ -1,0 +1,19 @@
+{
+    "kind": "user",
+    "name": "2026-05-ios-video-stabilization",
+    "defaultConfig": {
+        "mode": "off"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "mode": "standard"
+        },
+        "2": {
+            "mode": "low_latency"
+        }
+    }
+}

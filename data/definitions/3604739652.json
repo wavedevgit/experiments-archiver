@@ -2,7 +2,8 @@
     "name": "2026-04-require-account-link-game-invite",
     "kind": "user",
     "defaultConfig": {
-        "required": false
+        "requireAccountLink": false,
+        "requireGameLaunch": false
     },
     "variations": {
         "0": {
@@ -10,7 +11,16 @@
             "variant": 0
         },
         "1": {
-            "required": true
+            "requireAccountLink": true,
+            "requireGameLaunch": false
+        },
+        "2": {
+            "requireAccountLink": false,
+            "requireGameLaunch": true
+        },
+        "3": {
+            "requireAccountLink": true,
+            "requireGameLaunch": true
         }
     }
 }

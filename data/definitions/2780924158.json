@@ -2,8 +2,7 @@
     "name": "2026-04-quests-premium-orb-multiplier-marketing",
     "kind": "user",
     "defaultConfig": {
-        "enabled": false,
-        "multiplier": 1
+        "enabled": false
     },
     "variations": {
         "0": {
@@ -11,8 +10,7 @@
             "variant": 0
         },
         "1": {
-            "enabled": true,
-            "multiplier": 1.2
+            "enabled": true
         }
     }
 }

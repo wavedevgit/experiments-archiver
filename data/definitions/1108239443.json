@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-av1-bitrate-tuning",
+    "kind": "user",
+    "defaultConfig": {
+        "bitrate": 3500000
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "bitrate": 3000000
+        },
+        "2": {
+            "bitrate": 2500000
+        }
+    }
+}

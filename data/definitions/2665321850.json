@@ -1,16 +1,11 @@
 {
     "name": "2026-04-valorant-social-sdk",
     "kind": "user",
-    "defaultConfig": {
-        "enabled": false
-    },
+    "defaultConfig": null,
     "variations": {
         "0": {
             "enabled": false,
             "variant": 0
-        },
-        "1": {
-            "enabled": true
         }
     }
 }

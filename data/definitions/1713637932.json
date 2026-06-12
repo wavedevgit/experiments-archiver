@@ -1,0 +1,40 @@
+{
+    "name": "2026-05-quest-home-tile-redesign",
+    "kind": "user",
+    "defaultConfig": {
+        "useNewLayoutWithSearch": false,
+        "useNewTile": false,
+        "useLargeFeaturedTiles": false,
+        "ctaOnHover": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "useNewLayoutWithSearch": true,
+            "useNewTile": false,
+            "useLargeFeaturedTiles": false,
+            "ctaOnHover": false
+        },
+        "2": {
+            "useNewLayoutWithSearch": true,
+            "useNewTile": true,
+            "useLargeFeaturedTiles": true,
+            "ctaOnHover": true
+        },
+        "3": {
+            "useNewLayoutWithSearch": true,
+            "useNewTile": true,
+            "useLargeFeaturedTiles": false,
+            "ctaOnHover": true
+        },
+        "4": {
+            "useNewLayoutWithSearch": true,
+            "useNewTile": true,
+            "useLargeFeaturedTiles": true,
+            "ctaOnHover": false
+        }
+    }
+}

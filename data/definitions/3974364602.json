@@ -1,0 +1,22 @@
+{
+    "kind": "user",
+    "name": "2026-06-add-to-dm-customize",
+    "defaultConfig": {
+        "canCustomizeGDM": false,
+        "addCancelButton": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "canCustomizeGDM": true,
+            "addCancelButton": false
+        },
+        "2": {
+            "canCustomizeGDM": true,
+            "addCancelButton": true
+        }
+    }
+}

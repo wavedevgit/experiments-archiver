@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-slayer-storefront-exclusive-expressive-flair",
+    "kind": "user",
+    "defaultConfig": {
+        "treatment": "control"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "treatment": "expressive_hover"
+        },
+        "2": {
+            "treatment": "always_expressive"
+        }
+    }
+}

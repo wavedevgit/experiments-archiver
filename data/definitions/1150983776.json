@@ -1,0 +1,16 @@
+{
+    "name": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+    "kind": "user",
+    "defaultConfig": {
+        "shouldHideSideText": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "shouldHideSideText": true
+        }
+    }
+}

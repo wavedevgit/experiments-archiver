@@ -1,0 +1,12 @@
+{
+    "name": "2026-05-orbs-shop-upsell-banner",
+    "kind": "user",
+    "defaultConfig": false,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": true
+    }
+}

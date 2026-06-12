@@ -1,0 +1,15 @@
+{
+    "name": "2026-05-quest-primary-cta-white-desktop",
+    "kind": "user",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "buttonVariant": "overlay-primary"
+        }
+    }
+}

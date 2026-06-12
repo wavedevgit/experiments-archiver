@@ -17,6 +17,10 @@
         "2": {
             "topBarButton": false,
             "userStatusMenu": true
+        },
+        "3": {
+            "topBarButton": true,
+            "userStatusMenu": true
         }
     }
 }

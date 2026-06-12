@@ -1,0 +1,26 @@
+{
+    "name": "2026-04-overlay-fps-limit",
+    "kind": "user",
+    "defaultConfig": {
+        "overlayFPSLimit": true,
+        "mainWindowFPSLimit": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "overlayFPSLimit": 60,
+            "mainWindowFPSLimit": true
+        },
+        "2": {
+            "overlayFPSLimit": 30,
+            "mainWindowFPSLimit": true
+        },
+        "3": {
+            "overlayFPSLimit": 30,
+            "mainWindowFPSLimit": 30
+        }
+    }
+}

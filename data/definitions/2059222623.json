@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-device-form-factor-indicators",
+    "kind": "user",
+    "defaultConfig": {
+        "showDeviceFormFactorIndicators": false
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "showDeviceFormFactorIndicators": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-06-post-call-survey-assets",
+    "defaultConfig": {
+        "surveyEmojiKind": "face"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "surveyEmojiKind": "face-refresh"
+        }
+    }
+}

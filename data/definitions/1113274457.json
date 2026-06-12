@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-disable-camera-simulcast",
+    "kind": "user",
+    "defaultConfig": {
+        "enableSimulcast": true
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enableSimulcast": false
+        }
+    }
+}

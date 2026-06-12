@@ -1,0 +1,16 @@
+{
+    "kind": "user",
+    "name": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
+    "defaultConfig": {
+        "echoReferenceMode": "mix"
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "echoReferenceMode": "auto"
+        }
+    }
+}

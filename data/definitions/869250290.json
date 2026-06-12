@@ -1,0 +1,22 @@
+{
+    "name": "2026-05-quest-home-new-layout",
+    "kind": "user",
+    "defaultConfig": {
+        "enabled": false,
+        "variant": 0
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "enabled": true,
+            "variant": 1
+        },
+        "2": {
+            "enabled": true,
+            "variant": 2
+        }
+    }
+}

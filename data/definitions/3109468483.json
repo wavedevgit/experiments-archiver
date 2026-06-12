@@ -2,8 +2,7 @@
     "name": "2026-04-game-account-linking-post-game-close",
     "kind": "user",
     "defaultConfig": {
-        "allowAccountLinkingUpsellPostGameClose": false,
-        "timeToShowUpsellPostGameCloseMs": 0
+        "allowAccountLinkingUpsellPostGameClose": false
     },
     "variations": {
         "0": {
@@ -11,8 +10,7 @@
             "variant": 0
         },
         "1": {
-            "allowAccountLinkingUpsellPostGameClose": true,
-            "timeToShowUpsellPostGameCloseMs": null
+            "allowAccountLinkingUpsellPostGameClose": true
         }
     }
 }

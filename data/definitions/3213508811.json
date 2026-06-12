@@ -1,0 +1,22 @@
+{
+    "name": "2026-04-desktop-tti-update-backoff",
+    "kind": "user",
+    "defaultConfig": {
+        "maxBackoffMs": 30000
+    },
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        },
+        "1": {
+            "maxBackoffMs": 20000
+        },
+        "2": {
+            "maxBackoffMs": 10000
+        },
+        "3": {
+            "maxBackoffMs": 3000
+        }
+    }
+}

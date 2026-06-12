@@ -17,6 +17,10 @@
         "2": {
             "enabled": true,
             "chatInputFloating": true
+        },
+        "3": {
+            "enabled": true,
+            "chatInputFloating": true
         }
     }
 }

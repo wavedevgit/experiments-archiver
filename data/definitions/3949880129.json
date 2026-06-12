@@ -1,18 +1,11 @@
 {
     "name": "2026-04-riot-social-sdk-migration",
     "kind": "user",
-    "defaultConfig": {
-        "enabled": false,
-        "defaultBody": null
-    },
+    "defaultConfig": null,
     "variations": {
         "0": {
             "enabled": false,
             "variant": 0
-        },
-        "1": {
-            "enabled": true,
-            "defaultBody": null
         }
     }
 }

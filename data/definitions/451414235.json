@@ -1,0 +1,11 @@
+{
+    "name": "2026-05-riot-social-sdk-migration-all-regions",
+    "kind": "user",
+    "defaultConfig": null,
+    "variations": {
+        "0": {
+            "enabled": false,
+            "variant": 0
+        }
+    }
+}
