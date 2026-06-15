@@ -3,14 +3,27 @@
     "id": "2026-04_server_theme",
     "label": "Server Theme",
     "defaultConfig": {
-        "enabled": false
+        "enabled": false,
+        "inExperiment": false,
+        "gatesApex": false
     },
     "treatments": [
+        {
+            "id": 0,
+            "label": "Control",
+            "config": {
+                "enabled": false,
+                "inExperiment": true,
+                "gatesApex": false
+            }
+        },
         {
             "id": 1,
             "label": "Enable Server Theme",
             "config": {
-                "enabled": true
+                "enabled": true,
+                "inExperiment": true,
+                "gatesApex": false
             }
         }
     ]
