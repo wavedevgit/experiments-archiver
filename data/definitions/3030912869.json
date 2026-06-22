@@ -1,0 +1,17 @@
+{
+    "kind": "guild",
+    "id": "2026-06_guild_rooms",
+    "label": "Guild Rooms",
+    "defaultConfig": {
+        "enabled": false
+    },
+    "treatments": [
+        {
+            "id": 1,
+            "label": "Enable Guild Rooms in this guild",
+            "config": {
+                "enabled": true
+            }
+        }
+    ]
+}
